@@ -1,0 +1,37 @@
+.section_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.section_container h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .section_container h2 {
+    font-size: 1.8rem;
+  }
+}
+.section_container p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-weight: 400;
+  color: var(--text-color);
+  text-align: justify;
+}
+@media screen and (max-width: 768px) {
+  .section_container p {
+    font-size: 1rem;
+  }
+}
+.section_container .special_text {
+  font-weight: 600;
+  color: var(--hover-color);
+}/*# sourceMappingURL=Wwd.module.css.map */

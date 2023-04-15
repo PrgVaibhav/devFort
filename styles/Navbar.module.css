@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.header .logo img {
+  max-width: 80px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 768px) {
+  .header .logo img {
+    max-width: 60px;
+  }
+}
+.header .navbar .nav_links {
+  display: flex;
+  gap: 1rem;
+}
+.header .navbar .nav_links .nav_link {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+.header .navbar .nav_links .nav_link a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+.header .navbar .nav_links .nav_link a:hover {
+  color: var(--hover-color);
+}/*# sourceMappingURL=navbar.module.css.map */
