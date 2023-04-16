@@ -4,7 +4,7 @@
   justify-content: center;
   flex-direction: row-reverse;
   padding: 8px 10px;
-  margin: 2rem 0;
+  margin: 2rem 0 1rem 0;
 }
 @media screen and (max-width: 768px) {
   .section_container {

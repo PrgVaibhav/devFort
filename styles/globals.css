@@ -27,7 +27,10 @@
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 3px;
+  border-radius: 50%;
+
+
 }
 
 ::-webkit-scrollbar-track {
@@ -40,9 +43,10 @@ html {
 }
 
 body {
-  /* max-width: 800px; */
   background-image: url("../public/subtle-prism.svg");
-
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   font-family: var(--font-family);
   background-color: var(--background-color);
 }
