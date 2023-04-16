@@ -14,6 +14,7 @@ const HomeSection = () => {
           most comprehensive and up-to-date resources to enhance their
           productivity.
         </p>
+        <p>just for example</p>
         <p>
           We take pride in providing a supportive and inclusive community that
           provides necessary things to start a web dev project and encourages
