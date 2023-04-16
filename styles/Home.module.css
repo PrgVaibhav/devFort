@@ -2,13 +2,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
-  margin-bottom: 2rem;
   position: relative;
+  margin: 2rem 0;
+  padding: 8px 10px;
 }
 @media screen and (max-width: 768px) {
   .home_container {
-    height: 100vh;
     flex-direction: column;
   }
 }
@@ -20,6 +19,11 @@
   font-size: 2rem;
   color: var(--hover-color);
   animation: bounce 2s infinite;
+}
+@media screen and (max-width: 768px) {
+  .home_container .arrow_down {
+    display: none;
+  }
 }
 @keyframes bounce {
   0% {
@@ -34,6 +38,7 @@
 }
 .home_container .home_left {
   flex: 1;
+  margin: auto;
 }
 .home_container .home_left h1 {
   font-size: 2rem;
@@ -68,6 +73,9 @@
   font-weight: 400;
   color: var(--text-color);
   text-align: justify;
+}
+.home_container .home_left p:last-child {
+  margin-bottom: 0;
 }
 @media screen and (max-width: 768px) {
   .home_container .home_left p {

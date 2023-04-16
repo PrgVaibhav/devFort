@@ -2,12 +2,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
-  margin-bottom: 2rem;
+  // height: 50vh;
   position: relative;
-
+  margin: 2rem 0;
+  padding: 8px 10px;
   @media screen and (max-width: 768px) {
-    height: 100vh;
     flex-direction: column;
   }
 
@@ -19,6 +18,10 @@
     font-size: 2rem;
     color: var(--hover-color);
     animation: bounce 2s infinite;
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
     @keyframes bounce {
       0% {
         transform: translateX(-50%) translateY(0);
@@ -33,6 +36,7 @@
   }
   .home_left {
     flex: 1;
+    margin: auto;
     h1 {
       font-size: 2rem;
       font-weight: 600;
@@ -65,6 +69,10 @@
       font-weight: 400;
       color: var(--text-color);
       text-align: justify;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
 
       @media screen and (max-width: 768px) {
         font-size: 1rem;

@@ -17,10 +17,32 @@
   --light-gray: #D3D3D3;
 }
 
+::selection {
+  background-color: var(--hover-color);
+  color: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--hover-color);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-image: url("../public/subtle-prism.svg");
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  max-width: 800px;
-  margin: auto;
+  /* max-width: 800px; */
+  background-image: url("../public/subtle-prism.svg");
+
   font-family: var(--font-family);
   background-color: var(--background-color);
-  padding: 8px 8px;
 }
