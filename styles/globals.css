@@ -34,19 +34,21 @@
 }
 
 ::-webkit-scrollbar-track {
-  background-image: url("../public/subtle-prism.svg");
+  background-image: url("../Img/subtle-prism.svg");
 }
 
 
 html {
   scroll-behavior: smooth;
+  scroll-snap-type: mandatory;
 }
 
 body {
-  background-image: url("../public/subtle-prism.svg");
+  background-image: url("../Img/subtle-prism.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   font-family: var(--font-family);
   background-color: var(--background-color);
+  font-display: swap;
 }
