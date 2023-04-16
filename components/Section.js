@@ -10,9 +10,11 @@ const Section = () => {
           So the motive behind creating this community is to empower web
           developers with the necessary resources and the support they need to
           excel in their field. We are willing to provide a one-stop destination
-          for all the resources that a developer needs to build a project. Join
-          us and add your valuable resources to the community. We are always
-          open to new ideas and suggestions. So, feel free to contact us.
+          for all the resources that a developer needs to build a project.
+        </p>
+        <p>
+          Join us and add your valuable resources to the community. We are
+          always open to new ideas and suggestions. So, feel free to contact us.
         </p>
         <div className={styles.section_links}>
           <a href="" className={styles.section_email}>
