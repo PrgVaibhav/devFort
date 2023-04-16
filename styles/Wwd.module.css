@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  height: 60vh;
+  margin-bottom: 2rem;
 }
 .section_container h2 {
   font-size: 2.5rem;
@@ -34,4 +36,36 @@
 .section_container .special_text {
   font-weight: 600;
   color: var(--hover-color);
+}
+.section_container button {
+  width: 50%;
+  padding: 0.8rem 1rem;
+  margin: 0rem 0 4rem 0;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #ffd700;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-family: inherit;
+  letter-spacing: 1px;
+  box-shadow: 4px 4px 0px var(--hover-color);
+}
+.section_container button a {
+  text-decoration: none;
+  color: black;
+}
+.section_container button:hover {
+  transform: translate(2px, -2px);
+  box-shadow: 2px 2px 0px var(--hover-color);
+}
+.section_container button:active {
+  transform: translateY(-10px);
+}
+@media (max-width: 768px) {
+  .section_container button {
+    margin-bottom: 3rem;
+  }
 }/*# sourceMappingURL=Wwd.module.css.map */

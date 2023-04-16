@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  height: 60vh;
+  margin-bottom: 2rem;
 
   h2 {
     font-size: 2.5rem;
@@ -11,7 +13,6 @@
     margin-bottom: 1rem;
     letter-spacing: 1px;
     text-align: center;
-
     @media (max-width: 768px) {
       font-size: 1.8rem;
     }
@@ -34,5 +35,38 @@
   .special_text {
     font-weight: 600;
     color: var(--hover-color);
+  }
+
+  button {
+    width: 50%;
+    padding: 0.8rem 1rem;
+    margin: 0rem 0 4rem 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #ffd700;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-family: inherit;
+    letter-spacing: 1px;
+    box-shadow: 4px 4px 0px var(--hover-color);
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    &:hover {
+      transform: translate(2px, -2px);
+      box-shadow: 2px 2px 0px var(--hover-color);
+    }
+
+    &:active {
+      transform: translateY(-10px);
+    }
+    @media (max-width: 768px) {
+      margin-bottom: 3rem;
+    }
   }
 }

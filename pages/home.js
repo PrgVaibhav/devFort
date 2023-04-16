@@ -1,4 +1,5 @@
 import HomeSection from "@/components/HomeSection";
+import Section from "@/components/Section";
 import WwdSection from "@/components/WwdSection";
 
 const HomePage = () => {
@@ -6,6 +7,7 @@ const HomePage = () => {
     <>
       <HomeSection />
       <WwdSection />
+      <Section />
     </>
   );
 };

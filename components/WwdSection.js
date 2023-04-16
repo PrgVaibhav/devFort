@@ -19,6 +19,9 @@ const AnotherSection = () => {
         <span className={styles.special_text}>Icons</span>, and many more
         things.
       </p>
+      <button role="button">
+        <Link href="/resources">Get Started</Link>
+      </button>
     </section>
   );
 };
