@@ -2,12 +2,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
   padding: 8px 10px;
   width: 100%;
 
   @media screen and (max-width: 768px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .section_left {
     flex: 1;

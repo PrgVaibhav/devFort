@@ -7,23 +7,30 @@ const Section = () => {
       <div className={styles.section_left}>
         <h2>Motive Behind DevFort?</h2>
         <p>
-          So the motive behind creating this community is to empower web
-          developers with the necessary resources and the support they need to
-          excel in their field. We are willing to provide a one-stop destination
-          for all the resources that a developer needs to build a project.
+          The motive behind creating this community is to empower web developers
+          with the necessary resources and the support they need to excel in
+          their field. We are willing to provide a one-stop destination for all
+          the resources that a developer needs to build a project.
         </p>
         <p>
           Join us and add your valuable resources to the community. We are
-          always open to new ideas and suggestions. So, feel free to contact us.
+          always open to new ideas and suggestions. Feel free to contact us.
         </p>
         <div className={styles.section_links}>
-          <a href="" className={styles.section_email}>
+          <a
+            href="mailto:devFort.work@gmail.com"
+            className={styles.section_email}
+            aria-label="Mail us"
+            title="Mail Us"
+          >
             Contact Us
           </a>
           <a
-            href=""
+            href="https://twitter.com/_DevFort"
             className={styles.section_twitter}
             aria-label="Follow us on twitter"
+            target="_blank"
+            title="Twitter"
           >
             Follow Us On Twitter
           </a>

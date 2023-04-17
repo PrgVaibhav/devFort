@@ -2,6 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 8px 10px;
+  width: 800px;
+  margin: auto;
+}
+@media screen and (max-width: 768px) {
+  .resources_container {
+    width: 100%;
+  }
 }
 .resources_container .resources_cards {
   display: grid;

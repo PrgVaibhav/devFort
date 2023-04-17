@@ -2,6 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 8px 10px;
+  width: 800px;
+  margin: auto;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
   .resources_cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
