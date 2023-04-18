@@ -9,9 +9,7 @@ const SectionThree = () => {
         <Image src={social} alt="social" aria-label="Social image" />
       </div>
       <div className={styles.text_container}>
-        <h1>
-          Join Our Community To Share Your Thoughts, Ideas, And Experiences.
-        </h1>
+        <h1>So what are you waiting for Join Our Community now.</h1>
         <a
           href="https://twitter.com/_DevFort"
           aria-label="Twitter Account of DevFort"

@@ -10,8 +10,8 @@ const HomePage = () => {
       <HomeSection />
       <SectionOne />
       <SectionTwo />
-      {/* <SectionThree />
-      <SectionFour /> */}
+      <SectionThree />
+      {/* <SectionFour /> */}
     </>
   );
 };

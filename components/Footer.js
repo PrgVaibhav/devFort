@@ -30,7 +30,7 @@ const Footer = () => {
             <h3>Quick Links</h3>
             <ul>
               <li>
-                <Link href="/credits">Credits</Link>
+                <Link href="/credit">Credits</Link>
               </li>
               <li>
                 <Link href="/team">Team</Link>
@@ -48,6 +48,15 @@ const Footer = () => {
           <div className={styles.footer_right_details}>
             <h3>Connect</h3>
             <ul>
+              <li>
+                <a
+                  href="https://github.com/prgVaibhav"
+                  target="_blank"
+                  aria-label="GitHub account of creator of DevFort"
+                >
+                  Creator
+                </a>
+              </li>
               <li>
                 <a
                   href="https://twitter.com/_DevFort"
@@ -80,7 +89,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.footer_bottom}>
-        <span>© 2021 DevFort. All rights reserved.</span>
+        <span>© 2023 DevFort. All rights reserved.</span>
       </div>
     </footer>
   );

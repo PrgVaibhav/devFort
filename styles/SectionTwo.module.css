@@ -3,6 +3,7 @@
   align-items: center;
   padding: 8px 10px;
   min-height: 100vh;
+  background-color: #e9f2fa;
 }
 @media screen and (max-width: 768px) {
   .section_container {
@@ -89,6 +90,7 @@
   color: #1da1f2;
   border: 2px solid #1da1f2;
   transition: all 0.3s ease-in-out;
+  margin-bottom: 1rem;
 }
 .section_container .section_left .section_links .section_twitter:hover {
   background-color: #1da1f2; /* Blue background on hover */
