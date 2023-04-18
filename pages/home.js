@@ -1,13 +1,17 @@
 import HomeSection from "@/components/HomeSection";
-import Section from "@/components/Section";
-import WwdSection from "@/components/WwdSection";
+import SectionTwo from "@/components/SectionTwo";
+import SectionOne from "@/components/SectionOne";
+import SectionThree from "@/components/SectionThree";
+import SectionFour from "@/components/SectionFour";
 
 const HomePage = () => {
   return (
     <>
       <HomeSection />
-      <WwdSection />
-      <Section />
+      <SectionOne />
+      <SectionTwo />
+      {/* <SectionThree />
+      <SectionFour /> */}
     </>
   );
 };

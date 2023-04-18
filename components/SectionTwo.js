@@ -1,7 +1,7 @@
-import styles from "../styles/Section.module.css";
+import styles from "../styles/SectionTwo.module.css";
 import Image from "next/image";
-import social from "../public/social.webp";
-const Section = () => {
+import social from "../public/section.webp";
+const SectionTwo = () => {
   return (
     <section className={styles.section_container}>
       <div className={styles.section_left}>
@@ -43,4 +43,4 @@ const Section = () => {
   );
 };
 
-export default Section;
+export default SectionTwo;

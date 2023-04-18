@@ -1,16 +1,16 @@
 .section_container {
   display: flex;
-  justify-content: center;
   align-items: center;
   padding: 8px 10px;
-  width: 100%;
-
+  min-height: 100vh;
+  // background-color: #e9f2fa;
   @media screen and (max-width: 768px) {
     flex-direction: column-reverse;
+    // height: 100%;
   }
   .section_left {
     flex: 1;
-
+    // margin: auto;
     h2 {
       font-size: 2.2rem;
       font-weight: 600;
@@ -46,7 +46,6 @@
       gap: 1rem;
       width: 70%;
       @media screen and (max-width: 768px) {
-        // width: 100%;
         flex-direction: column;
         gap: 0.7rem;
       }

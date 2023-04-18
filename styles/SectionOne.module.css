@@ -3,13 +3,11 @@
   align-items: center;
   justify-content: center;
   flex-direction: row-reverse;
-  background-color: #d1dbbd;
   padding: 8px 10px;
-  height: 600px;
+  min-height: 100vh;
 }
 @media screen and (max-width: 768px) {
   .section_container {
-    height: 100%;
     flex-direction: column-reverse;
   }
 }
@@ -87,4 +85,4 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-}/*# sourceMappingURL=Wwd.module.css.map */
+}/*# sourceMappingURL=SectionOne.module.css.map */

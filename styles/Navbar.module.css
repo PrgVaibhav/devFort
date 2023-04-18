@@ -2,14 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2rem;
   height: 80px;
   padding: 8px 10px;
-}
-@media (max-width: 768px) {
-  .header {
-    margin-bottom: 4rem;
-  }
 }
 .header .logo img {
   max-width: 80px;

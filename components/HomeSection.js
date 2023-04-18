@@ -28,7 +28,6 @@ const HomeSection = () => {
           priority={true}
         />
       </div>
-      {/* <MdKeyboardDoubleArrowDown className={styles.arrow_down} /> */}
     </div>
   );
 };

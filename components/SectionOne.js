@@ -1,8 +1,8 @@
 import Link from "next/link";
-import styles from "../styles/Wwd.module.css";
+import styles from "../styles/SectionOne.module.css";
 import Image from "next/image";
 import SectionImage from "../public/wwd.webp";
-const AnotherSection = () => {
+const SectionOne = () => {
   return (
     <section className={styles.section_container}>
       <div className={styles.section_description}>
@@ -37,4 +37,4 @@ const AnotherSection = () => {
   );
 };
 
-export default AnotherSection;
+export default SectionOne;

@@ -72,16 +72,7 @@ const Footer = () => {
                   target="_blank"
                   aria-label="Mail us"
                 >
-                  Twitter
-                </a>
-              </li>
-              <li>
-                <a
-                  href="mailto:devFort.work@gmail.com"
-                  target="_blank"
-                  aria-label="GitHub account of DevFort"
-                >
-                  GitHub
+                  Email
                 </a>
               </li>
             </ul>
