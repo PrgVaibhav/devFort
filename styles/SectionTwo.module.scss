@@ -1,6 +1,7 @@
 .section_container {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 8px 10px;
   min-height: 70vh;
   background-color: #e9f2fa;
@@ -9,6 +10,7 @@
   }
   .section_left {
     flex: 1;
+
     h2 {
       font-size: 2.2rem;
       font-weight: 600;

@@ -1,8 +1,20 @@
+import Head from "next/head";
+
 const Credit = () => {
   return (
-    <div>
-      <h1>Credit</h1>
-    </div>
+    <>
+      <Head>
+        <title>Credit | DevFort Community</title>
+        <meta
+          name="description"
+          content="Credit for the resources used in DevFort Community"
+        />
+      </Head>
+      <div>
+        <h1>Credit</h1>
+        <a href="https://storyset.com/data">Data illustrations by Storyset</a>
+      </div>
+    </>
   );
 };
 
