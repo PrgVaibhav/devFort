@@ -34,7 +34,8 @@
 }
 
 ::-webkit-scrollbar-track {
-  background-image: url("/subtle-prism.svg");
+  background-image: url("/check.svg");
+
 }
 
 
@@ -44,13 +45,9 @@ html {
 }
 
 body {
+  background-color: var(--background-color);
   background: url("/check.svg");
-  /* min-height: 100vh; */
   background-position: center;
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
   font-family: var(--font-family);
-  /* background-color: var(--background-color); */
-  background-color: #fff;
   font-display: swap;
 }

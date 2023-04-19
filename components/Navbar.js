@@ -8,12 +8,14 @@ const Navbar = () => {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <Image
-          src={devFortLogo}
-          alt="Logo for dev fort website"
-          aria-label="Logo for dev fort website"
-          priority={true}
-        />
+        <Link href="/">
+          <Image
+            src={devFortLogo}
+            alt="Logo for dev fort website"
+            aria-label="Logo for dev fort website"
+            priority={true}
+          />
+        </Link>
       </div>
       <nav className={styles.navbar}>
         <ul className={styles.nav_links}>
@@ -21,10 +23,10 @@ const Navbar = () => {
             <Link href="/">Home</Link>
           </li>
           <li className={styles.nav_link}>
-            <Link href="/updates">Updates</Link>
+            <Link href="/resources">Resources</Link>
           </li>
           <li className={styles.nav_link}>
-            <Link href="/resources">Resources</Link>
+            <Link href="/team">Team</Link>
           </li>
         </ul>
       </nav>
