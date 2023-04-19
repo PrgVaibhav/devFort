@@ -1,7 +1,9 @@
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
-import homeImage from "../public/home1.webp";
+// import homeImage from "../public/home1.webp";
+import homeImage from "../public/alternate3.svg";
+
 const HomeSection = () => {
   return (
     <div className={styles.home_container}>
