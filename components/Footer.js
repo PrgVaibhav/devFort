@@ -68,7 +68,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://twitter.com/_DevFort"
+                  href="https://github.com/PrgVaibhav/devFort"
                   target="_blank"
                   aria-label="GitHub account of DevFort"
                 >

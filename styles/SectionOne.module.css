@@ -4,7 +4,7 @@
   justify-content: center;
   flex-direction: row-reverse;
   padding: 8px 10px;
-  min-height: 100vh;
+  min-height: 70vh;
 }
 @media screen and (max-width: 768px) {
   .section_container {
