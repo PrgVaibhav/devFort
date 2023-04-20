@@ -1,38 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# devFort: Your Ultimate Web Development Resource Hub
 
-First, run the development server:
+![DevFortImage](https://pbs.twimg.com/media/FuFz3w8aYAEC9Qz?format=jpg&name=medium)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Finding specific resources for projects can be a bit difficult, but not from now because you are at the right place to get all the relevant resources for your projects.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+From project ideas and design elements to APIs and YouTube channels, devFort has everything you need to start creating your projects without any diffculties.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Features 💫
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+devFort offers a variety of unique features, including:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+-   A curated collection of project ideas in web development.
+-   A curated website links for icons, illustrations, and images to enhance your web design and user experience.
+-   A curated API services offering websites.
+-   A carefully curated list of the best YouTube channels and video tutorials for web development, providing insights and guidance from industry experts and experienced developers.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Getting Started 👨‍💻
 
-## Learn More
+I will update this section as soon as we publish our website.
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing 🤞
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+devFort is an open-source project, and we welcome contributions from the community. If you have a project idea, icon set, illustration, image, API, or YouTube channel that you think would be valuable to web developers, we encourage you to submit a pull request. 
+Before submitting a pull request, please review our contribution guidelines and code of conduct to ensure that your contribution aligns with our values and goals.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+> We're not open source yet, but we'll be sharing our open source project links in a few months.
 
-## Deploy on Vercel
+## Contact 📱
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you have any questions or feedback about devFort, please reach out to us through our website's contact page or on social media, or mail us (devfort.work@gmail.com)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Code of Conduct
+
+devFort is committed to creating a welcoming and inclusive community for all developers, regardless of their background or experience level. To ensure a safe and respectful environment for all members of our community, we have established the following code of conduct:
+
+-   We do not tolerate harassment, discrimination, or bullying of any kind, whether in person or online.
+-   We respect everyone's opinions and viewpoints, even if we don't agree with them.
+-   We encourage open and constructive communication, and welcome feedback and suggestions for improvement.
+-   We respect each other's privacy and personal boundaries, and do not share personal information without consent.
+-   We do not engage in activities that are illegal or violate others' intellectual property rights.
+
+If you witness or experience any behavior that violates this code of conduct, please report it to us immediately through our website's contact page or on social media. We take all reports of misconduct seriously and will take appropriate action to address any violations.
+
+> Thank you for choosing devFort as your go-to resource hub for web development! ❤
+
