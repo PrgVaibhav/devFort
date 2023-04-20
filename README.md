@@ -43,9 +43,5 @@ devFort is committed to creating a welcoming and inclusive community for all dev
 
 If you witness or experience any behavior that violates this code of conduct, please report it to us immediately through our website's contact page or on social media. We take all reports of misconduct seriously and will take appropriate action to address any violations.
 
-**
+> Thank you for choosing devFort as your go-to resource hub for web development! ❤
 
-> Thank you for choosing devFort as your go-to resource hub for web
-> development!
-
-**
