@@ -3,9 +3,7 @@
   justify-content: center;
   align-items: center;
   padding: 8px 10px;
-  width: 800px;
-  margin: auto;
-  min-height: 100vh;
+  min-height: var(--min-height);
 }
 @media screen and (max-width: 768px) {
   .resources_container {
@@ -13,24 +11,31 @@
   }
 }
 .resources_container .resources_cards {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   margin-top: 1rem;
-}
-@media screen and (max-width: 768px) {
-  .resources_container .resources_cards {
-    grid-template-columns: repeat(1, 1fr);
-  }
 }
 .resources_container .resources_cards .resources_card {
   box-shadow: var(--hover-color) 0px 2px 8px 0px;
   padding: 0.6rem;
   transition: all 0.3s ease-in-out;
+  max-width: 420px;
+  margin: auto;
+  background-color: black;
+  background: rgba(65, 64, 64, 0.77);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border: 1px solid rgba(79, 76, 76, 0.57);
+  border: 1px solid var(--special-text-color);
 }
 .resources_container .resources_cards .resources_card:hover {
-  box-shadow: var(--hover-color) 0px 2px 3px 0px;
+  transform: translateY(-5px);
+  box-shadow: var(--hover-color) 0px 2px 8px 0px;
 }
 .resources_container .resources_cards .resources_card .resources_card_description h3 {
   font-size: 1.5rem;
@@ -38,6 +43,7 @@
   margin-bottom: 0.5rem;
   letter-spacing: 1px;
   text-align: center;
+  color: var(--heading-color);
 }
 .resources_container .resources_cards .resources_card .resources_card_description p {
   font-size: 1rem;

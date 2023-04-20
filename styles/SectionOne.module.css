@@ -4,7 +4,7 @@
   justify-content: center;
   flex-direction: row-reverse;
   padding: 8px 10px;
-  min-height: 70vh;
+  min-height: 100vh;
 }
 @media screen and (max-width: 768px) {
   .section_container {
@@ -20,6 +20,7 @@
   margin-bottom: 1rem;
   letter-spacing: 1px;
   text-align: center;
+  color: var(--heading-color);
 }
 @media (max-width: 768px) {
   .section_container .section_description h2 {
@@ -45,7 +46,7 @@
 }
 .section_container .section_description .special_text {
   font-weight: 600;
-  color: var(--hover-color);
+  color: var(--special-text-color);
 }
 .section_container .section_description button {
   width: 50%;

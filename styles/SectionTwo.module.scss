@@ -3,8 +3,10 @@
   align-items: center;
   justify-content: center;
   padding: 8px 10px;
-  min-height: 70vh;
+  min-height: var(--min-height);
+
   background-color: #e9f2fa;
+  background-color: var(--section-bg-color);
   @media screen and (max-width: 768px) {
     flex-direction: column-reverse;
   }
@@ -17,6 +19,7 @@
       margin-bottom: 1rem;
       letter-spacing: 1px;
       text-align: center;
+      color: var(--heading-color);
 
       @media (max-width: 768px) {
         font-size: 1.6rem;

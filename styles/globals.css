@@ -11,15 +11,21 @@
 
 :root {
   --font-family: 'Poppins', sans-serif;
-  --background-color: #E8F3D6;
-  --hover-color: #6B3FA0;
-  --text-color: #444444;
+
+  --background-color: #141414;
+  --special-text-color: #6B3FA0;
+  --hover-color: #442DD5;
+  --heading-color: #fff;
+  --text-color: #fff;
   --light-gray: #D3D3D3;
+  --section-bg-color: #14143F;
+
+  --min-height: 100vh;
 }
 
 ::selection {
   background-color: var(--hover-color);
-  color: var(--background-color);
+  color: var(--text-color);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -29,12 +35,10 @@
 ::-webkit-scrollbar {
   width: 3px;
   border-radius: 50%;
-
-
 }
 
 ::-webkit-scrollbar-track {
-  background-image: url("/check.svg");
+  background-color: var(--background-color);
 
 }
 
@@ -46,7 +50,6 @@ html {
 
 body {
   background-color: var(--background-color);
-  background: url("/check.svg");
   background-position: center;
   font-family: var(--font-family);
   font-display: swap;

@@ -88,6 +88,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className={styles.divider}></div>
       <div className={styles.footer_bottom}>
         <span>© 2023 DevFort. All rights reserved.</span>
       </div>

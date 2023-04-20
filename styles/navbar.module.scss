@@ -2,10 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  // margin-bottom: 2rem;
   height: 80px;
   padding: 8px 10px;
-  // background: url("/check.svg") no-repeat center center/cover;
+  background-color: var(--section-bg-color);
 
   .logo {
     img {
@@ -31,11 +30,11 @@
 
         a {
           text-decoration: none;
-          color: #000;
+          color: var(--text-color);
           font-size: 1rem;
           font-weight: 500;
           transition: all 0.3s ease-in-out;
-
+          letter-spacing: 1px;
           &:hover {
             color: var(--hover-color);
           }

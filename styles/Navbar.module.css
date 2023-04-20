@@ -4,6 +4,7 @@
   align-items: center;
   height: 80px;
   padding: 8px 10px;
+  background-color: var(--section-bg-color);
 }
 .header .logo img {
   max-width: 80px;
@@ -27,10 +28,11 @@
 }
 .header .navbar .nav_links .nav_link a {
   text-decoration: none;
-  color: #000;
+  color: var(--text-color);
   font-size: 1rem;
   font-weight: 500;
   transition: all 0.3s ease-in-out;
+  letter-spacing: 1px;
 }
 .header .navbar .nav_links .nav_link a:hover {
   color: var(--hover-color);
