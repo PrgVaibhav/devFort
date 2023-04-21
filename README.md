@@ -1,7 +1,7 @@
 
 # devFort: Your Ultimate Web Development Resource Hub
 
-![DevFortImage](https://pbs.twimg.com/media/FuFz3w8aYAEC9Qz?format=jpg&name=medium)
+![DevFortImage](https://pbs.twimg.com/media/FuNO3PqaUAAZKzX?format=jpg&name=large)
 
 Finding specific resources for projects can be a bit difficult, but not from now because you are at the right place to get all the relevant resources for your projects.
 
