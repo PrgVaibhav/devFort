@@ -3,7 +3,7 @@ import styles from "/styles/Resources.module.css";
 import Link from "next/link";
 
 import { BsArrowRightShort } from "react-icons/bs";
-const Resources = () => {
+const Resources = ({ data }) => {
   return (
     <>
       <Head>
@@ -14,75 +14,32 @@ const Resources = () => {
       </Head>
       <div className={styles.resources_container}>
         <div className={styles.resources_cards}>
-          <div className={styles.resources_card}>
-            <div className={styles.resources_card_description}>
-              <h3>Project Ideas</h3>
-              <p>
-                Finding projects to build is a difficult task, thats why we are
-                going to provide project ideas so that you can start building
-                your projects sooner.
-              </p>
-              <Link href="/resources/project">
-                Read More <BsArrowRightShort className={styles.arrow} />
-              </Link>
-            </div>
-          </div>
-          <div className={styles.resources_card}>
-            <div className={styles.resources_card_description}>
-              <h3>Project Ideas</h3>
-              <p>
-                Finding projects to build is a difficult task, thats why we are
-                going to provide project ideas so that you can start building
-                your projects sooner.
-              </p>
-              <Link href="/resources">
-                Read More <BsArrowRightShort className={styles.arrow} />
-              </Link>
-            </div>
-          </div>
-          <div className={styles.resources_card}>
-            <div className={styles.resources_card_description}>
-              <h3>Project Ideas</h3>
-              <p>
-                Finding projects to build is a difficult task, thats why we are
-                going to provide project ideas so that you can start building
-                your projects sooner.
-              </p>
-              <Link href="/resources">
-                Read More <BsArrowRightShort className={styles.arrow} />
-              </Link>
-            </div>
-          </div>
-          <div className={styles.resources_card}>
-            <div className={styles.resources_card_description}>
-              <h3>Project Ideas</h3>
-              <p>
-                Finding projects to build is a difficult task, thats why we are
-                going to provide project ideas so that you can start building
-                your projects sooner.
-              </p>
-              <Link href="/resources">
-                Read More <BsArrowRightShort className={styles.arrow} />
-              </Link>
-            </div>
-          </div>
-          <div className={styles.resources_card}>
-            <div className={styles.resources_card_description}>
-              <h3>Project Ideas</h3>
-              <p>
-                Finding projects to build is a difficult task, thats why we are
-                going to provide project ideas so that you can start building
-                your projects sooner.
-              </p>
-              <Link href="/resources">
-                Read More <BsArrowRightShort className={styles.arrow} />
-              </Link>
-            </div>
-          </div>
+          {data.map((item) => {
+            return (
+              <div className={styles.resources_card} key={item.id}>
+                <div className={styles.resources_card_description}>
+                  <h3>{item.title}</h3>
+                  <p>{item.description}</p>
+                  <Link href={`/resources/${item.id}`}>
+                    Read More <BsArrowRightShort className={styles.arrow} />
+                  </Link>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </>
   );
 };
+
+export async function getStaticProps() {
+  const { all_resources } = await import("../../data/resource.json");
+  return {
+    props: {
+      data: all_resources,
+    },
+  };
+}
 
 export default Resources;

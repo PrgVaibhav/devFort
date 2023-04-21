@@ -1,0 +1,29 @@
+{
+    "all_resources": [
+        {
+            "id": "project-ideas",
+            "title": "Project Ideas",
+            "description": "Finding projects to build is a difficult task, that's why we are going to provide project ideas so that you can start building your projects sooner."
+        },
+        {
+            "id": "api-services",
+            "title": "API Services",
+            "description": "Finding perfect API for project is a bit difficult task but now We are going to provide a list of API services that you can use to build your projects faster and easier than ever before " 
+        },
+        {
+            "id": "icons-and-illustrations",
+            "title": "Icons and Illustrations",
+            "description": "Finding icons and illustrations for your projects is a difficult task, that's why we are going to provide a list of icons and illustrations that you can use to build your projects faster and easier than ever before"
+        },
+        {
+            "id": "images",
+            "title": "Images",
+            "description": "Finding images for your projects is a difficult task, that's why we are going to provide a list of images that you can use to build your projects faster and easier than ever before"
+        },
+        {
+            "id": "youtube",
+            "title": "Youtube",
+            "description": "Finding better youtube channels to learn can be a difficult task for beginners, that's why we are going to provide a list of youtube channels that you can use to learn faster and easier than ever before"
+        }
+    ]
+}
