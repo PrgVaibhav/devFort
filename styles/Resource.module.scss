@@ -1,0 +1,192 @@
+.resources_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 8px 10px;
+  min-height: var(--min-height);
+  .go_back {
+    text-decoration: none;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    gap: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 1rem;
+    &:hover {
+      color: var(--hover-color);
+    }
+  }
+
+  .resources_header {
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      letter-spacing: 1px;
+      color: var(--heading-color);
+    }
+    p {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+      letter-spacing: 1px;
+      line-height: 30px;
+      font-weight: 400;
+      color: var(--text-color);
+    }
+  }
+
+  .resources_cards {
+    margin-top: 1rem;
+    .resources_card {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+      grid-gap: 2rem;
+      margin-top: 1rem;
+
+      @media (max-width: 768px) {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      }
+
+      .resources_card_description {
+        box-shadow: var(--hover-color) 0px 2px 8px 0px;
+        padding: 0.6rem;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-in-out;
+
+        border-top: 4px solid var(--special-text-color);
+        max-width: 100%;
+        &:hover {
+          transform: translateY(-5px);
+          box-shadow: var(--hover-color) 0px 2px 8px 0px;
+        }
+        h3 {
+          font-size: 1.3rem;
+          font-weight: 600;
+          margin-bottom: 0.5rem;
+          letter-spacing: 1px;
+          text-align: center;
+          color: var(--heading-color);
+          position: relative;
+          @media screen and (max-width: 768px) {
+            font-size: 1.2rem;
+          }
+        }
+        p {
+          font-size: 1rem;
+          margin-bottom: 0.5rem;
+          letter-spacing: 1px;
+          line-height: 30px;
+          font-weight: 400;
+          color: var(--text-color);
+          @media screen and (max-width: 768px) {
+            font-size: 0.9rem;
+          }
+        }
+        a {
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+          color: var(--text-color);
+          font-size: 1rem;
+          font-weight: 600;
+          letter-spacing: 1px;
+          transition: all 0.3s ease-in-out;
+
+          @media screen and (max-width: 768px) {
+            font-size: 0.9rem;
+          }
+
+          .arrow {
+            margin-left: 0.5rem;
+            font-size: 1.2rem;
+            transition: all 0.3s ease-in-out;
+          }
+          &:hover {
+            color: var(--hover-color);
+            .arrow {
+              transform: translateX(5px);
+              color: var(--hover-color);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// .resources_container {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: column;
+//   padding: 8px 10px;
+//   min-height: var(--min-height);
+
+//   .go_back {
+//     text-decoration: none;
+//     color: var(--text-color);
+//     display: flex;
+//     align-items: center;
+//     font-size: 1.1rem;
+//     gap: 1rem;
+//     font-weight: 600;
+//     letter-spacing: 1px;
+//     transition: all 0.3s ease-in-out;
+//     &:hover {
+//       color: var(--hover-color);
+//     }
+//   }
+//   .resources_cards {
+//     display: grid;
+//     grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+//     grid-gap: 1rem;
+//     margin-top: 1rem;
+//     .resources_card {
+//       box-shadow: var(--hover-color) 0px 2px 8px 0px;
+//       padding: 0.6rem;
+//       box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+//       transition: all 0.3s ease-in-out;
+
+//       border-top: 4px solid var(--special-text-color);
+//       max-width: 100%;
+
+//       &:hover {
+//         transform: translateY(-5px);
+//         box-shadow: var(--hover-color) 0px 2px 8px 0px;
+//       }
+
+//       .resources_card_description {
+//         h3 {
+//           font-size: 1.5rem;
+//           font-weight: 600;
+//           margin-bottom: 0.5rem;
+//           letter-spacing: 1px;
+//           text-align: center;
+//           color: var(--heading-color);
+//           position: relative;
+
+//           @media screen and (max-width: 768px) {
+//             font-size: 1.2rem;
+//           }
+//         }
+
+//         p {
+//           font-size: 1rem;
+//           margin-bottom: 0.5rem;
+//           letter-spacing: 1px;
+//           line-height: 30px;
+//           font-weight: 400;
+//           color: var(--text-color);
+
+//           @media screen and (max-width: 768px) {
+//             font-size: 0.9rem;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

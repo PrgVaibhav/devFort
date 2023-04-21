@@ -13,12 +13,13 @@ const Resources = ({ data }) => {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className={styles.resources_container}>
+        <h1>Resources</h1>
         <div className={styles.resources_cards}>
           {data.map((item) => {
             return (
               <div className={styles.resources_card} key={item.id}>
                 <div className={styles.resources_card_description}>
-                  <h3>{item.title}</h3>
+                  <h3>{item.name}</h3>
                   <p>{item.description}</p>
                   <Link href={`/resources/${item.id}`}>
                     Read More <BsArrowRightShort className={styles.arrow} />
@@ -33,6 +34,8 @@ const Resources = ({ data }) => {
   );
 };
 
+export default Resources;
+
 export async function getStaticProps() {
   const { all_resources } = await import("../../data/resource.json");
   return {
@@ -41,5 +44,3 @@ export async function getStaticProps() {
     },
   };
 }
-
-export default Resources;

@@ -2,18 +2,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding: 8px 10px;
   min-height: var(--min-height);
 
+  h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: var(--heading-color);
+    border-bottom: 2px solid var(--special-text-color);
+  }
   .resources_cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
     grid-gap: 1rem;
-    // display: flex;
-    // flex-wrap: wrap;
-    // gap: 1rem;
-    // justify-content: center;
-    // align-items: center;
     margin-top: 1rem;
 
     @media (max-width: 768px) {
@@ -22,15 +27,10 @@
     .resources_card {
       box-shadow: var(--hover-color) 0px 2px 8px 0px;
       padding: 0.6rem;
-      transition: all 0.3s ease-in-out;
-      background-color: black;
-      background: rgba(65, 64, 64, 0.77);
       box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-      backdrop-filter: blur(1px);
-      -webkit-backdrop-filter: blur(1px);
-      border: 1px solid rgba(79, 76, 76, 0.57);
-      border: 1px solid var(--special-text-color);
+      transition: all 0.3s ease-in-out;
 
+      border-top: 4px solid var(--special-text-color);
       max-width: 100%;
 
       &:hover {

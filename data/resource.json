@@ -2,28 +2,285 @@
     "all_resources": [
         {
             "id": "project-ideas",
-            "title": "Project Ideas",
+            "name": "Project Ideas",
             "description": "Finding projects to build is a difficult task, that's why we are going to provide project ideas so that you can start building your projects sooner."
         },
         {
             "id": "api-services",
-            "title": "API Services",
-            "description": "Finding perfect API for project is a bit difficult task but now We are going to provide a list of API services that you can use to build your projects faster and easier than ever before " 
+            "name": "API Services",
+            "description": "Finding perfect API for project is a bit difficult task but now We are going to provide a list of API services that you can use to build your projects faster and easier than ever before." 
         },
         {
-            "id": "icons-and-illustrations",
-            "title": "Icons and Illustrations",
-            "description": "Finding icons and illustrations for your projects is a difficult task, that's why we are going to provide a list of icons and illustrations that you can use to build your projects faster and easier than ever before"
+            "id": "illustrations-link",
+            "name": "Illustrations",
+            "description": "Finding illustrations for your projects is a difficult task, that's why we are going to provide a list of illustrations that you can use to build your projects faster and easier than ever before"
         },
         {
-            "id": "images",
-            "title": "Images",
+            "id": "icons-link",
+            "name": "3d Icons",
+            "description": "Finding icons for your projects is a difficult task, that's why we are going to provide a list of icons that you can use to build your projects faster and easier than ever before"
+        },
+        {
+            "id": "images-link",
+            "name": "Images",
             "description": "Finding images for your projects is a difficult task, that's why we are going to provide a list of images that you can use to build your projects faster and easier than ever before"
         },
         {
-            "id": "youtube",
-            "title": "Youtube",
+            "id": "youtube-link",
+            "name": "Youtube",
             "description": "Finding better youtube channels to learn can be a difficult task for beginners, that's why we are going to provide a list of youtube channels that you can use to learn faster and easier than ever before"
+        },
+        {
+            "id": "stay-tuned",
+            "name": "Stay Tuned",
+            "description": "We are going to add more resources soon, stay tuned for more updates. Till then create something cool from available resources. If you have any suggestions, please let us know. Thank you! :)"
         }
+    ],
+
+    "resources": [
+        {
+            "id": "project-ideas",
+            "name" : "Project Ideas",
+            "description": "Finding projects to build is a difficult task, that's why we are going to provide project ideas so that you can start building your projects sooner.",
+            "ideas" : [
+                {
+                    "id": 1,
+                    "name": "Personal Blog - Beginner",                    
+                    "description": "Create a simple blog site using a CMS platform like WordPress or create a custom blog site using HTML, CSS, and JavaScript."
+                },
+                {
+                    "id": 2,
+                    "name": "Static Business Website - Beginner",                    
+                    "description": "Build a website for a small business that consists of a few static pages containing information about the business, its products, and services."
+                },
+                {
+                    "id": 3,
+                    "name": "Recipe Book - Beginner",                    
+                    "description": "Create a recipe book website using a CMS platform like WordPress or a custom-built website with features like search, filters, and social sharing."
+                },
+                {
+                    "id": 4,
+                    "name": "E-commerce Website - Intermediate",                    
+                    "description": "Build an online store using a CMS platform like Shopify or a custom-built website with features like product listings, cart, checkout, and payment gateway integration."
+                },
+                {
+                    "id": 5,
+                    "name": "Job Board - Intermediate",                    
+                    "description": "Create a job board website that allows employers to post job listings and job seekers to apply for those jobs."
+                },
+                {
+                    "id": 6,
+                    "name": "Social Media Platform - Intermediate",                    
+                    "description": "Build a social media platform that enables users to create profiles, share posts, follow others, and interact with each other."
+                },
+                {
+                    "id": 7,
+                    "name": "Online Learning Platform - Intermediate",                    
+                    "description": "Create an e-learning platform that offers courses, quizzes, and assessments for students to learn online."
+                },
+                {
+                    "id": 8,
+                    "name": "News Aggregator - Intermediate",                    
+                    "description": "Build a news aggregator that collects news articles from various sources and presents them to users based on their preferences."
+                },
+                {
+                    "id": 9,
+                    "name": "Real Estate Listings - Intermediate",                    
+                    "description": "Create a real estate listings website that enables users to search for properties, view property details, and contact real estate agents."
+                },
+                {
+                    "id": 10,
+                    "name": "Online Booking System - Intermediate",                    
+                    "description": "Build an online booking system for hotels, flights, or other services that enables users to search for availability and make reservations."
+                },
+                {
+                    "id": 11,
+                    "name": "Food Ordering System - Intermediate",                    
+                    "description": "Create an online food ordering system for restaurants that allows users to browse menus, place orders, and make payments."
+                },
+                {
+                    "id": 12,
+                    "name": "Classifieds Website - Intermediate",                    
+                    "description": "Build a classifieds website that enables users to post ads for various items or services and allows others to search for those ads."
+                },
+                {
+                    "id": 13,
+                    "name": "Content Management System - Advanced",                    
+                    "description": "Create a custom CMS platform that enables users to manage website content, including pages, posts, images, and videos."
+                },
+                {
+                    "id": 14,
+                    "name": "Customer Relationship Management System - Advanced",                    
+                    "description": "Build a custom CRM system that allows businesses to manage customer interactions, including sales, marketing, and support."
+                },
+                {
+                    "id": 15,
+                    "name": "Music Streaming Platform - Advanced",                    
+                    "description": "Create a music streaming platform that enables users to listen to music, create playlists, and share their favorite songs."
+                },
+                {
+                    "id": 16,
+                    "name": "Health and Fitness Tracker - Advanced",                    
+                    "description": "Build a health and fitness tracker that allows users to set goals, track progress, and get recommendations based on their data."
+                },
+                {
+                    "id": 17,
+                    "name": "Crowdfunding Platform - Advanced",                    
+                    "description": "Create a crowdfunding platform that enables users to raise money for their projects and allows others to contribute to those projects."
+                },
+                {
+                    "id": 18,
+                    "name": "Virtual Event Platform - Advanced",                    
+                    "description": "Build a virtual event platform that enables users to host webinars, conferences, and other events online."
+                },
+                {
+                    "id": 19,
+                    "name": "Blockchain-based Application - Advanced",                    
+                    "description": "Create a decentralized application using blockchain technology, such as a cryptocurrency wallet or a voting system."
+                },
+                {
+                    "id": 20,
+                    "name": "Augmented Reality Application - Advanced ",                    
+                    "description": "Build an augmented reality application that enhances real-world experiences with virtual objects, such as a virtual try-on feature for fashion items."
+                }
+            ]
+        },
+        {
+            "id": "api-services",
+            "name" : "API Services",
+            "description": "Finding perfect API for project is a bit difficult task but now We are going to provide a list of API services that you can use to build your projects faster and easier than ever before",
+
+            "ideas":[
+                {
+                    "id": 1,
+                    "name" : "NASA API",
+                    "description": "NASA API is a RESTful API that allows you to search for images and videos from NASA's library of content. You can use this API to build applications that display NASA's content on your website or mobile app.",
+                    "url": "https://api.nasa.gov/"
+                },
+                {
+                    "id": 2,
+                    "name" : "Cat Facts API",
+                    "description": "Cat Facts API is a RESTful API that allows you to search for cat facts. You can use this API to build applications that display cat facts on your website or mobile app.",
+                    "url": "https://alexwohlbruck.github.io/cat-facts/"
+                },
+                {
+                    "id": 3,
+                    "name" : "Currency API",
+                    "description": "Currency API is a RESTful API that allows you to search for currency exchange rates. You can use this API to build applications that display currency exchange rates on your website or mobile app.",
+                    "url": "https://github.com/fawazahmed0/currency-api"
+                },
+                {
+                    "id": 4,
+                    "name" : "Facts API",
+                    "description": "Facts API is a RESTful API that allows you to search for facts. You can use this API to build applications that display facts on your website or mobile app.",
+                    "url": "https://fungenerators.com/api/facts/"
+                },
+                {
+                    "id": 5,
+                    "name" : "JSON Placeholder API",
+                    "description": "JSON Placeholder API is a RESTful API that allows you to search for posts, comments, albums, photos, todos, and users. You can use this API to build applications that display posts, comments, albums, photos, todos, and users on your website or mobile app.",
+                    "url": "https://jsonplaceholder.typicode.com/"
+                },
+                {
+                    "id": 6,
+                    "name" : "Google Translator API",
+                    "description": "Google Translator API is a RESTful API that allows you to translate text from one language to another. You can use this API to build applications that translate text on your website or mobile app.",
+                    "url": "https://cloud.google.com/translate/docs/"
+                },
+                {
+                    "id": 7,
+                    "name" : "Open Weather API",
+                    "description": "Open Weather API is a RESTful API that allows you to search for weather data. You can use this API to build applications that display weather data on your website or mobile app.",
+                    "url": "https://openweathermap.org/api"
+                },
+                {
+                    "id": 8,
+                    "name" : "Countries API",
+                    "description": "Countries API is a RESTful API that allows you to search for countries. You can use this API to build applications that display countries on your website or mobile app.",
+                    "url": "https://restcountries.com/"
+                },
+                {
+                    "id": 9,
+                    "name" : "Random Data API",
+                    "description": "Random Data API is a RESTful API that allows you to search for random data. You can use this API to build applications that display random data on your website or mobile app.",
+                    "url": "https://random-data-api.com/"
+                },
+                {
+                    "id": 10,
+                    "name" : "Poke API",
+                    "description": "Poke API is a RESTful API that allows you to search for Pokemon. You can use this API to build applications that display Pokemon on your website or mobile app.",
+                    "url": "https://pokeapi.co/"
+                },
+                {
+                    "id": 11,
+                    "name" : "Rapid API",
+                    "description": "Rapid API is a website which provides a list of APIs that you can use to build your projects faster and easier than ever before. You can use this website to find APIs for your projects.",
+                    "url": "https://rapidapi.com/"
+                },
+                {
+                    "id": 12,
+                    "name" : "Any API",
+                    "description": "Any API is a website which provides a list of APIs that you can use to build your projects faster and easier than ever before. You can use this website to find APIs for your projects.",
+                    "url": "https://any-api.com/"
+                }
+            ]
+        },
+        {
+            "id": "illustrations-link",
+            "name" : "Illustrations",
+            "description": "Finding perfect illustrations for project is a bit difficult task but now We are going to provide a list of illustrations that you can use to build your projects faster and easier than ever before",
+
+            "ideas":[
+                {
+                    "id": 1,
+                    "name" : "Zor Stock Illustrations",
+                    "description": "Zor Stock Illustrations is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
+                    "url": "http://zorstock.com/"
+                },
+                {
+                    "id": 2,
+                    "name" : "Vecteezy",
+                    "description": "Vecteezy is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
+                    "url": "http://vecteezy.com/browse"
+                },
+                {
+                    "id": 3,
+                    "name" : "The Noun Project",
+                    "description": "The Noun Project is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
+                    "url": "https://thenounproject.com/"
+                },
+                {
+                    "id": 4,
+                    "name" : "Vector4Free",
+                    "description": "Vector4Free is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
+                    "url": "https://www.vector4free.com/"
+                },
+                {
+                    "id": 5,
+                    "name" : "ShutterStock",
+                    "description": "ShutterStock is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
+                    "url": "https://www.shutterstock.com/vectors#free-download"
+                },
+                {
+                    "id": 6,
+                    "name" : "Humaans",
+                    "description": "Humaans is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
+                    "url": "https://www.humaaans.com/"
+                },
+                {
+                    "id": 7,
+                    "name" : "WebKul | Vivid",
+                    "description": "Vivid is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
+                    "url": "https://webkul.github.io/vivid/"
+                },
+                {
+                    "id": 8,
+                    "name" : "Interfacer",
+                    "description": "Interfacer is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
+                    "url": "https://interfacer.xyz/"
+                }
+            ]
+        }
+        
     ]
 }

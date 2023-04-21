@@ -25,9 +25,6 @@ const Navbar = () => {
           <li className={styles.nav_link}>
             <Link href="/resources">Resources</Link>
           </li>
-          <li className={styles.nav_link}>
-            <Link href="/team">Team</Link>
-          </li>
         </ul>
       </nav>
     </header>
