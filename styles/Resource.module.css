@@ -5,12 +5,20 @@
   flex-direction: column;
   padding: 8px 10px;
   min-height: var(--min-height);
+  margin-bottom: 1rem;
+  text-transform: capitalize;
 }
-.resources_container .go_back {
+.resources_container .resources_top {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+.resources_container .resources_top .go_back {
   text-decoration: none;
   color: var(--text-color);
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   font-size: 1.1rem;
   gap: 1rem;
   font-weight: 600;
@@ -18,7 +26,7 @@
   transition: all 0.3s ease-in-out;
   margin-bottom: 1rem;
 }
-.resources_container .go_back:hover {
+.resources_container .resources_top .go_back:hover {
   color: var(--hover-color);
 }
 .resources_container .resources_header h1 {
@@ -34,6 +42,7 @@
   letter-spacing: 1px;
   line-height: 30px;
   font-weight: 400;
+  text-align: justify;
   color: var(--text-color);
 }
 .resources_container .resources_cards {
@@ -57,6 +66,10 @@
   transition: all 0.3s ease-in-out;
   border-top: 4px solid var(--special-text-color);
   max-width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .resources_container .resources_cards .resources_card .resources_card_description:hover {
   transform: translateY(-5px);
@@ -83,6 +96,7 @@
   line-height: 30px;
   font-weight: 400;
   color: var(--text-color);
+  text-align: justify;
 }
 @media screen and (max-width: 768px) {
   .resources_container .resources_cards .resources_card .resources_card_description p {

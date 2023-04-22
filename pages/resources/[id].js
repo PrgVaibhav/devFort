@@ -16,9 +16,11 @@ const ResourcePage = ({ data }) => {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className={styles.resources_container}>
-        <Link href="/resources" className={styles.go_back}>
-          <BsArrowLeftShort /> Back
-        </Link>
+        <div className={styles.resources_top}>
+          <Link href="/resources" className={styles.go_back}>
+            <BsArrowLeftShort /> Back
+          </Link>
+        </div>
         {data.map((resource) => {
           return (
             <div className={styles.resources_header} key={resource.id}>
@@ -40,7 +42,12 @@ const ResourcePage = ({ data }) => {
                       <h3>{idea.name}</h3>
                       <p>{idea.description}</p>
                       {idea.url && (
-                        <a href={idea.url}>
+                        <a
+                          href={idea.url}
+                          aria-label={idea.description}
+                          target="_blank"
+                          title={idea.name}
+                        >
                           {idea.name}{" "}
                           <BsArrowRightShort className={styles.arrow} />
                         </a>
