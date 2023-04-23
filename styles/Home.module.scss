@@ -1,7 +1,7 @@
 .home_container {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   min-height: var(--min-height);
 
   background-color: #e9f2fa;
@@ -20,31 +20,30 @@
     @media screen and (max-width: 768px) {
       width: 100%;
     }
-    h1 {
-      font-size: 2.5rem;
+
+    .home_header {
+      font-size: 2.4rem;
       font-weight: 600;
-      margin-bottom: 1rem;
       letter-spacing: 1px;
       text-align: center;
       color: var(--heading-color);
-
+      margin-bottom: 1rem;
       .special_header {
         background-color: var(--hover-color);
         color: var(--heading-color);
+
         padding: 0.2rem 0.5rem;
         border-radius: 5px;
         font-weight: 800;
-        // box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.5);
-        box-shadow: rgba(255, 255, 255, 0) 0px 5px 15px;
         transition: all 0.3s ease-in-out;
+
         &:hover {
           transform: translate(4px, -4px);
           box-shadow: rgba(255, 255, 255, 0.2) 0px 5px 15px;
-          // box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.3);
         }
       }
       @media (max-width: 768px) {
-        font-size: 1.8rem;
+        font-size: 1.85rem;
       }
 
       @media (max-width: 360px) {

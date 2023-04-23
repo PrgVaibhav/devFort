@@ -33,9 +33,6 @@ const Footer = () => {
                 <Link href="/credit">Credits</Link>
               </li>
               <li>
-                <Link href="/team">Team</Link>
-              </li>
-              <li>
                 <Link href="/updates">Update</Link>
               </li>
               <li>

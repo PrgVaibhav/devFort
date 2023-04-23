@@ -14,11 +14,11 @@ const Credit = () => {
         <div className={styles.credit_description}>
           <h1>Credits</h1>
           <p>
-            I would like to thank the following people and resources for making
-            this website possible. This website is built using Next.js and
-            Tailwind CSS. The illustrations are from Storyset. The logo is made
-            using Canva. The favicon is made using Favicon.io. The fonts are
-            from Google Fonts. The code is hosted on Vercel. The website is
+            I would like to thank the websites from where I have retrieved the
+            resources for making this website possible. This website is built
+            using Next.js and CSS. The illustrations are from Storyset. The logo
+            is made using Canva. The favicon is made using Favicon.io. The fonts
+            are from Google Fonts. The code is hosted on Vercel. The website is
             built by{" "}
             <a
               href="https://kumarvaibhav.vercel.app/"
