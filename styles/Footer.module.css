@@ -51,10 +51,20 @@
   color: var(--heading-color);
   font-size: 1.8rem;
 }
+@media screen and (max-width: 768px) {
+  .footer .footer_container .footer_left .footer_left_details h3 {
+    font-size: 1.5rem;
+  }
+}
 .footer .footer_container .footer_left .footer_left_details p {
   font-size: 1rem;
   color: var(--text-color);
   margin-bottom: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .footer .footer_container .footer_left .footer_left_details p {
+    font-size: 0.9rem;
+  }
 }
 .footer .footer_container .footer_left .footer_left_details a {
   background-color: #fff;
@@ -69,46 +79,42 @@
   font-size: 1rem;
   text-decoration: none;
 }
+@media screen and (max-width: 768px) {
+  .footer .footer_container .footer_left .footer_left_details a {
+    font-size: 0.9rem;
+  }
+}
 .footer .footer_container .footer_left .footer_left_details a:hover {
   transform: translate(4px, 4px);
   box-shadow: 2px 2px 0px var(--hover-color);
   background-color: orangered;
   color: #fff;
 }
-.footer .footer_container .footer_center .footer_center_details h3 {
+.footer .footer_container .footer_details .footer_center_details h3 {
   font-size: 1.5rem;
   color: var(--heading-color);
 }
-.footer .footer_container .footer_center .footer_center_details ul {
-  list-style: none;
-}
-.footer .footer_container .footer_center .footer_center_details ul li a {
-  text-decoration: none;
-  color: var(--text-color);
-  font-size: 1rem;
-  font-weight: 500;
-  transition: all 0.3s ease-in-out;
-}
-.footer .footer_container .footer_center .footer_center_details ul li a:hover {
-  color: var(--hover-color);
-}
 @media screen and (max-width: 768px) {
-  .footer .footer_container .footer_right {
-    margin-bottom: 1rem;
+  .footer .footer_container .footer_details .footer_center_details h3 {
+    font-size: 1.3rem;
   }
 }
-.footer .footer_container .footer_right .footer_right_details h3 {
-  font-size: 1.5rem;
-  color: var(--text-color);
+.footer .footer_container .footer_details .footer_center_details ul {
+  list-style: none;
 }
-.footer .footer_container .footer_right .footer_right_details ul li a {
+.footer .footer_container .footer_details .footer_center_details ul li a {
   text-decoration: none;
   color: var(--text-color);
   font-size: 1rem;
   font-weight: 500;
   transition: all 0.3s ease-in-out;
 }
-.footer .footer_container .footer_right .footer_right_details ul li a:hover {
+@media screen and (max-width: 768px) {
+  .footer .footer_container .footer_details .footer_center_details ul li a {
+    font-size: 0.9rem;
+  }
+}
+.footer .footer_container .footer_details .footer_center_details ul li a:hover {
   color: var(--hover-color);
 }
 .footer .divider {

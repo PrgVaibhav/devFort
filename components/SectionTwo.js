@@ -1,6 +1,5 @@
 import styles from "../styles/SectionTwo.module.css";
 import Image from "next/image";
-import social from "../public/section.webp";
 import alternate from "../public/alternate-1.svg";
 const SectionTwo = () => {
   return (

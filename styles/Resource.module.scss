@@ -24,6 +24,10 @@
       transition: all 0.3s ease-in-out;
       margin-bottom: 1rem;
 
+      svg {
+        font-size: 1.5rem;
+      }
+
       &:hover {
         color: var(--hover-color);
       }
@@ -37,6 +41,10 @@
       margin-bottom: 0.5rem;
       letter-spacing: 1px;
       color: var(--heading-color);
+
+      @media screen and (max-width: 768px) {
+        font-size: 1.8rem;
+      }
     }
     p {
       font-size: 1rem;
@@ -46,6 +54,10 @@
       font-weight: 400;
       text-align: justify;
       color: var(--text-color);
+
+      @media screen and (max-width: 768px) {
+        font-size: 0.9rem;
+      }
     }
   }
 

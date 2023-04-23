@@ -1,5 +1,4 @@
 .footer {
-  // background-color: #e9f2fa;
   background-color: var(--section-bg-color);
 
   padding: 10px 15px;
@@ -45,11 +44,19 @@
         h3 {
           color: var(--heading-color);
           font-size: 1.8rem;
+
+          @media screen and (max-width: 768px) {
+            font-size: 1.5rem;
+          }
         }
         p {
           font-size: 1rem;
           color: var(--text-color);
           margin-bottom: 1rem;
+
+          @media screen and (max-width: 768px) {
+            font-size: 0.9rem;
+          }
         }
 
         a {
@@ -64,6 +71,11 @@
           color: orangered;
           font-size: 1rem;
           text-decoration: none;
+
+          @media screen and (max-width: 768px) {
+            font-size: 0.9rem;
+          }
+
           &:hover {
             transform: translate(4px, 4px);
             box-shadow: 2px 2px 0px var(--hover-color);
@@ -73,11 +85,15 @@
         }
       }
     }
-    .footer_center {
+    .footer_details {
       .footer_center_details {
         h3 {
           font-size: 1.5rem;
           color: var(--heading-color);
+
+          @media screen and (max-width: 768px) {
+            font-size: 1.3rem;
+          }
         }
 
         ul {
@@ -89,32 +105,11 @@
               font-size: 1rem;
               font-weight: 500;
               transition: all 0.3s ease-in-out;
-              &:hover {
-                color: var(--hover-color);
-              }
-            }
-          }
-        }
-      }
-    }
-    .footer_right {
-      @media screen and (max-width: 768px) {
-        margin-bottom: 1rem;
-      }
-      .footer_right_details {
-        h3 {
-          font-size: 1.5rem;
-          color: var(--text-color);
-        }
 
-        ul {
-          li {
-            a {
-              text-decoration: none;
-              color: var(--text-color);
-              font-size: 1rem;
-              font-weight: 500;
-              transition: all 0.3s ease-in-out;
+              @media screen and (max-width: 768px) {
+                font-size: 0.9rem;
+              }
+
               &:hover {
                 color: var(--hover-color);
               }

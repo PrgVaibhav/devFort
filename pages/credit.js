@@ -1,5 +1,5 @@
 import Head from "next/head";
-
+import styles from "../styles/Credit.module.css";
 const Credit = () => {
   return (
     <>
@@ -10,9 +10,33 @@ const Credit = () => {
           content="Credit for the resources used in DevFort Community"
         />
       </Head>
-      <div>
-        <h1>Credit</h1>
-        <a href="https://storyset.com/data">Data illustrations by Storyset</a>
+      <div className={styles.credit_container}>
+        <div className={styles.credit_description}>
+          <h1>Credits</h1>
+          <p>
+            I would like to thank the following people and resources for making
+            this website possible. This website is built using Next.js and
+            Tailwind CSS. The illustrations are from Storyset. The logo is made
+            using Canva. The favicon is made using Favicon.io. The fonts are
+            from Google Fonts. The code is hosted on Vercel. The website is
+            built by{" "}
+            <a
+              href="https://kumarvaibhav.vercel.app/"
+              aria-label="DevFort creator portfolio website"
+              target="_blank"
+            >
+              Vaibhav Kumar
+            </a>
+            .
+          </p>
+        </div>
+
+        <div className={styles.credit_resources}>
+          <a href="https://storyset.com/data">Data illustrations by Storyset</a>
+          <a href="https://storyset.com/people">
+            People illustrations by Storyset
+          </a>
+        </div>
       </div>
     </>
   );

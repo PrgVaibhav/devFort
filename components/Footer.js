@@ -25,7 +25,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className={styles.footer_center}>
+        <div className={styles.footer_details}>
           <div className={styles.footer_center_details}>
             <h3>Quick Links</h3>
             <ul>
@@ -44,8 +44,8 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className={styles.footer_right}>
-          <div className={styles.footer_right_details}>
+        <div className={styles.footer_details}>
+          <div className={styles.footer_center_details}>
             <h3>Connect</h3>
             <ul>
               <li>

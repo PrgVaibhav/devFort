@@ -6,11 +6,12 @@ import styles from "../../styles/Resource.module.css";
 
 import { BsArrowRightShort } from "react-icons/bs";
 
-const ResourcePage = ({ data }) => {
+const ResourcePage = ({ data, pageName }) => {
+  const upperCaseName = pageName.charAt(0).toUpperCase() + pageName.slice(1);
   return (
     <>
       <Head>
-        <title>ResourcePage | Dev Fort</title>
+        <title>{upperCaseName} | Dev Fort</title>
         <meta name="description" content="Resources section by Dev Fort" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
@@ -66,10 +67,12 @@ const ResourcePage = ({ data }) => {
 
 export default ResourcePage;
 
+// Getting the paths for the static pages using getStaticPaths function and passing the paths to the getStaticProps function to get the data for the page using the id from the params. :)
+
 export async function getStaticPaths() {
   const { all_resources } = await import("../../data/resource.json");
   const allPaths = all_resources.map((path) => {
-    console.log(path.id.toString());
+    console.log(path.id?.toString());
     return {
       params: {
         id: path.id.toString(),
@@ -91,6 +94,7 @@ export async function getStaticProps(context) {
   return {
     props: {
       data,
+      pageName: id,
     },
   };
 }

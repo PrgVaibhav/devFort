@@ -26,6 +26,9 @@
   transition: all 0.3s ease-in-out;
   margin-bottom: 1rem;
 }
+.resources_container .resources_top .go_back svg {
+  font-size: 1.5rem;
+}
 .resources_container .resources_top .go_back:hover {
   color: var(--hover-color);
 }
@@ -36,6 +39,11 @@
   letter-spacing: 1px;
   color: var(--heading-color);
 }
+@media screen and (max-width: 768px) {
+  .resources_container .resources_header h1 {
+    font-size: 1.8rem;
+  }
+}
 .resources_container .resources_header p {
   font-size: 1rem;
   margin-bottom: 0.5rem;
@@ -44,6 +52,11 @@
   font-weight: 400;
   text-align: justify;
   color: var(--text-color);
+}
+@media screen and (max-width: 768px) {
+  .resources_container .resources_header p {
+    font-size: 0.9rem;
+  }
 }
 .resources_container .resources_cards {
   margin-top: 1rem;

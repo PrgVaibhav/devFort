@@ -592,6 +592,20 @@
                     "url": "https://www.youtube.com/kepowob/videos"
                 }
             ]
+        },
+        {
+            "id": "stay-tuned",
+            "name" : "Stay Tuned",
+            "description": "Stay Tuned for more updates. We will update this list regularly so that you can get the best content for your projects. Till then you can check out our other projects. Stay Safe and Happy Coding :)",
+
+            "ideas":[
+                {
+                    "id": 1,
+                    "name" : "Working on new ideas",
+                    "description": "We are constantly working to provide the best possible experience for our community of web developers, which is why we regularly update our platform with new features, and resources. We encourage you to check this page regularly to stay up-to-date on the latest devFort updates and to make the most of our growing collection of web development resources."
+                }
+                
+            ]
         }
         
     ]

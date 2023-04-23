@@ -1,5 +1,4 @@
 import Image from "next/image";
-import social from "../public/social.webp";
 import styles from "../styles/SectionThree.module.css";
 import alternate from "../public/alternate-2.svg";
 const SectionThree = () => {

@@ -1,5 +1,5 @@
 
-# devFort: Your Ultimate Web Development Resource Hub
+# DevFort: Your Ultimate Web Development Resource Hub
 
 ![DevFortImage](https://pbs.twimg.com/media/FuNO3PqaUAAZKzX?format=jpg&name=large)
 
