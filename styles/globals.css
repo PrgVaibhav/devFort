@@ -10,7 +10,7 @@
 }
 
 :root {
-  --font-family: 'Poppins', sans-serif;
+  --font-family: 'Poppins', monospace, sans-serif;
 
   --background-color: #141414;
   --special-text-color: #6B3FA0;

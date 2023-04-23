@@ -222,6 +222,12 @@
                     "name" : "Any API",
                     "description": "Any API is a website which provides a list of APIs that you can use to build your projects faster and easier than ever before. You can use this website to find APIs for your projects.",
                     "url": "https://any-api.com/"
+                },
+                {
+                    "id": 12,
+                    "name" : "Public APIs",
+                    "description": "Public APIs is a website which provides a list of APIs that you can use to build your projects faster and easier than ever before. You can use this website to find APIs for your projects.",
+                    "url": "https://publicapis.dev/"
                 }
             ]
         },
