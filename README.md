@@ -1,5 +1,5 @@
 
-# DevFort: Your Ultimate Web Development Resource Hub
+# Devs Fort: Your Ultimate Web Development Resource Hub
 
 ![DevFortImage](https://pbs.twimg.com/media/FuNO3PqaUAAZKzX?format=jpg&name=large)
 
@@ -9,7 +9,7 @@ From project ideas and design elements to APIs and YouTube channels, devFort has
 
 ## Features 💫
 
-devFort offers a variety of unique features, including:
+Devs Fort offers a variety of unique features, including:
 
 -   A curated collection of project ideas in web development.
 -   A curated website links for icons, illustrations, and images to enhance your web design and user experience.
