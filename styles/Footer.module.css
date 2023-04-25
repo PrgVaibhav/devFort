@@ -18,6 +18,7 @@
   .footer .footer_container {
     flex-direction: column;
     align-items: flex-start;
+    justify-content: flex-start;
     gap: 1rem;
     height: 100%;
   }
@@ -25,8 +26,8 @@
 .footer .footer_container .footer_left_logo img {
   max-width: 120px;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 @media screen and (max-width: 768px) {
   .footer .footer_container .footer_left_logo img {
@@ -126,6 +127,7 @@
 @media screen and (max-width: 768px) {
   .footer .divider {
     width: 100%;
+    margin: 1rem auto;
   }
 }
 .footer .footer_bottom {

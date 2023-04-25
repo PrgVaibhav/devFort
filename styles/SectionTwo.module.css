@@ -57,8 +57,6 @@
   }
 }
 .section_container .section_left .section_links a {
-  width: -moz-max-content;
-  width: max-content;
   text-decoration: none;
   background-color: coral;
   padding: 0.5rem 0.7rem;
@@ -75,6 +73,8 @@
 @media screen and (max-width: 768px) {
   .section_container .section_left .section_links a {
     padding: 0.4rem 0.5rem;
+    max-width: 100%;
+    text-align: center;
   }
 }
 .section_container .section_left .section_links .section_email {

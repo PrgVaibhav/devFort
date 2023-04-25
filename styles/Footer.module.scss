@@ -17,6 +17,7 @@
     @media screen and (max-width: 768px) {
       flex-direction: column;
       align-items: flex-start;
+      justify-content: flex-start;
       gap: 1rem;
       height: 100%;
     }
@@ -24,7 +25,7 @@
       img {
         max-width: 120px;
         height: 100%;
-        object-fit: contain;
+        object-fit: cover;
         @media screen and (max-width: 768px) {
           margin: auto;
         }
@@ -128,6 +129,7 @@
 
     @media screen and (max-width: 768px) {
       width: 100%;
+      margin: 1rem auto;
     }
   }
   .footer_bottom {

@@ -1,13 +1,20 @@
 import Head from "next/head";
 import Link from "next/link";
 import { BsArrowLeftShort } from "react-icons/bs";
-// import styles from "../../styles/Resources.module.css";
 import styles from "../../styles/Resource.module.css";
+import { useState } from "react";
 
 import { BsArrowRightShort } from "react-icons/bs";
+import { BiSearchAlt } from "react-icons/bi";
 
 const ResourcePage = ({ data, pageName }) => {
-  const upperCaseName = pageName.charAt(0).toUpperCase() + pageName.slice(1);
+  const [search, setSearch] = useState("");
+  const upperCaseName = pageName.charAt(0).toUpperCase() + pageName.slice(1); // converting the first letter of the page name to uppercase
+
+  const searchHandler = (e) => {
+    // search handler
+    setSearch(e.target.value);
+  };
   return (
     <>
       <Head>
@@ -22,6 +29,7 @@ const ResourcePage = ({ data, pageName }) => {
             <BsArrowLeftShort /> Back
           </Link>
         </div>
+
         {data.map((resource) => {
           return (
             <div className={styles.resources_header} key={resource.id}>
@@ -30,32 +38,50 @@ const ResourcePage = ({ data, pageName }) => {
             </div>
           );
         })}
+        <div className={styles.search}>
+          <input type="text" placeholder="Search" onChange={searchHandler} />
+          <BiSearchAlt className={styles.search_icon} />
+        </div>
         <div className={styles.resources_cards}>
           {data.map((resource) => {
+            // mapping through the resources
             return (
               <div className={styles.resources_card} key={resource.id}>
-                {resource.ideas.map((idea) => {
-                  return (
-                    <div
-                      className={styles.resources_card_description}
-                      key={idea.id}
-                    >
-                      <h3>{idea.name}</h3>
-                      <p>{idea.description}</p>
-                      {idea.url && (
-                        <a
-                          href={idea.url}
-                          aria-label={idea.description}
-                          target="_blank"
-                          title={idea.name}
-                        >
-                          {idea.name}{" "}
-                          <BsArrowRightShort className={styles.arrow} />
-                        </a>
-                      )}
-                    </div>
-                  );
-                })}
+                {resource.ideas
+                  .filter((resource) => {
+                    if (resource.type === null || resource.type === undefined)
+                      return false;
+
+                    return search.toLowerCase() === ""
+                      ? resource // if search is empty, return all resources
+                      : resource.type.toLowerCase().includes(search); // if search is not empty, return the resources that match the search
+                  })
+                  .map((idea) => {
+                    return (
+                      // mapping through the ideas
+                      <div
+                        className={styles.resources_card_description}
+                        key={idea.id}
+                      >
+                        <h3>{idea.name}</h3>
+                        <p>{idea.description}</p>
+                        {idea.type && (
+                          <span className={styles.type}>{idea.type}</span>
+                        )}
+                        {idea.url && (
+                          <a
+                            href={idea.url}
+                            aria-label={idea.description}
+                            target="_blank"
+                            title={idea.name}
+                          >
+                            {idea.name}{" "}
+                            <BsArrowRightShort className={styles.arrow} />
+                          </a>
+                        )}
+                      </div>
+                    );
+                  })}
               </div>
             );
           })}
@@ -72,7 +98,6 @@ export default ResourcePage;
 export async function getStaticPaths() {
   const { all_resources } = await import("../../data/resource.json");
   const allPaths = all_resources.map((path) => {
-    console.log(path.id?.toString());
     return {
       params: {
         id: path.id.toString(),
@@ -81,17 +106,20 @@ export async function getStaticPaths() {
   });
 
   return {
+    // returning the paths
     paths: allPaths,
     fallback: false,
   };
 }
 
 export async function getStaticProps(context) {
+  // getting the data for the page
   const id = context?.params.id;
   const { resources } = await import("../../data/resource.json");
 
   const data = resources.filter((resource) => resource.id === id);
   return {
+    // returning the data for the page
     props: {
       data,
       pageName: id,

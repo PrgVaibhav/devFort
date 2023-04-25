@@ -18,7 +18,7 @@ const SectionTwo = () => {
         </p>
         <div className={styles.section_links}>
           <a
-            href="mailto:devFort.work@gmail.com"
+            href="mailto:devfort.work@gmail.com"
             className={styles.section_email}
             aria-label="Mail us"
             title="Mail Us"

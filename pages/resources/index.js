@@ -21,9 +21,11 @@ const Resources = ({ data }) => {
                 <div className={styles.resources_card_description}>
                   <h3>{item.name}</h3>
                   <p>{item.description}</p>
-                  <Link href={`/resources/${item.id}`}>
-                    Read More <BsArrowRightShort className={styles.arrow} />
-                  </Link>
+                  {item.id && (
+                    <Link href={`/resources/${item.id}`}>
+                      Read More <BsArrowRightShort className={styles.arrow} />
+                    </Link>
+                  )}
                 </div>
               </div>
             );

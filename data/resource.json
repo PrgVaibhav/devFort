@@ -31,6 +31,11 @@
             "description": "Finding better youtube channels to learn can be a difficult task for beginners, that's why we are going to provide a list of youtube channels that you can use to learn faster and easier than ever before."
         },
         {
+            "id": "chrome-extensions",
+            "name": "Chrome Extension",
+            "description": "Chrome extensions are something that can make your life easier. We are going to provide a list of chrome extensions that you can use to build your projects faster and easier than ever before."
+        },
+        {
             "id": "stay-tuned",
             "name": "Stay Tuned",
             "description": "We are going to add more resources soon, stay tuned for more updates. Till then create something cool from available resources. If you have any suggestions, please let us know. Thank you! :)"
@@ -39,483 +44,580 @@
 
     "resources": [
         {
+            "id": "stay-tuned",
+            "name" : "Stay Tuned",
+            "description": "Stay Tuned for more updates. We will update this list regularly so that you can get the best content for your projects. Till then you can check out our other projects. Stay Safe and Happy Coding :)",
+
+            "ideas":[
+                {
+                    "id": 1,
+                    "name" : "Working on new ideas",
+                    "description": "We are constantly working to provide the best possible experience for our community, which is why we regularly update our platform with new features, and resources. We encourage you to check this page regularly to stay up-to-date on the latest devFort updates and to make the most of our growing collection of web development resources."
+                }
+                
+            ]
+        },
+        {
             "id": "project-ideas",
             "name" : "Project Ideas",
-            "description": "Finding projects to build is a difficult task, that's why we are going to provide project ideas so that you can start building your projects sooner. Here are some project ideas that you can build to improve your skills and build your portfolio. We will update this list regularly so that you can get the best content for your projects.",
+            "description": "Finding projects to build is a difficult task, that's why we are going to provide project ideas so that you can start building your projects sooner. Here are some project ideas that you can build to improve your skills and build your portfolio. We will update this list regularly so that you can get the best ideas for your projects. You can also search for project ideas by difficulty level.",
             "ideas" : [
                 {
                     "id": 1,
-                    "name": "Personal Blog - Beginner",                    
-                    "description": "Create a simple blog site using a CMS platform like WordPress or create a custom blog site using HTML, CSS, and JavaScript."
+                    "name": "Personal Blog",                    
+                    "description": "Create a simple blog site using a CMS platform like WordPress or create a custom blog site using HTML, CSS, and JavaScript.",
+                    "type": "Beginner"
                 },
                 {
                     "id": 2,
-                    "name": "Static Business Website - Beginner",                    
-                    "description": "Build a website for a small business that consists of a few static pages containing information about the business, its products, and services."
+                    "name": "Static Business Website",                    
+                    "description": "Build a website for a small business that consists of a few static pages containing information about the business, its products, and services.",
+                    "type": "Beginner"
                 },
                 {
                     "id": 3,
-                    "name": "Recipe Book - Beginner",                    
-                    "description": "Create a recipe book website using a CMS platform like WordPress or a custom-built website with features like search, filters, and social sharing."
+                    "name": "Recipe Book",                    
+                    "description": "Create a recipe book website using a CMS platform like WordPress or a custom-built website with features like search, filters, and social sharing.",
+                    "type": "Beginner"
                 },
                 {
                     "id": 4,
-                    "name": "E-commerce Website - Intermediate",                    
-                    "description": "Build an online store using a CMS platform like Shopify or a custom-built website with features like product listings, cart, checkout, and payment gateway integration."
+                    "name": "E-commerce Website",                    
+                    "description": "Build an online store using a CMS platform like Shopify or a custom-built website with features like product listings, cart, checkout, and payment gateway integration.",
+                    "type": "Intermediate"
                 },
                 {
                     "id": 5,
-                    "name": "Job Board - Intermediate",                    
-                    "description": "Create a job board website that allows employers to post job listings and job seekers to apply for those jobs."
+                    "name": "Job Board",                    
+                    "description": "Create a job board website that allows employers to post job listings and job seekers to apply for those jobs.",
+                    "type": "Intermediate"
                 },
                 {
                     "id": 6,
-                    "name": "Social Media Platform - Intermediate",                    
-                    "description": "Build a social media platform that enables users to create profiles, share posts, follow others, and interact with each other."
+                    "name": "Social Media Platform ",                    
+                    "description": "Build a social media platform that enables users to create profiles, share posts, follow others, and interact with each other.",
+                    "type": "Intermediate"
                 },
                 {
                     "id": 7,
-                    "name": "Online Learning Platform - Intermediate",                    
-                    "description": "Create an e-learning platform that offers courses, quizzes, and assessments for students to learn online."
+                    "name": "Online Learning Platform",                    
+                    "description": "Create an e-learning platform that offers courses, quizzes, and assessments for students to learn online.",
+                    "type": "Intermediate"
                 },
                 {
                     "id": 8,
-                    "name": "News Aggregator - Intermediate",                    
-                    "description": "Build a news aggregator that collects news articles from various sources and presents them to users based on their preferences."
+                    "name": "News Aggregator",                    
+                    "description": "Build a news aggregator that collects news articles from various sources and presents them to users based on their preferences.",
+                    "type": "Intermediate"
                 },
                 {
                     "id": 9,
-                    "name": "Real Estate Listings - Intermediate",                    
-                    "description": "Create a real estate listings website that enables users to search for properties, view property details, and contact real estate agents."
+                    "name": "Real Estate Listings",                    
+                    "description": "Create a real estate listings website that enables users to search for properties, view property details, and contact real estate agents.",
+                    "type": "Intermediate"
                 },
                 {
                     "id": 10,
-                    "name": "Online Booking System - Intermediate",                    
-                    "description": "Build an online booking system for hotels, flights, or other services that enables users to search for availability and make reservations."
+                    "name": "Online Booking System",                    
+                    "description": "Build an online booking system for hotels, flights, or other services that enables users to search for availability and make reservations.",
+                    "type": "Intermediate"
                 },
                 {
                     "id": 11,
-                    "name": "Food Ordering System - Intermediate",                    
-                    "description": "Create an online food ordering system for restaurants that allows users to browse menus, place orders, and make payments."
+                    "name": "Food Ordering System",                    
+                    "description": "Create an online food ordering system for restaurants that allows users to browse menus, place orders, and make payments.",
+                    "type": "Intermediate"
                 },
                 {
                     "id": 12,
-                    "name": "Classifieds Website - Intermediate",                    
-                    "description": "Build a classifieds website that enables users to post ads for various items or services and allows others to search for those ads."
+                    "name": "Classifieds Website",                    
+                    "description": "Build a classifieds website that enables users to post ads for various items or services and allows others to search for those ads.",
+                    "type": "Intermediate"
                 },
                 {
                     "id": 13,
-                    "name": "Content Management System - Advanced",                    
-                    "description": "Create a custom CMS platform that enables users to manage website content, including pages, posts, images, and videos."
+                    "name": "Content Management System",                    
+                    "description": "Create a custom CMS platform that enables users to manage website content, including pages, posts, images, and videos.",
+                    "type": "Advanced"
                 },
                 {
                     "id": 14,
-                    "name": "Customer Relationship Management System - Advanced",                    
-                    "description": "Build a custom CRM system that allows businesses to manage customer interactions, including sales, marketing, and support."
+                    "name": "Customer Relationship Management System",                    
+                    "description": "Build a custom CRM system that allows businesses to manage customer interactions, including sales, marketing, and support.",
+                    "type": "Advanced"
                 },
                 {
                     "id": 15,
-                    "name": "Music Streaming Platform - Advanced",                    
-                    "description": "Create a music streaming platform that enables users to listen to music, create playlists, and share their favorite songs."
+                    "name": "Music Streaming Platform",                    
+                    "description": "Create a music streaming platform that enables users to listen to music, create playlists, and share their favorite songs.",
+                    "type": "Advanced"
                 },
                 {
                     "id": 16,
-                    "name": "Health and Fitness Tracker - Advanced",                    
-                    "description": "Build a health and fitness tracker that allows users to set goals, track progress, and get recommendations based on their data."
+                    "name": "Health and Fitness Tracker",                    
+                    "description": "Build a health and fitness tracker that allows users to set goals, track progress, and get recommendations based on their data.",
+                    "type": "Advanced"
                 },
                 {
                     "id": 17,
-                    "name": "Crowdfunding Platform - Advanced",                    
-                    "description": "Create a crowdfunding platform that enables users to raise money for their projects and allows others to contribute to those projects."
+                    "name": "Crowdfunding Platform",                    
+                    "description": "Create a crowdfunding platform that enables users to raise money for their projects and allows others to contribute to those projects.",
+                    "type": "Advanced"
                 },
                 {
                     "id": 18,
-                    "name": "Virtual Event Platform - Advanced",                    
-                    "description": "Build a virtual event platform that enables users to host webinars, conferences, and other events online."
+                    "name": "Virtual Event Platform",                    
+                    "description": "Build a virtual event platform that enables users to host webinars, conferences, and other events online.",
+                    "type": "Advanced"
+                    
                 },
                 {
                     "id": 19,
-                    "name": "Blockchain-based Application - Advanced",                    
-                    "description": "Create a decentralized application using blockchain technology, such as a cryptocurrency wallet or a voting system."
+                    "name": "Blockchain-based Application",                    
+                    "description": "Create a decentralized application using blockchain technology, such as a cryptocurrency wallet or a voting system.",
+                    "type": "Advanced"
                 },
                 {
                     "id": 20,
-                    "name": "Augmented Reality Application - Advanced ",                    
-                    "description": "Build an augmented reality application that enhances real-world experiences with virtual objects, such as a virtual try-on feature for fashion items."
+                    "name": "Augmented Reality Application",                    
+                    "description": "Build an augmented reality application that enhances real-world experiences with virtual objects, such as a virtual try-on feature for fashion items.",
+                    "type": "Advanced"
+
                 }
             ]
         },
         {
             "id": "api-services",
             "name" : "API Services",
-            "description": "Finding perfect API for project is a bit difficult task but now We are going to provide a list of API services that you can use to build your projects faster and easier than ever before. We will update this list regularly so that you can get the best content for your projects.",
+            "description": "Finding perfect API for project is a bit difficult task but now We are going to provide a list of API services that you can use to build your projects faster and easier than ever before. We will update this list regularly so that you can get the best content for your projects. You can also search according to Free or Paid API services.",
 
             "ideas":[
                 {
                     "id": 1,
                     "name" : "NASA API",
                     "description": "NASA API is a RESTful API that allows you to search for images and videos from NASA's library of content. You can use this API to build applications that display NASA's content on your website or mobile app.",
-                    "url": "https://api.nasa.gov/"
+                    "url": "https://api.nasa.gov/",
+                    "type": "Free"
                 },
                 {
                     "id": 2,
                     "name" : "Cat Facts API",
                     "description": "Cat Facts API is a RESTful API that allows you to search for cat facts. You can use this API to build applications that display cat facts on your website or mobile app.",
-                    "url": "https://alexwohlbruck.github.io/cat-facts/"
+                    "url": "https://alexwohlbruck.github.io/cat-facts/",
+                    "type": "Free"
                 },
                 {
                     "id": 3,
                     "name" : "Currency API",
                     "description": "Currency API is a RESTful API that allows you to search for currency exchange rates. You can use this API to build applications that display currency exchange rates on your website or mobile app.",
-                    "url": "https://github.com/fawazahmed0/currency-api"
+                    "url": "https://github.com/fawazahmed0/currency-api",
+                    "type": "Free"
                 },
                 {
                     "id": 4,
                     "name" : "Facts API",
                     "description": "Facts API is a RESTful API that allows you to search for facts. You can use this API to build applications that display facts on your website or mobile app.",
-                    "url": "https://fungenerators.com/api/facts/"
+                    "url": "https://fungenerators.com/api/facts/",
+                    "type": "Free"
                 },
                 {
                     "id": 5,
                     "name" : "JSON Placeholder API",
                     "description": "JSON Placeholder API is a RESTful API that allows you to search for posts, comments, albums, photos, todos, and users. You can use this API to build applications that display posts, comments, albums, photos, todos, and users on your website or mobile app.",
-                    "url": "https://jsonplaceholder.typicode.com/"
+                    "url": "https://jsonplaceholder.typicode.com/",
+                    "type": "Free"
                 },
                 {
                     "id": 6,
                     "name" : "Google Translator API",
                     "description": "Google Translator API is a RESTful API that allows you to translate text from one language to another. You can use this API to build applications that translate text on your website or mobile app.",
-                    "url": "https://cloud.google.com/translate/docs/"
+                    "url": "https://cloud.google.com/translate/docs/",
+                    "type": "Attribute Required / Paid"
                 },
                 {
                     "id": 7,
                     "name" : "Open Weather API",
                     "description": "Open Weather API is a RESTful API that allows you to search for weather data. You can use this API to build applications that display weather data on your website or mobile app.",
-                    "url": "https://openweathermap.org/api"
+                    "url": "https://openweathermap.org/api",
+                    "type": "Attribute Required / Paid"
+
                 },
                 {
                     "id": 8,
                     "name" : "Countries API",
                     "description": "Countries API is a RESTful API that allows you to search for countries. You can use this API to build applications that display countries on your website or mobile app.",
-                    "url": "https://restcountries.com/"
+                    "url": "https://restcountries.com/",
+                    "type": "Free"
                 },
                 {
                     "id": 9,
                     "name" : "Random Data API",
                     "description": "Random Data API is a RESTful API that allows you to search for random data. You can use this API to build applications that display random data on your website or mobile app.",
-                    "url": "https://random-data-api.com/"
+                    "url": "https://random-data-api.com/",
+                    "type": "Free"
+
                 },
                 {
                     "id": 10,
                     "name" : "Poke API",
                     "description": "Poke API is a RESTful API that allows you to search for Pokemon. You can use this API to build applications that display Pokemon on your website or mobile app.",
-                    "url": "https://pokeapi.co/"
+                    "url": "https://pokeapi.co/",
+                    "type": "Free"
                 },
                 {
                     "id": 11,
                     "name" : "Rapid API",
                     "description": "Rapid API is a website which provides a list of APIs that you can use to build your projects faster and easier than ever before. You can use this website to find APIs for your projects.",
-                    "url": "https://rapidapi.com/"
+                    "url": "https://rapidapi.com/",
+                    "type": "Attribute Required / Paid"
                 },
                 {
                     "id": 12,
                     "name" : "Any API",
                     "description": "Any API is a website which provides a list of APIs that you can use to build your projects faster and easier than ever before. You can use this website to find APIs for your projects.",
-                    "url": "https://any-api.com/"
+                    "url": "https://any-api.com/",
+                    "type": "Free"
                 },
                 {
-                    "id": 12,
+                    "id": 13,
                     "name" : "Public APIs",
                     "description": "Public APIs is a website which provides a list of APIs that you can use to build your projects faster and easier than ever before. You can use this website to find APIs for your projects.",
-                    "url": "https://publicapis.dev/"
+                    "url": "https://publicapis.dev/",
+                    "type": "Free"
                 }
             ]
         },
         {
             "id": "illustrations-link",
             "name" : "Illustrations",
-            "description": "Finding perfect illustrations for project is a bit difficult task but now We are going to provide a list of illustrations that you can use to build your projects faster and easier than ever before. We will update this list regularly so that you can get the best content for your projects.",
+            "description": "Finding perfect illustrations for project is a bit difficult task but now We are going to provide a list of illustrations that you can use to build your projects faster and easier than ever before. We will update this list regularly so that you can get the best content for your projects. You can also search for illustrations according to Free, or Attribute Required/Paid. ",
 
             "ideas":[
                 {
                     "id": 1,
                     "name" : "Zor Stock Illustrations",
                     "description": "Zor Stock Illustrations is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
-                    "url": "http://zorstock.com/"
+                    "url": "http://zorstock.com/",
+                    "type": "Attribute Required"
                 },
                 {
                     "id": 2,
                     "name" : "Vecteezy",
                     "description": "Vecteezy is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
-                    "url": "http://vecteezy.com/browse"
+                    "url": "http://vecteezy.com/browse",
+                    "type": "Attribute Required"
+
                 },
                 {
                     "id": 3,
                     "name" : "The Noun Project",
                     "description": "The Noun Project is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
-                    "url": "https://thenounproject.com/"
+                    "url": "https://thenounproject.com/",
+                    "type": "Free" 
                 },
                 {
                     "id": 4,
                     "name" : "Vector4Free",
                     "description": "Vector4Free is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
-                    "url": "https://www.vector4free.com/"
+                    "url": "https://www.vector4free.com/",
+                    "type": "Free"
                 },
                 {
                     "id": 5,
                     "name" : "ShutterStock",
                     "description": "ShutterStock is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
-                    "url": "https://www.shutterstock.com/vectors#free-download"
+                    "url": "https://www.shutterstock.com/vectors#free-download",
+                    "type": "Attribute Required"
                 },
                 {
                     "id": 6,
                     "name" : "Humaans",
                     "description": "Humaans is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
-                    "url": "https://www.humaaans.com/"
+                    "url": "https://www.humaaans.com/",
+                    "type": "Free"
                 },
                 {
                     "id": 7,
                     "name" : "WebKul | Vivid",
                     "description": "Vivid is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
-                    "url": "https://webkul.github.io/vivid/"
+                    "url": "https://webkul.github.io/vivid/",
+                    "type": "Free"
                 },
                 {
                     "id": 8,
                     "name" : "Interfacer",
                     "description": "Interfacer is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
-                    "url": "https://interfacer.xyz/"
+                    "url": "https://interfacer.xyz/",
+                    "type": "Free"
                 }
             ]
         },
         {
             "id": "icons-link",
             "name" : "Icons",
-            "description": "Finding perfect Icons for project is a bit difficult task but now We are going to provide a list of Icons that you can use to build your projects faster and easier than ever before. We will update this list regularly so that you can get the best content for your projects.",
+            "description": "Finding perfect Icons for project is a bit difficult task but now We are going to provide a list of Icons that you can use to build your projects faster and easier than ever before. We will update this list regularly so that you can get the best content for your projects. You can also search for Icons according to Free, or Attribute Required/Paid.",
 
             "ideas":[
                 {
                     "id": 1,
                     "name" : "Dry Icons",
                     "description": "Dry Icons is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
-                    "url": "https://dryicons.com/"
+                    "url": "https://dryicons.com/",
+                    "type": "Attribute Required"
                 },
                 {
                     "id": 2,
                     "name" : "Flaticon",
                     "description": "Flaticon is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
-                    "url": "https://www.flaticon.com/"
+                    "url": "https://www.flaticon.com/",
+                    "type": "Attribute Required"
+
                 },
                 {
                     "id": 3,
                     "name" : "Icons8",
                     "description": "Icons8 is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
-                    "url": "https://icons8.com/"
+                    "url": "https://icons8.com/",
+                    "type": "Attribute Required"
                 },
                 {
                     "id": 4,
                     "name" : "FontAwesome",
                     "description": "FontAwesome is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
-                    "url": "https://fontawesome.com/"
+                    "url": "https://fontawesome.com/",
+                    "type": "Attribute Required"
                 },
                 {
                     "id": 5,
                     "name" : "The Noun Project",
                     "description": "The Noun Project is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
-                    "url": "https://thenounproject.com/"
+                    "url": "https://thenounproject.com/",
+                    "type": "Free"
                 },
                 {
                     "id": 6,
                     "name" : "FreePik",
                     "description": "FreePik is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
-                    "url": "https://www.freepik.com/"
+                    "url": "https://www.freepik.com/",
+                    "type": "Attribute Required"
                 },
                 {
                     "id": 7,
                     "name" : "IconScout",
                     "description": "IconScout is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
-                    "url": "https://iconscout.com/"
+                    "url": "https://iconscout.com/",
+                    "type": "Attribute Required"
                 },
                 {
                     "id": 8,
                     "name" : "Google Icons",
                     "description": "Google Icons is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
-                    "url": "https://fonts.google.com/icons"
+                    "url": "https://fonts.google.com/icons",
+                    "type": "Free"
                 },
                 {
                     "id": 9,
                     "name" : "UX wing",
                     "description": "UX wing is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
-                    "url": "https://uxwing.com/"
+                    "url": "https://uxwing.com/",
+                    "type": "Free"
                 },
                 {
                     "id": 10,
                     "name" : "LordIcon",
                     "description": "LordIcon is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
-                    "url": "https://lordicon.com/"
+                    "url": "https://lordicon.com/",
+                    "type": "Attribute Required"
                 },
                 {
                     "id": 11,
                     "name" : "IconMonstr",
                     "description": "IconMonstr is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
-                    "url": "https://iconmonstr.com/"
+                    "url": "https://iconmonstr.com/",
+                    "type": "Free"
                 },
                 {
                     "id": 12,
                     "name" : "Hand Drawn Icons",
                     "description": "Hand Drawn Icons is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
-                    "url": "https://goodstuffnononsense.com/hand-drawn-icons/"
+                    "url": "https://goodstuffnononsense.com/hand-drawn-icons/",
+                    "type": "Free"
                 },
                 {
                     "id": 13,
                     "name" : "Pixeden",
                     "description": "Pixeden is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
-                    "url": "https://www.pixeden.com/icons-set"
+                    "url": "https://www.pixeden.com/icons-set",
+                    "type": "Free"
                 },
                 {
                     "id":14,
                     "name" : "Icon Finder",
                     "description": "Icon Finder is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
-                    "url": "https://www.iconfinder.com/"
+                    "url": "https://www.iconfinder.com/",
+                    "type": "Attribute Required"
                 },
                 {
                     "id":15,
                     "name" : "FreeIcons",
                     "description": "FreeIcons is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
-                    "url": "https://freeicons.io/"
+                    "url": "https://freeicons.io/",
+                    "type": "Free"
                 },
                 {
                     "id":16,
                     "name" : "1001 Free Download",
                     "description": "1001 Free Download is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
-                    "url": "https://www.1001freedownloads.com/free-icons/"
+                    "url": "https://www.1001freedownloads.com/free-icons/",
+                    "type": "Free"
                 }
             ]
         },
         {
             "id": "images-link",
             "name" : "Images",
-            "description": "Images are a great way to make your website look more attractive. So, if you want to use images on your website, you should use images that are free to use. If you can buy premiums there is no problem in that too. Here are some websites that you can use to find images for your website. We will update this list regularly so that you can get the best content for your projects.",
+            "description": "Images are a great way to make your website look more attractive. So, if you want to use images on your website, you should use images that are free to use. If you can buy premiums there is no problem in that too. Here are some websites that you can use to find images for your website. We will update this list regularly so that you can get the best content for your projects. You can also search for images according Free or Attribute Required.",
 
             "ideas":[
                 {
                     "id": 1,
                     "name" : "Stock Snap",
                     "description": "Dry Icons is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
-                    "url": "https://stocksnap.io/"
+                    "url": "https://stocksnap.io/",
+                    "type": "Free"
                 },
                 {
                     "id": 2,
                     "name" : "PixaBay",
                     "description": "PixaBay is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
-                    "url": "https://pixabay.com/"
+                    "url": "https://pixabay.com/",
+                    "type": "Attribute Required"
                 },
                 {
                     "id": 3,
                     "name" : "Pexels",
                     "description": "Pexels is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
-                    "url": "https://www.pexels.com/"
+                    "url": "https://www.pexels.com/",
+                    "type": "Attribute Required"
                 },
                 {
                     "id": 4,
                     "name" : "UnSplash",
                     "description": "UnSplash is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
-                    "url": "https://unsplash.com/"
+                    "url": "https://unsplash.com/",
+                    "type": "Attribute Required"
                 },
                 {
                     "id": 5,
                     "name" : "Free Images",
                     "description": "Free Images is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
-                    "url": "https://www.freeimages.com/"
+                    "url": "https://www.freeimages.com/",
+                    "type": "Attribute Required"
                 },
                 {
                     "id": 6,
                     "name" : "Kaboom Pics",
                     "description": "Kaboom Pics is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
-                    "url": "https://kaboompics.com/"
+                    "url": "https://kaboompics.com/",
+                    "type": "Attribute Required"
                 },
                 {
                     "id": 7,
                     "name" : "Travel Coffee Book",
                     "description": "Travel Coffee Book is a website which provides a list of nature Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
-                    "url": "http://travelcoffeebook.com/"
+                    "url": "http://travelcoffeebook.com/",
+                    "type": "Free"
                 },
                 {
                     "id": 8,
                     "name" : "Burst Shopify",
                     "description": "Burst Shopify is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
-                    "url": "https://burst.shopify.com/"
+                    "url": "https://burst.shopify.com/",
+                    "type": "Free"
                 },
                 {
                     "id": 9,
                     "name" : "Free Range Stock",
                     "description": "Free Range Stock is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
-                    "url": "https://freerangestock.com/"
+                    "url": "https://freerangestock.com/",
+                    "type": "Free"
                 },
                 {
                     "id": 10,
                     "name" : "Negative Space",
                     "description": "Negative Space is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
-                    "url": "https://negativespace.co/"
+                    "url": "https://negativespace.co/",
+                    "type": "Free"
                 },
                 {
                     "id": 11,
                     "name" : "MorgueFile",
                     "description": "MorgueFile is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
-                    "url": "https://morguefile.com/"
+                    "url": "https://morguefile.com/",
+                    "type": "Free"
                 },
                 {
                     "id": 12,
                     "name" : "Pic Jumbo",
                     "description": "Pic Jumbo is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
-                    "url": "https://picjumbo.com/"
+                    "url": "https://picjumbo.com/",
+                    "type": "Free"
                 },
                 {
                     "id": 13,
                     "name" : "JayaMantri",
                     "description": "JayaMantri is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
-                    "url": "http://jaymantri.com/"
+                    "url": "http://jaymantri.com/",
+                    "type": "Free"
                 },
                 {
                     "id":14,
                     "name" : "Get Refe",
                     "description": "Get Refe is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
-                    "url": "https://getrefe.com/"
+                    "url": "https://getrefe.com/",
+                    "type": "Attribute Required"
                 },
                 {
                     "id":15,
                     "name" : "New Old Stock",
                     "description": "New Old Stock is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
-                    "url": "https://nos.twnsnd.co/"
+                    "url": "https://nos.twnsnd.co/",
+                    "type": "Attribute Required"
                 },
                 {
                     "id":16,
                     "name" : "Flickr",
                     "description": "Flickr is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
-                    "url": "https://www.flickr.com/"
+                    "url": "https://www.flickr.com/",
+                    "type": "Attribute Required"
                 },
                 {
                     "id":17,
                     "name" : "ReShot",
                     "description": "ReShot is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
-                    "url": "https://www.reshot.com/"
+                    "url": "https://www.reshot.com/",
+                    "type": "Attribute Required"
                 },
                 {
                     "id":18,
                     "name" : "Gratisography",
                     "description": "Gratisography is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
-                    "url": "https://gratisography.com/"
+                    "url": "https://gratisography.com/",
+                    "type": "Free"
                 },
                 {
                     "id":19,
                     "name" : "Life Of Pix",
                     "description": "Life Of Pix is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
-                    "url": "https://www.lifeofpix.com/"
+                    "url": "https://www.lifeofpix.com/",
+                    "type": "Free"
                 },
                 {
                     "id":20,
                     "name" : "SplitShire",
                     "description": "SplitShire is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
-                    "url": "https://www.splitshire.com/"
+                    "url": "https://www.splitshire.com/",
+                    "type": "Free"
                 }
             ]
         },
@@ -529,90 +631,219 @@
                     "id": 1,
                     "name" : "The New Boston",
                     "description": "Founded by Bucky Roberts and With more than two million subscribers, TheNewBoston teaches web development and many more languages on his YouTube channel for beginners. This channel is a very popular source of free web learning for many beginners.",
-                    "url": "https://www.youtube.com/user/thenewboston/videos"
+                    "url": "https://www.youtube.com/user/thenewboston/videos",
+                    "type": "Free"
                 },
                 {
                     "id": 2,
                     "name" : "Edureka",
                     "description": "Founded by Lovleen Bhatia, Kapil Tyagi, and Pankaj Kumar, Edureka teaches web development and many more languages on his YouTube channel for beginners. This channel is a very popular source of learning free programming languages for many beginners.",
-                    "url": "https://www.youtube.com/user/edurekaIN"
+                    "url": "https://www.youtube.com/user/edurekaIN",
+                    "type": "Free"
+
                 },
                 {
                     "id": 3,
                     "name" : "Programming With Mosh",
                     "description": "Founded by Mosh Hamedani, Programming With Mosh teaches web development and many more languages on his YouTube channel for beginners. This channel is a very popular source of learning free programming languages for many beginners.",
-                    "url": "https://www.youtube.com/user/programmingwithmosh"
+                    "url": "https://www.youtube.com/user/programmingwithmosh",
+                    "type": "Free"
+
                 },
                 {
                     "id": 4,
                     "name" : "Traversy Media",
                     "description": "Founded by Brad Traversy, Traversy Media teaches web development and many more languages on his YouTube channel for beginners. This channel is a very popular source of learning free programming languages for many beginners.",
-                    "url": "https://www.youtube.com/user/TechGuyWeb"
+                    "url": "https://www.youtube.com/user/TechGuyWeb",
+                    "type": "Free"
+
                 },
                 {
                     "id": 5,
                     "name" : "ProgrammingKnowledge",
                     "description": "Founded by Yogesh Patel, ProgrammingKnowledge teaches web development and many more languages on his YouTube channel for beginners. This channel is a very popular source of learning free programming languages for many beginners.",
-                    "url": "https://www.youtube.com/channel/UCs6nmQViDpUw0nuIx9c_WvA"
+                    "url": "https://www.youtube.com/channel/UCs6nmQViDpUw0nuIx9c_WvA",
+                    "type": "Free"
+
                 },
                 {
                     "id": 6,
                     "name" : "Derek Banas",
                     "description": "Founded by Derek Banas, Derek Banas teaches web development and many more languages on his YouTube channel for beginners. This channel is a very popular source of learning free programming languages for many beginners.",
-                    "url": "https://www.youtube.com/user/derekbanas"
+                    "url": "https://www.youtube.com/user/derekbanas",
+                    "type": "Free"
+
                 },
                 {
                     "id": 7,
                     "name" : "Eli the computer guy",
                     "description": "Founded by Eli the computer guy, Eli the computer guy teaches web development and many more languages on his YouTube channel for beginners. This channel is a very popular source of learning free programming languages for many beginners.",
-                    "url": "https://www.youtube.com/channel/UCD4EOyXKjfDUhCI6jlOZZYQ"
+                    "url": "https://www.youtube.com/channel/UCD4EOyXKjfDUhCI6jlOZZYQ",
+                    "type": "Free"
+
                 },
                 {
                     "id": 8,
                     "name" : "Design Course",
                     "description": "Founded by Gary Simon, Design Course teaches web design and development on his YouTube channel for beginners. This channel is a very popular source of learning free programming languages for many beginners.",
-                    "url": "https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow"
+                    "url": "https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow",
+                    "type": "Free"
+
                 },
                 {
                     "id": 9,
                     "name" : "The Net Ninja",
                     "description": "Founded by Shaun Pelling, This channel offers over 1000 free programming tutorials about Modern JavaScript (beginner to advanced), Node.js, React, Vue.js, Firebase, MongoDB, and many more. This channel is a very popular source of learning free programming languages for many beginners.",
-                    "url": "https://www.youtube.com/c/TheNetNinja/featured"
+                    "url": "https://www.youtube.com/c/TheNetNinja/featured",
+                    "type": "Free"
+
                 },
                 {
                     "id": 10,
                     "name" : "Academind",
                     "description": "Founded by Maximilian Schwarzmüller, Academind teaches web development and many more languages on his YouTube channel for beginners. This channel is a very popular source of learning free programming languages for many beginners.",
-                    "url": "https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w"
+                    "url": "https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w",
+                    "type": "Free"
+
                 },
                 {
                     "id": 11,
                     "name" : "Web Dev Simplified",
                     "description": "Founded by Kyle Cook, Web Dev Simplified teaches web development and many more languages on his YouTube channel for beginners. This channel is a very popular source of learning free programming languages for many beginners.",
-                    "url": "https://www.youtube.com/c/WebDevSimplified"
+                    "url": "https://www.youtube.com/c/WebDevSimplified",
+                    "type": "Free"
+
                 },
                 {
                     "id": 12,
                     "name" : "Kevin Powell",
                     "description": "Founded by Kevin Powell, Kevin Powell teaches web development and many more languages on his YouTube channel for beginners. This channel is a very popular source of learning free programming languages for many beginners.",
-                    "url": "https://www.youtube.com/kepowob/videos"
+                    "url": "https://www.youtube.com/kepowob/videos",
+                    "type": "Free"
+
                 }
             ]
         },
         {
-            "id": "stay-tuned",
-            "name" : "Stay Tuned",
-            "description": "Stay Tuned for more updates. We will update this list regularly so that you can get the best content for your projects. Till then you can check out our other projects. Stay Safe and Happy Coding :)",
+            "id": "chrome-extensions",
+            "name" : "Chrome Extension",
+            "description": "Chrome extensions are something that can make your life easier. We are going to provide a list of chrome extensions that you can use to build your projects faster and easier than ever before. You can also search extensions according to free or paid.",
 
             "ideas":[
                 {
                     "id": 1,
-                    "name" : "Working on new ideas",
-                    "description": "We are constantly working to provide the best possible experience for our community of web developers, which is why we regularly update our platform with new features, and resources. We encourage you to check this page regularly to stay up-to-date on the latest devFort updates and to make the most of our growing collection of web development resources."
+                    "name" : "JavaScript and CSS Beautifier",
+                    "description": "It is really difficult to read Javascript and CSS minfied codes. Fortunately, we can now add intending, necessary space and line breaks in such JavaScript and CSS documents, including minified, with a click of a button thanks to the JavaScript and CSS Code Beautifier.",
+                    "url": "https://chrome.google.com/webstore/detail/javascript-and-css-code-b/iiglodndmmefofehaibmaignglbpdald?hl=en",
+                    "type": "Free"
+                },
+                {
+                    "id": 2,
+                    "name" : "Web Developer",
+                    "description": "Web Developer is a Chrome extension that adds a toolbar button to the browser with various web developer tools. It allows you to view the source code of a page, validate a page's HTML, CSS, and RSS feeds, view the page's info, and more.",
+                    "url": "https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en-US",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 3,
+                    "name" : "Web Maker",
+                    "description": "Web Maker is a Chrome extension that allows you to create and edit HTML, CSS, and JavaScript code. It also allows you to preview your code in real-time. This tool offers much more functionality than inbuilt Chrome Developer Tools.",
+                    "url": "https://chrome.google.com/webstore/detail/web-maker/lkfkkhfhhdkiemehlpkgjeojomhpccnh?hl=en",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 4,
+                    "name" : "WhatFont",
+                    "description": "I know you know how to find out the fonts used on a web page using Chrome Developer Tools easily. But WhatFont is a Chrome extension that allows you to identify the font used on any website. It also allows you to download the font and use it in your own projects.",
+                    "url": "https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 5,
+                    "name" : "Checkbot: SEO",
+                    "description": "Checkbot is a Chrome extension that allows you to check your website for SEO, speed, security, and more. It also allows you to fix issues and improve your website. It compares websites based on 50+ best practices recommended by W3Z, Google and Mozilla, etc.",
+                    "url": "https://chrome.google.com/webstore/detail/seo-web-speed-security-te/dagohlmlhagincbfilmkadjgmdnkjinl?hl=en",
+                    "type": "Attribute Required"
+
+                },
+                {
+                    "id": 6,
+                    "name" : "Web Developer Checklist",
+                    "description": "This is one of the most useful Chrome addons for UX designers, developer, SEO analysts and all professionals dealing with a website. It helps us to figure out whether a website follows best practices of web design and development. Sometimes, we may overlook something and may not notice until we run into some issue later.",
+                    "url": "https://chrome.google.com/webstore/detail/web-developer-checklist/iahamcpedabephpcgkeikbclmaljebjp?hl=en",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 7,
+                    "name" : "ColorZilla",
+                    "description": "ColorZilla is a Chrome extension that allows you to pick colors from any web page or from advanced color picker. It also allows you to generate CSS gradients and more. It is one of the commonly used Chrome extensions for web designers.",
+                    "url": "https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en%20",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 8,
+                    "name" : "Lorem Ipsum Generator",
+                    "description": "This extension makes generating dummy text a lot faster. Just click the extension icon on the browser toolbar and select how many paragraphs and how many sentences in a paragraph you need. The extension will immediately generate the dummy text, and you can copy that directly.",
+                    "url": "https://chrome.google.com/webstore/detail/lorem-ipsum-generator-def/mcdcbjjoakogbcopinefncmkcamnfkdb?hl=en%20",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 9,
+                    "name" : "Wappalyzer",
+                    "description": "Wappalyzer is a Chrome extension that allows you to identify the technologies used on a website. It also allows you to find out the server, CMS, frameworks, and more. It is one of the most popular Chrome extensions for web developers.",
+                    "url": "https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg/related?hl=en%20",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 10,
+                    "name" : "Clear Cache",
+                    "description": "Clear Cache is a Chrome extension that allows you to clear your cache and browsing data with a single click of a button. It also allows you to clear your cookies, history, and more. It is one of the most popular Chrome extensions for web developers. ",
+                    "url": "https://chrome.google.com/webstore/detail/clear-cache/cppjkneekbjaeellbfkmgnhonkkjfpdn?hl=en",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 11,
+                    "name" : "IE Tab",
+                    "description": "This tool is a very useful tool for web designers to detect cross-browser issues. Internet Explorer (IE) in the Windows is a nightmare for the designers. What works well on other browsers may not work in IE. It might be difficult to open IE and check if the web page is rendered each time we modify the page.",
+                    "url": "https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd?hl=en",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 12,
+                    "name" : "Page Ruler",
+                    "description": "Page Ruler is a Chrome extension that allows you to draw a ruler to get pixel dimensions and positioning, and measure elements on any web page. It is one of the most popular Chrome extensions for web designers. Apart from the dimensions, this tool also helps us to figure out the position of the rectangles we draw.",
+                    "url": "https://chrome.google.com/webstore/detail/page-ruler/jlpkojjdgbllmedoapgfodplfhcbnbpn?hl=en",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 13,
+                    "name" : "CSS Viewer",
+                    "description": "This is one of the best Chrome extensions for web designers to find out the style of any element in a web page easily. The interface of the tool which displays the CSS properties is straightforward and intuitive. All you need to view the CSS properties used to style an element is clicking the extension icon on the browser toolbar and bring the mouse over the element.",
+                    "url": "https://chrome.google.com/webstore/detail/cssviewer/ggfgijbpiheegefliciemofobhmofgce?hl=en",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 14,
+                    "name" : "CSS Peeper",
+                    "description": "CSS Peeper is a Chrome extension that allows you to inspect CSS of any element on a web page. It also allows you to create a style guide for any website automatically. It is one of the most popular Chrome extensions for web designers.",
+                    "url": "https://chrome.google.com/webstore/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk?hl=en",
+                    "type": "Free"
+
                 }
-                
             ]
         }
+
         
     ]
 }

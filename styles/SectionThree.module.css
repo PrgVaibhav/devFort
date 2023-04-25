@@ -16,7 +16,7 @@
      object-fit: cover;
 }
 .section_four .text_container {
-  width: 400px;
+  max-width: 400px;
 }
 @media screen and (max-width: 768px) {
   .section_four .text_container {
@@ -38,19 +38,24 @@
 }
 .section_four .text_container a {
   background-color: #fff;
-  padding: 0.5rem 1.8rem;
+  padding: 0.5rem 1.3rem;
   border: 2px solid orangered;
   font-weight: 600;
   cursor: pointer;
-  box-shadow: 5px 5px 0px var(--hover-color);
+  box-shadow: 4px 4px 0px var(--hover-color);
   transition: all 0.3s ease-in-out;
   color: orangered;
   font-size: 1.2rem;
   text-decoration: none;
 }
+@media screen and (max-width: 768px) {
+  .section_four .text_container a {
+    max-width: 100%;
+  }
+}
 .section_four .text_container a:hover {
-  transform: translate(3px, 3px);
-  box-shadow: 3px 3px 0px var(--hover-color);
+  transform: translate(4px, 4px);
+  box-shadow: 2px 2px 0px var(--hover-color);
   background-color: orangered;
   color: #fff;
 }/*# sourceMappingURL=SectionThree.module.css.map */

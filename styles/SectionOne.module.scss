@@ -48,7 +48,7 @@
 
     button {
       width: 50%;
-      padding: 0.8rem 1rem;
+      padding: 0.7rem 0.9rem;
       border: none;
       outline: none;
       background-color: #ffd700;
@@ -59,7 +59,9 @@
       box-shadow: 4px 4px 0px var(--hover-color);
 
       @media screen and (max-width: 768px) {
-        margin-bottom: 1rem;
+        margin: 1rem 0;
+        padding: 0.6rem 0.7rem;
+        width: 100%;
       }
       a {
         text-decoration: none;
@@ -69,12 +71,8 @@
       }
 
       &:hover {
-        transform: translate(2px, -2px);
+        transform: translate(4px, 4px);
         box-shadow: 2px 2px 0px var(--hover-color);
-      }
-
-      &:active {
-        transform: translateY(-10px);
       }
     }
   }

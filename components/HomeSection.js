@@ -5,7 +5,7 @@ import homeImage from "../public/alternate3.svg";
 const HomeSection = () => {
   return (
     <>
-      <div className={styles.home_container}>
+      <div className={styles.home_container} id="home">
         <div className={styles.home_left}>
           <h1 className={styles.home_header}>
             Welcome to <span className={styles.special_header}>Dev Fort</span>
