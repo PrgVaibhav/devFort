@@ -16,11 +16,11 @@ const About = () => {
             target="_blank"
             aria-label="Portfolio website of vaibhav"
           >
-            Vaibhav
+            Vaibhav Kumar
           </a>
-          , and I am the founder of this amazing platform. As a web developer
-          myself, I know firsthand how challenging it can be to find all the
-          necessary resources in one place.
+          , and I am the founder of this interesting platform. As a web
+          developer, I know how challenging it can be to find all the necessary
+          resources at one place.
         </p>
         <p>
           That's why I decided to create this website, where web developers can
@@ -31,15 +31,15 @@ const About = () => {
         </p>
         <p>
           But we're more than just a resource hub. We're a community of
-          like-minded individuals who share a love for all things web
-          development. We're constantly learning, experimenting, and pushing the
-          boundaries of what's possible on the web.
+          like-minded individuals who share love for web development. We're
+          constantly learning, experimenting, and pushing the boundaries of
+          what's possible on the web.
         </p>
         <p>
           Thank you for choosing us as your go-to source for web development
           needs. So whether you're a seasoned pro or just starting out in the
-          world of web development, we invite you to join us. Let's create
-          something amazing together.
+          world of web development, we invite you to join us.
+          <blockquote>Let's create something amazing together.</blockquote>
         </p>
       </div>
     </div>
