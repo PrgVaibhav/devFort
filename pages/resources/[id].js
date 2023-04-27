@@ -13,8 +13,9 @@ const ResourcePage = ({ data, pageName }) => {
 
   const searchHandler = (e) => {
     // search handler
-    setSearch(e.target.value);
+    setSearch(e.target.value.toLowerCase());
   };
+
   return (
     <>
       <Head>
@@ -29,7 +30,6 @@ const ResourcePage = ({ data, pageName }) => {
             <BsArrowLeftShort /> Back
           </Link>
         </div>
-
         {data.map((resource) => {
           return (
             <div className={styles.resources_header} key={resource.id}>

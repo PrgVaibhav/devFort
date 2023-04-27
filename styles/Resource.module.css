@@ -103,13 +103,24 @@
 }
 .resources_container .resources_cards .resources_card {
   display: grid;
-  grid-template-columns: repeat(3, minmax(300px, 1fr));
-  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  grid-gap: 1rem;
   margin-top: 1rem;
+  animation: fadeInUp 0.5s ease-in-out;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 @media (max-width: 768px) {
   .resources_container .resources_cards .resources_card {
-    grid-template-columns: repeat(1, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 }
 .resources_container .resources_cards .resources_card .resources_card_description {
@@ -127,6 +138,7 @@
 .resources_container .resources_cards .resources_card .resources_card_description:hover {
   transform: translateY(-5px);
   box-shadow: var(--hover-color) 0px 2px 8px 0px;
+  border-top: 4px solid var(--hover-color);
 }
 .resources_container .resources_cards .resources_card .resources_card_description h3 {
   font-size: 1.3rem;

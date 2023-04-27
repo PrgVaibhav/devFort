@@ -36,6 +36,11 @@
             "description": "Chrome extensions are something that can make your life easier. We are going to provide a list of chrome extensions that you can use to build your projects faster and easier than ever before."
         },
         {
+            "id": "design-templates",
+            "name": "Website Design Templates",
+            "description": "Finding perfect designs or templates for projects can be very hard, from this list you can find the best designs or templates for your projects. Use them correctly and make your projects look awesome."
+        },
+        {
             "id": "stay-tuned",
             "name": "Stay Tuned",
             "description": "We are going to add more resources soon, stay tuned for more updates. Till then create something cool from available resources. If you have any suggestions, please let us know. Thank you! :)"
@@ -52,7 +57,8 @@
                 {
                     "id": 1,
                     "name" : "Working on new ideas",
-                    "description": "We are constantly working to provide the best possible experience for our community, which is why we regularly update our platform with new features, and resources. We encourage you to check this page regularly to stay up-to-date on the latest devFort updates and to make the most of our growing collection of web development resources."
+                    "description": "We are constantly working to provide the best possible experience for our community, which is why we regularly update our platform with new features, and resources. We encourage you to check this page regularly to stay up-to-date on the latest devFort updates and to make the most of our growing collection of web development resources.",
+                    "type": "update"
                 }
                 
             ]
@@ -60,7 +66,7 @@
         {
             "id": "project-ideas",
             "name" : "Project Ideas",
-            "description": "Finding projects to build is a difficult task, that's why we are going to provide project ideas so that you can start building your projects sooner. Here are some project ideas that you can build to improve your skills and build your portfolio. We will update this list regularly so that you can get the best ideas for your projects. You can also search for project ideas by difficulty level.",
+            "description": "Finding projects to build is a difficult task, that's why we are going to provide project ideas so that you can start building your projects sooner. Here are some project ideas that you can build to improve your skills and build your portfolio. You can also search for project ideas by difficulty level.",
             "ideas" : [
                 {
                     "id": 1,
@@ -183,13 +189,153 @@
                     "description": "Build an augmented reality application that enhances real-world experiences with virtual objects, such as a virtual try-on feature for fashion items.",
                     "type": "Advanced"
 
+                },
+                {
+                    "id": 21,
+                    "name": "Stock Market Tracker",                    
+                    "description": "Create a stock market tracker that allows users to view stock prices, track their portfolio, and get real-time updates.",
+                    "type": "Intermediate"
+
+                },
+                {
+                    "id": 22,
+                    "name": "Online Resume Builder",                    
+                    "description": "Build an online resume builder that allows users to create professional resumes and cover letters.",
+                    "type": "Intermediate"
+
+                },
+                {
+                    "id": 23,
+                    "name": "Event Management System",                    
+                    "description": "Create an event management system that enables users to plan and manage events, including ticketing, registration, and promotion.",
+                    "type": "Advanced"
+
+                },
+                {
+                    "id": 24,
+                    "name": "Online Code Editor",                    
+                    "description": "Build an online code editor that allows users to write and run code in various programming languages. For more difficulty, add features like syntax highlighting and code completion.",
+                    "type": "Intermediate / Advanced"
+
+                },
+                {
+                    "id": 25,
+                    "name": "Web-based Calculator",                    
+                    "description": "Create a web-based calculator that allows users to perform basic math operations, such as addition, subtraction, multiplication, and division.",
+                    "type": "Beginner"
+
+                },
+                {
+                    "id": 26,
+                    "name": "Social Network Analysis Tool",                    
+                    "description": "Build a tool that analyzes social networks, such as Facebook and Twitter, to identify trends and patterns in user behavior.",
+                    "type": "Advanced"
+
+                },
+                {
+                    "id": 27,
+                    "name": "Online Voting System",                    
+                    "description": "Create an online voting system that allows users to vote on various topics and view the results in real-time. For more difficulty, add features like authentication and security.",
+                    "type": "Intermediate / Advanced"
+
+                },
+                {
+                    "id": 28,
+                    "name": "Online Bookstore",                    
+                    "description": "Build an online bookstore that allows users to browse books, add them to a shopping cart, and make purchases.",
+                    "type": "Intermediate"
+
+                },
+                {
+                    "id": 29,
+                    "name": "Language Learning Application",                    
+                    "description": "Create a language learning application that allows users to learn new languages through interactive lessons and activities. ",
+                    "type": "Intermediate / Advanced"
+
+                },
+                {
+                    "id": 30,
+                    "name": "Online Ticket Booking System",                    
+                    "description": "Build an online ticket booking system for movies, concerts, or other events that allows users to search for availability and make reservations. For more difficulty, add features like seat selection and payment processing.",
+                    "type": "Intermediate / Advanced"
+
+                },
+                {
+                    "id": 31,
+                    "name": "Music Streaming Platform",                    
+                    "description": "Create a music streaming platform that enables users to listen to music, create playlists, and share their favorite songs.",
+                    "type": "Advanced"
+
+                },
+                {
+                    "id": 32,
+                    "name": "Fitness Tracker",                    
+                    "description": "Build a fitness tracker that allows users to set goals, track progress, and get recommendations based on their data.",
+                    "type": "Intermediate"
+
+                },
+                {
+                    "id": 33,
+                    "name": "Online Appointment Scheduler",                    
+                    "description": "Create an online appointment scheduler that allows users to book appointments with businesses, such as doctors, dentists, and salons. For more difficulty, add features like calendar integration and payment processing.",
+                    "type": "Intermediate / Advanced"
+
+                },
+                {
+                    "id": 34,
+                    "name": "Quiz App",                    
+                    "description": "Develop a quiz application that tests users on various topics. You can use HTML, CSS, and JavaScript to build the user interface and JavaScript to handle the quiz logic.",
+                    "type": "Beginner"
+
+                },
+                {
+                    "id": 35,
+                    "name": "To-Do List",                    
+                    "description": "Create a to-do list application that allows users to add, edit, and delete tasks. You can use HTML, CSS, and JavaScript to build the user interface and JavaScript to handle the to-do list logic.",
+                    "type": "Beginner"
+
+                },
+                {
+                    "id": 36,
+                    "name": "Weather App",                    
+                    "description": "Build a weather application that displays the current weather conditions for a given location. You can use HTML, CSS, and JavaScript to build the user interface and JavaScript to handle the weather data.",
+                    "type": "Beginner"
+
+                },
+                {
+                    "id": 37,
+                    "name": "Quote Generator",                    
+                    "description": "Create a quote generator that displays random quotes to the user. You can use HTML, CSS, and JavaScript to build the user interface and JavaScript to handle the quote generation logic.",
+                    "type": "Beginner"
+
+                },
+                {
+                    "id": 38,
+                    "name": "Weather App",                    
+                    "description": "Build a weather application that displays the current weather conditions for a given location. You can use HTML, CSS, and JavaScript to build the user interface and JavaScript to handle the weather data.",
+                    "type": "Beginner"
+
+                },
+                {
+                    "id": 39,
+                    "name": "Pomodoro Timer",                    
+                    "description": "Create a pomodoro timer that allows users to set a timer for 25 minutes and take a 5-minute break. You can use HTML, CSS, and JavaScript to build the user interface and JavaScript to handle the timer logic.",
+                    "type": "Beginner"
+
+                },
+                {
+                    "id": 40,
+                    "name": "Random Password Generator",                    
+                    "description": "Build a random password generator that allows users to generate a random password based on their preferences. You can use HTML, CSS, and JavaScript to build the user interface and JavaScript to handle the password generation logic.",
+                    "type": "Beginner"
+
                 }
             ]
         },
         {
             "id": "api-services",
             "name" : "API Services",
-            "description": "Finding perfect API for project is a bit difficult task but now We are going to provide a list of API services that you can use to build your projects faster and easier than ever before. We will update this list regularly so that you can get the best content for your projects. You can also search according to Free or Paid API services.",
+            "description": "Finding perfect API for project is a bit difficult task but now We are going to provide a list of API services that you can use to build your projects faster and easier than ever before. You can also search according to Free or Paid API services.",
 
             "ideas":[
                 {
@@ -284,13 +430,27 @@
                     "description": "Public APIs is a website which provides a list of APIs that you can use to build your projects faster and easier than ever before. You can use this website to find APIs for your projects.",
                     "url": "https://publicapis.dev/",
                     "type": "Free"
+                },
+                {
+                    "id": 14,
+                    "name" : "Bhagvad Gita API",
+                    "description": "Bhagvad Gita API is a RESTful API that allows you to search for Bhagvad Gita. You can use this API to build applications that display Bhagvad Gita shloks, chapters, verses on your website or mobile app.",
+                    "url": "https://bhagavadgitaapi.in/",
+                    "type": "Free"
+                },
+                {
+                    "id": 15,
+                    "name" : "Mockaroo",
+                    "description": "Mockaroo is not exactly an API but it will provide some dummy data in json format which you can use to learn many concept of javascript like array mannipulation, array mapping, filtering, etc.",
+                    "url": "https://www.mockaroo.com/",
+                    "type": "Free"
                 }
             ]
         },
         {
             "id": "illustrations-link",
             "name" : "Illustrations",
-            "description": "Finding perfect illustrations for project is a bit difficult task but now We are going to provide a list of illustrations that you can use to build your projects faster and easier than ever before. We will update this list regularly so that you can get the best content for your projects. You can also search for illustrations according to Free, or Attribute Required/Paid. ",
+            "description": "Finding perfect illustrations for project is a bit difficult task but now We are going to provide a list of illustrations that you can use to build your projects faster and easier than ever before. You can also search for illustrations according to Free, or Attribute Required/Paid. ",
 
             "ideas":[
                 {
@@ -355,7 +515,7 @@
         {
             "id": "icons-link",
             "name" : "Icons",
-            "description": "Finding perfect Icons for project is a bit difficult task but now We are going to provide a list of Icons that you can use to build your projects faster and easier than ever before. We will update this list regularly so that you can get the best content for your projects. You can also search for Icons according to Free, or Attribute Required/Paid.",
+            "description": "Finding perfect Icons for project is a bit difficult task but now We are going to provide a list of Icons that you can use to build your projects faster and easier than ever before. You can also search for Icons according to Free, or Attribute Required/Paid.",
 
             "ideas":[
                 {
@@ -624,7 +784,7 @@
         {
             "id": "youtube-link",
             "name" : "Youtube",
-            "description": "Finding perfect videos or channels for learning or creating project is a bit difficult task but now We are going to provide a list of channles that you can use to build your projects faster and easier than ever before. We will update this list regularly so that you can get the best content for your projects.",
+            "description": "Finding perfect videos or channels for learning or creating project is a bit difficult task but now We are going to provide a list of channles that you can use to build your projects faster and easier than ever before.",
 
             "ideas":[
                 {
@@ -839,6 +999,61 @@
                     "description": "CSS Peeper is a Chrome extension that allows you to inspect CSS of any element on a web page. It also allows you to create a style guide for any website automatically. It is one of the most popular Chrome extensions for web designers.",
                     "url": "https://chrome.google.com/webstore/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk?hl=en",
                     "type": "Free"
+
+                }
+            ]
+        },
+        {
+            "id": "design-templates",
+            "name" : "Website Design Templates",
+            "description": "Finding perfect designs or templates for projects can be very hard, from this list you can find the best designs or templates for your projects. Use them correctly and make your projects look awesome. Although they are paid so you should use them after giving credits or attributes to the original creator. ",
+
+            "ideas":[
+                {
+                    "id": 1,
+                    "name" : "Colorlib",
+                    "description": "Colorlib is the largest provider of free Bootstrap templates with more than 700 availabe and many more relased every month. They also provide free and premium themes for WordPress.",
+                    "url": "https://colorlib.com/wp/templates/",
+                    "type": "Paid"
+                },
+                {
+                    "id": 2,
+                    "name" : "ThemeForest",
+                    "description": "ThemeForest is the largest global community of creatives. Their authors are talented professionals, extremely passionate about their work. They provide many templates for different platforms like WordPress, HTML, etc.",
+                    "url": "https://themeforest.net/search/web%20developer",
+                    "type": "Paid"
+
+                },
+                {
+                    "id": 3,
+                    "name" : "Nice Page",
+                    "description": "Nicepage is a free mobile-friendly website builder. Choose from 1000+ trendy web templates. Customize to get the exact web design you like with no coding. Nicepage supports Windows, Mac OS, Online, Joomla, WordPress and HTML.",
+                    "url": "https://nicepage.com/website-templates",
+                    "type": "Paid"
+
+                },
+                {
+                    "id": 4,
+                    "name" : "Wix",
+                    "description": "Wix is a cloud-based web development platform that allows users to create HTML5 websites and mobile sites, through the use of their online drag and drop tools. Users may add functionalities such as social plug-ins, e-commerce, contact forms, e-mail marketing, and community forums to their websites using a variety of Wix-developed and third-party applications.",
+                    "url": "https://www.wix.com/website/templates",
+                    "type": "Paid"
+
+                },
+                {
+                    "id": 5,
+                    "name" : "Template Monster",
+                    "description": "TemplateMonster is a large and growing marketplace where you can find high-quality digital products matching the latest web standards. The collection of items includes a wide choice of website templates suitable for all kinds of niche-specific projects, small or large companies, startups, and any other kind of business that you happen to run.",
+                    "url": "https://www.templatemonster.com/category/web-development-website-templates/",
+                    "type": "Paid"
+
+                },
+                {
+                    "id": 6,
+                    "name" : "Dribbble",
+                    "description": "Dribbble is a self-promotion and social networking platform for digital designers and creatives. It serves as a design portfolio platform, jobs and recruiting site and is one of the largest platforms for designers to share their work online.",
+                    "url": "ttps://dribbble.com/",
+                    "type": "Paid"
 
                 }
             ]
