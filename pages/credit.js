@@ -32,6 +32,7 @@ const Credit = () => {
         </div>
 
         <div className={styles.credit_resources}>
+          <p>Images are used from</p>
           <a href="https://storyset.com/data">Data illustrations by Storyset</a>
           <a href="https://storyset.com/people">
             People illustrations by Storyset

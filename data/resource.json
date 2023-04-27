@@ -13,37 +13,37 @@
         {
             "id": "illustrations-link",
             "name": "Illustrations",
-            "description": "Finding illustrations for your projects is a difficult task, that's why we are going to provide a list of illustrations that you can use to build your projects faster and easier than ever before."
+           "description": "Illustrations are hard to find, but not anymore I have curated a list of websites that provide free/paid illustrations that you can use in your projects." 
         },
         {
             "id": "icons-link",
             "name": "Icons",
-            "description": "Finding icons for your projects is a difficult task, that's why we are going to provide a list of icons that you can use to build your projects faster and easier than ever before."
+            "description": "Finding perfect icons for projects can be very hard, from this list you can find the best free/paid icons for your projects. Use them and make awesome projects."
         },
         {
             "id": "images-link",
             "name": "Images",
-            "description": "Finding images for your projects is a difficult task, that's why we are going to provide a list of images that you can use to build your projects faster and easier than ever before."
+            "description": " Finding perfect images for projects can be very hard, from this list you can find the best free/paid images for your projects. Use them and make awesome projects."
         },
         {
             "id": "youtube-link",
             "name": "Youtube",
-            "description": "Finding better youtube channels to learn can be a difficult task for beginners, that's why we are going to provide a list of youtube channels that you can use to learn faster and easier than ever before."
+            "description": " Youtube is a great platform to learn new things, from this list you can find the best youtube channels that you can follow to learn new things and improve your skills."
         },
         {
             "id": "chrome-extensions",
             "name": "Chrome Extension",
-            "description": "Chrome extensions are something that can make your life easier. We are going to provide a list of chrome extensions that you can use to build your projects faster and easier than ever before."
+            "description": " Chrome extensions can be very useful, from this list you can find the best chrome extensions that you can use to improve your productivity and make your life easier."
         },
         {
             "id": "design-templates",
             "name": "Website Design Templates",
-            "description": "Finding perfect designs or templates for projects can be very hard, from this list you can find the best designs or templates for your projects. Use them correctly and make your projects look awesome."
+            "description": "Website Design and Templates are very useful when you know what you want to build but don't know how to design it. From this list you can find the best design templates that you can use to build your projects."
         },
         {
             "id": "stay-tuned",
             "name": "Stay Tuned",
-            "description": "We are going to add more resources soon, stay tuned for more updates. Till then create something cool from available resources. If you have any suggestions, please let us know. Thank you! :)"
+            "description": " Stay Tuned for more updates. We will update this list regularly so that you can get the best content for your projects. Till then you can check out our other projects. Stay Safe and Happy Coding :)"
         }
     ],
 

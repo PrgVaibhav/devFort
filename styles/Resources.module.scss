@@ -50,9 +50,6 @@
           transform: none;
         }
       }
-      // border-right: 2px solid var(--special-text-color);
-      // border-left: 2px solid var(--special-text-color);
-      // border-bottom: 2px solid var(--special-text-color);
       &:hover {
         transform: translateY(-5px);
         box-shadow: var(--hover-color) 0px 2px 8px 0px;
@@ -81,6 +78,7 @@
           line-height: 30px;
           font-weight: 400;
           color: var(--text-color);
+          text-transform: capitalize;
 
           @media screen and (max-width: 768px) {
             font-size: 0.9rem;
