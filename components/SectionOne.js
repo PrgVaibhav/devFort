@@ -21,9 +21,9 @@ const SectionOne = () => {
           <span className={styles.special_text}>Icons</span>, and many more
           things.
         </p>
-        <button role="button">
+        <div className={styles.btn}>
           <Link href="/resources">Get Started</Link>
-        </button>
+        </div>
       </div>
 
       <div className={styles.section_image}>
