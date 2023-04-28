@@ -5,13 +5,14 @@
   flex-direction: row-reverse;
   padding: 8px 10px;
   min-height: 100vh;
-
+  gap: 2rem;
   @media screen and (max-width: 768px) {
     flex-direction: column-reverse;
   }
 
   .section_description {
     flex: 1;
+    max-width: 500px;
     h2 {
       font-size: 2.5rem;
       font-weight: 600;
@@ -78,7 +79,7 @@
   }
 
   .section_image {
-    flex: 1;
+    // flex: 1;
     img {
       max-width: 100%;
       height: 100%;

@@ -14,6 +14,7 @@
 }
 .section_container .section_left {
   flex: 1;
+  max-width: 500px;
 }
 .section_container .section_left h2 {
   font-size: 2.2rem;
@@ -101,9 +102,6 @@
 .section_container .section_left .section_links .section_twitter:hover {
   background-color: #1da1f2; /* Blue background on hover */
   color: #fff; /* White text color on hover */
-}
-.section_container .section_right {
-  flex: 1;
 }
 .section_container .section_right img {
   max-width: 100%;

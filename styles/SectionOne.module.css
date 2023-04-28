@@ -5,6 +5,7 @@
   flex-direction: row-reverse;
   padding: 8px 10px;
   min-height: 100vh;
+  gap: 2rem;
 }
 @media screen and (max-width: 768px) {
   .section_container {
@@ -13,6 +14,7 @@
 }
 .section_container .section_description {
   flex: 1;
+  max-width: 500px;
 }
 .section_container .section_description h2 {
   font-size: 2.5rem;
@@ -76,9 +78,6 @@
 .section_container .section_description button:hover {
   transform: translate(4px, 4px);
   box-shadow: 2px 2px 0px var(--hover-color);
-}
-.section_container .section_image {
-  flex: 1;
 }
 .section_container .section_image img {
   max-width: 100%;

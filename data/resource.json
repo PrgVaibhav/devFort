@@ -26,9 +26,14 @@
             "description": " Finding perfect images for projects can be very hard, from this list you can find the best free/paid images for your projects. Use them and make awesome projects."
         },
         {
-            "id": "youtube-link",
+            "id": "youtube-channels",
             "name": "Youtube",
             "description": " Youtube is a great platform to learn new things, from this list you can find the best youtube channels that you can follow to learn new things and improve your skills."
+        },
+        {
+            "id": "udemy-courses",
+            "name": "Udemy Courses",
+            "description": " Udemy is a great platform to learn new things, from this list you can find the best udemy courses that you can buy to learn new things and improve your skills. This list includes both free and paid courses."
         },
         {
             "id": "chrome-extensions",
@@ -50,19 +55,18 @@
     "resources": [
         {
             "id": "stay-tuned",
-            "name" : "Stay Tuned",
-            "description": "Stay Tuned for more updates. We will update this list regularly so that you can get the best content for your projects. Till then you can check out our other projects. Stay Safe and Happy Coding :)",
-
+            "name": "Stay Tuned",
+            "description": " Stay Tuned for more updates. We will update this list regularly so that you can get the best content for your projects. Till then you can check out our other projects. Stay Safe and Happy Coding :)",
             "ideas":[
                 {
                     "id": 1,
-                    "name" : "Working on new ideas",
-                    "description": "We are constantly working to provide the best possible experience for our community, which is why we regularly update our platform with new features, and resources. We encourage you to check this page regularly to stay up-to-date on the latest devFort updates and to make the most of our growing collection of web development resources.",
-                    "type": "update"
+                    "name": "Working on it",
+                    "description": "We are working on it. We will update this list regularly so that you can get the best content for your projects. Till then you can check out our other projects. Stay Safe and Happy Coding :)",
+                    "type": "Work in Progress"
                 }
-                
             ]
         },
+
         {
             "id": "project-ideas",
             "name" : "Project Ideas",
@@ -456,14 +460,14 @@
                 {
                     "id": 1,
                     "name" : "Zor Stock Illustrations",
-                    "description": "Zor Stock Illustrations is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
+                    "description": "Zor Stock Illustrations is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before.",
                     "url": "http://zorstock.com/",
                     "type": "Attribute Required"
                 },
                 {
                     "id": 2,
                     "name" : "Vecteezy",
-                    "description": "Vecteezy is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
+                    "description": "Vecteezy is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before.",
                     "url": "http://vecteezy.com/browse",
                     "type": "Attribute Required"
 
@@ -471,42 +475,42 @@
                 {
                     "id": 3,
                     "name" : "The Noun Project",
-                    "description": "The Noun Project is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
+                    "description": "The Noun Project is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before.",
                     "url": "https://thenounproject.com/",
                     "type": "Free" 
                 },
                 {
                     "id": 4,
                     "name" : "Vector4Free",
-                    "description": "Vector4Free is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
+                    "description": "Vector4Free is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before.",
                     "url": "https://www.vector4free.com/",
                     "type": "Free"
                 },
                 {
                     "id": 5,
                     "name" : "ShutterStock",
-                    "description": "ShutterStock is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
+                    "description": "ShutterStock is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before.",
                     "url": "https://www.shutterstock.com/vectors#free-download",
                     "type": "Attribute Required"
                 },
                 {
                     "id": 6,
                     "name" : "Humaans",
-                    "description": "Humaans is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
+                    "description": "Humaans is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before.",
                     "url": "https://www.humaaans.com/",
                     "type": "Free"
                 },
                 {
                     "id": 7,
                     "name" : "WebKul | Vivid",
-                    "description": "Vivid is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
+                    "description": "Vivid is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before.",
                     "url": "https://webkul.github.io/vivid/",
                     "type": "Free"
                 },
                 {
                     "id": 8,
                     "name" : "Interfacer",
-                    "description": "Interfacer is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before. You can use this website to find illustrations for your projects.",
+                    "description": "Interfacer is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before.",
                     "url": "https://interfacer.xyz/",
                     "type": "Free"
                 }
@@ -521,14 +525,14 @@
                 {
                     "id": 1,
                     "name" : "Dry Icons",
-                    "description": "Dry Icons is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
+                    "description": "Dry Icons is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://dryicons.com/",
                     "type": "Attribute Required"
                 },
                 {
                     "id": 2,
                     "name" : "Flaticon",
-                    "description": "Flaticon is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
+                    "description": "Flaticon is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://www.flaticon.com/",
                     "type": "Attribute Required"
 
@@ -536,98 +540,98 @@
                 {
                     "id": 3,
                     "name" : "Icons8",
-                    "description": "Icons8 is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
+                    "description": "Icons8 is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://icons8.com/",
                     "type": "Attribute Required"
                 },
                 {
                     "id": 4,
                     "name" : "FontAwesome",
-                    "description": "FontAwesome is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
+                    "description": "FontAwesome is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://fontawesome.com/",
                     "type": "Attribute Required"
                 },
                 {
                     "id": 5,
                     "name" : "The Noun Project",
-                    "description": "The Noun Project is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
+                    "description": "The Noun Project is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://thenounproject.com/",
                     "type": "Free"
                 },
                 {
                     "id": 6,
                     "name" : "FreePik",
-                    "description": "FreePik is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
+                    "description": "FreePik is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://www.freepik.com/",
                     "type": "Attribute Required"
                 },
                 {
                     "id": 7,
                     "name" : "IconScout",
-                    "description": "IconScout is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
+                    "description": "IconScout is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://iconscout.com/",
                     "type": "Attribute Required"
                 },
                 {
                     "id": 8,
                     "name" : "Google Icons",
-                    "description": "Google Icons is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
+                    "description": "Google Icons is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://fonts.google.com/icons",
                     "type": "Free"
                 },
                 {
                     "id": 9,
                     "name" : "UX wing",
-                    "description": "UX wing is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
+                    "description": "UX wing is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://uxwing.com/",
                     "type": "Free"
                 },
                 {
                     "id": 10,
                     "name" : "LordIcon",
-                    "description": "LordIcon is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
+                    "description": "LordIcon is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://lordicon.com/",
                     "type": "Attribute Required"
                 },
                 {
                     "id": 11,
                     "name" : "IconMonstr",
-                    "description": "IconMonstr is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
+                    "description": "IconMonstr is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://iconmonstr.com/",
                     "type": "Free"
                 },
                 {
                     "id": 12,
                     "name" : "Hand Drawn Icons",
-                    "description": "Hand Drawn Icons is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
+                    "description": "Hand Drawn Icons is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://goodstuffnononsense.com/hand-drawn-icons/",
                     "type": "Free"
                 },
                 {
                     "id": 13,
                     "name" : "Pixeden",
-                    "description": "Pixeden is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
+                    "description": "Pixeden is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://www.pixeden.com/icons-set",
                     "type": "Free"
                 },
                 {
                     "id":14,
                     "name" : "Icon Finder",
-                    "description": "Icon Finder is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
+                    "description": "Icon Finder is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://www.iconfinder.com/",
                     "type": "Attribute Required"
                 },
                 {
                     "id":15,
                     "name" : "FreeIcons",
-                    "description": "FreeIcons is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
+                    "description": "FreeIcons is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://freeicons.io/",
                     "type": "Free"
                 },
                 {
                     "id":16,
                     "name" : "1001 Free Download",
-                    "description": "1001 Free Download is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before. You can use this website to find Icons for your projects.",
+                    "description": "1001 Free Download is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://www.1001freedownloads.com/free-icons/",
                     "type": "Free"
                 }
@@ -636,153 +640,223 @@
         {
             "id": "images-link",
             "name" : "Images",
-            "description": "Images are a great way to make your website look more attractive. So, if you want to use images on your website, you should use images that are free to use. If you can buy premiums there is no problem in that too. Here are some websites that you can use to find images for your website. We will update this list regularly so that you can get the best content for your projects. You can also search for images according Free or Attribute Required.",
+            "description": "Images are a great way to make your website look more attractive. Here are some websites that you can use to find images for your website. You can also search for images according Free or Attribute Required.",
 
             "ideas":[
                 {
                     "id": 1,
                     "name" : "Stock Snap",
-                    "description": "Dry Icons is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
+                    "description": "Dry Icons is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://stocksnap.io/",
                     "type": "Free"
                 },
                 {
                     "id": 2,
                     "name" : "PixaBay",
-                    "description": "PixaBay is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
+                    "description": "PixaBay is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://pixabay.com/",
                     "type": "Attribute Required"
                 },
                 {
                     "id": 3,
                     "name" : "Pexels",
-                    "description": "Pexels is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
+                    "description": "Pexels is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://www.pexels.com/",
                     "type": "Attribute Required"
                 },
                 {
                     "id": 4,
                     "name" : "UnSplash",
-                    "description": "UnSplash is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
+                    "description": "UnSplash is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://unsplash.com/",
                     "type": "Attribute Required"
                 },
                 {
                     "id": 5,
                     "name" : "Free Images",
-                    "description": "Free Images is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
+                    "description": "Free Images is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://www.freeimages.com/",
                     "type": "Attribute Required"
                 },
                 {
                     "id": 6,
                     "name" : "Kaboom Pics",
-                    "description": "Kaboom Pics is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
+                    "description": "Kaboom Pics is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://kaboompics.com/",
                     "type": "Attribute Required"
                 },
                 {
                     "id": 7,
                     "name" : "Travel Coffee Book",
-                    "description": "Travel Coffee Book is a website which provides a list of nature Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
+                    "description": "Travel Coffee Book is a website which provides a list of nature Images that you can use to build your projects faster and easier than ever before.",
                     "url": "http://travelcoffeebook.com/",
                     "type": "Free"
                 },
                 {
                     "id": 8,
                     "name" : "Burst Shopify",
-                    "description": "Burst Shopify is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
+                    "description": "Burst Shopify is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://burst.shopify.com/",
                     "type": "Free"
                 },
                 {
                     "id": 9,
                     "name" : "Free Range Stock",
-                    "description": "Free Range Stock is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
+                    "description": "Free Range Stock is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://freerangestock.com/",
                     "type": "Free"
                 },
                 {
                     "id": 10,
                     "name" : "Negative Space",
-                    "description": "Negative Space is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
+                    "description": "Negative Space is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://negativespace.co/",
                     "type": "Free"
                 },
                 {
                     "id": 11,
                     "name" : "MorgueFile",
-                    "description": "MorgueFile is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
+                    "description": "MorgueFile is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://morguefile.com/",
                     "type": "Free"
                 },
                 {
                     "id": 12,
                     "name" : "Pic Jumbo",
-                    "description": "Pic Jumbo is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
+                    "description": "Pic Jumbo is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://picjumbo.com/",
                     "type": "Free"
                 },
                 {
                     "id": 13,
                     "name" : "JayaMantri",
-                    "description": "JayaMantri is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
+                    "description": "JayaMantri is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "http://jaymantri.com/",
                     "type": "Free"
                 },
                 {
                     "id":14,
                     "name" : "Get Refe",
-                    "description": "Get Refe is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
+                    "description": "Get Refe is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://getrefe.com/",
                     "type": "Attribute Required"
                 },
                 {
                     "id":15,
                     "name" : "New Old Stock",
-                    "description": "New Old Stock is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
+                    "description": "New Old Stock is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://nos.twnsnd.co/",
                     "type": "Attribute Required"
                 },
                 {
                     "id":16,
                     "name" : "Flickr",
-                    "description": "Flickr is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
+                    "description": "Flickr is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://www.flickr.com/",
                     "type": "Attribute Required"
                 },
                 {
                     "id":17,
                     "name" : "ReShot",
-                    "description": "ReShot is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
+                    "description": "ReShot is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://www.reshot.com/",
                     "type": "Attribute Required"
                 },
                 {
                     "id":18,
                     "name" : "Gratisography",
-                    "description": "Gratisography is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
+                    "description": "Gratisography is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://gratisography.com/",
                     "type": "Free"
                 },
                 {
                     "id":19,
                     "name" : "Life Of Pix",
-                    "description": "Life Of Pix is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
+                    "description": "Life Of Pix is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://www.lifeofpix.com/",
                     "type": "Free"
                 },
                 {
                     "id":20,
                     "name" : "SplitShire",
-                    "description": "SplitShire is a website which provides a list of Images that you can use to build your projects faster and easier than ever before. You can use this website to find Images for your projects.",
+                    "description": "SplitShire is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://www.splitshire.com/",
+                    "type": "Free"
+                },
+                {
+                    "id":21,
+                    "name" : "SplitShire",
+                    "description": "SplitShire is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
+                    "url": "https://www.splitshire.com/",
+                    "type": "Free"
+                },
+                {
+                    "id":22,
+                    "name" : "Stick PNG",
+                    "description": "Stick PNG is a website which provides a list of PNG Images that you can use to build your projects faster and easier than ever before.",
+                    "url": "https://www.stickpng.com/",
+                    "type": "Free"
+                },
+                {
+                    "id":23,
+                    "name" : "png all",
+                    "description": "png all is a website which provides a list of PNG Images that you can use to build your projects faster and easier than ever before.",
+                    "url": "https://www.pngall.com/",
+                    "type": "Free"
+                },
+                {
+                    "id":24,
+                    "name" : "Png Find",
+                    "description": "Png Find is a website which provides a list of PNG Images that you can use to build your projects faster and easier than ever before.",
+                    "url": "https://www.pngfind.com/",
+                    "type": "Free"
+                },
+                {
+                    "id":25,
+                    "name" : "HipPop PNG",
+                    "description": "HipPop PNG is a website which provides a list of PNG Images that you can use to build your projects faster and easier than ever before.",
+                    "url": "https://www.hippopng.com/",
+                    "type": "Free"
+                },
+                {
+                    "id":26,
+                    "name" : "Free PNG",
+                    "description": "Free PNG is a website which provides a list of PNG Images that you can use to build your projects faster and easier than ever before.",
+                    "url": "https://freepngimg.com/",
+                    "type": "Free"
+                },
+                {
+                    "id":27,
+                    "name" : "Pure PNG",
+                    "description": "Pure PNG is a website which provides a list of PNG Images that you can use to build your projects faster and easier than ever before.",
+                    "url": "https://purepng.com/",
+                    "type": "Free"
+                },
+                {
+                    "id":28,
+                    "name" : "PNG mart",
+                    "description": "PNG mart is a website which provides a list of PNG Images that you can use to build your projects faster and easier than ever before.",
+                    "url": "https://www.pngmart.com/",
+                    "type": "Free"
+                },
+                {
+                    "id":29,
+                    "name" : "Free PNG",
+                    "description": "Free PNG is a website which provides a list of PNG Images that you can use to build your projects faster and easier than ever before.",
+                    "url": "https://www.freepngs.com/",
+                    "type": "Free"
+                },
+                {
+                    "id":30,
+                    "name" : "Clean PNG",
+                    "description": "Clean PNG is a website which provides a list of PNG Images that you can use to build your projects faster and easier than ever before.",
+                    "url": "https://www.cleanpng.com/",
                     "type": "Free"
                 }
             ]
         },
         {
-            "id": "youtube-link",
+            "id": "youtube-channels",
             "name" : "Youtube",
             "description": "Finding perfect videos or channels for learning or creating project is a bit difficult task but now We are going to provide a list of channles that you can use to build your projects faster and easier than ever before.",
 
@@ -790,14 +864,14 @@
                 {
                     "id": 1,
                     "name" : "The New Boston",
-                    "description": "Founded by Bucky Roberts and With more than two million subscribers, TheNewBoston teaches web development and many more languages on his YouTube channel for beginners. This channel is a very popular source of free web learning for many beginners.",
+                    "description": "Founded by Bucky Roberts and With more than two million subscribers, TheNewBoston teaches web development and many more languages on his YouTube channel for beginners.",
                     "url": "https://www.youtube.com/user/thenewboston/videos",
                     "type": "Free"
                 },
                 {
                     "id": 2,
                     "name" : "Edureka",
-                    "description": "Founded by Lovleen Bhatia, Kapil Tyagi, and Pankaj Kumar, Edureka teaches web development and many more languages on his YouTube channel for beginners. This channel is a very popular source of learning free programming languages for many beginners.",
+                    "description": "Founded by Lovleen Bhatia, Kapil Tyagi, and Pankaj Kumar, Edureka teaches web development and many more languages on his YouTube channel for beginners. ",
                     "url": "https://www.youtube.com/user/edurekaIN",
                     "type": "Free"
 
@@ -805,7 +879,7 @@
                 {
                     "id": 3,
                     "name" : "Programming With Mosh",
-                    "description": "Founded by Mosh Hamedani, Programming With Mosh teaches web development and many more languages on his YouTube channel for beginners. This channel is a very popular source of learning free programming languages for many beginners.",
+                    "description": "Founded by Mosh Hamedani, Programming With Mosh teaches web development and many more languages on his YouTube channel for beginners. ",
                     "url": "https://www.youtube.com/user/programmingwithmosh",
                     "type": "Free"
 
@@ -813,7 +887,7 @@
                 {
                     "id": 4,
                     "name" : "Traversy Media",
-                    "description": "Founded by Brad Traversy, Traversy Media teaches web development and many more languages on his YouTube channel for beginners. This channel is a very popular source of learning free programming languages for many beginners.",
+                    "description": "Founded by Brad Traversy, Traversy Media teaches web development and many more languages on his YouTube channel for beginners. ",
                     "url": "https://www.youtube.com/user/TechGuyWeb",
                     "type": "Free"
 
@@ -821,7 +895,7 @@
                 {
                     "id": 5,
                     "name" : "ProgrammingKnowledge",
-                    "description": "Founded by Yogesh Patel, ProgrammingKnowledge teaches web development and many more languages on his YouTube channel for beginners. This channel is a very popular source of learning free programming languages for many beginners.",
+                    "description": "Founded by Yogesh Patel, ProgrammingKnowledge teaches web development and many more languages on his YouTube channel for beginners. ",
                     "url": "https://www.youtube.com/channel/UCs6nmQViDpUw0nuIx9c_WvA",
                     "type": "Free"
 
@@ -829,7 +903,7 @@
                 {
                     "id": 6,
                     "name" : "Derek Banas",
-                    "description": "Founded by Derek Banas, Derek Banas teaches web development and many more languages on his YouTube channel for beginners. This channel is a very popular source of learning free programming languages for many beginners.",
+                    "description": "Founded by Derek Banas, Derek Banas teaches web development and many more languages on his YouTube channel for beginners. ",
                     "url": "https://www.youtube.com/user/derekbanas",
                     "type": "Free"
 
@@ -837,7 +911,7 @@
                 {
                     "id": 7,
                     "name" : "Eli the computer guy",
-                    "description": "Founded by Eli the computer guy, Eli the computer guy teaches web development and many more languages on his YouTube channel for beginners. This channel is a very popular source of learning free programming languages for many beginners.",
+                    "description": "Founded by Eli the computer guy, Eli the computer guy teaches web development and many more languages on his YouTube channel for beginners. ",
                     "url": "https://www.youtube.com/channel/UCD4EOyXKjfDUhCI6jlOZZYQ",
                     "type": "Free"
 
@@ -845,7 +919,7 @@
                 {
                     "id": 8,
                     "name" : "Design Course",
-                    "description": "Founded by Gary Simon, Design Course teaches web design and development on his YouTube channel for beginners. This channel is a very popular source of learning free programming languages for many beginners.",
+                    "description": "Founded by Gary Simon, Design Course teaches web design and development on his YouTube channel for beginners. ",
                     "url": "https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow",
                     "type": "Free"
 
@@ -853,7 +927,7 @@
                 {
                     "id": 9,
                     "name" : "The Net Ninja",
-                    "description": "Founded by Shaun Pelling, This channel offers over 1000 free programming tutorials about Modern JavaScript (beginner to advanced), Node.js, React, Vue.js, Firebase, MongoDB, and many more. This channel is a very popular source of learning free programming languages for many beginners.",
+                    "description": "Founded by Shaun Pelling, This channel offers over 1000 free programming tutorials about Modern JavaScript (beginner to advanced), Node.js, React, Vue.js, Firebase, MongoDB, and many more. ",
                     "url": "https://www.youtube.com/c/TheNetNinja/featured",
                     "type": "Free"
 
@@ -861,7 +935,7 @@
                 {
                     "id": 10,
                     "name" : "Academind",
-                    "description": "Founded by Maximilian Schwarzmüller, Academind teaches web development and many more languages on his YouTube channel for beginners. This channel is a very popular source of learning free programming languages for many beginners.",
+                    "description": "Founded by Maximilian Schwarzmüller, Academind teaches web development and many more languages on his YouTube channel for beginners. ",
                     "url": "https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w",
                     "type": "Free"
 
@@ -869,7 +943,7 @@
                 {
                     "id": 11,
                     "name" : "Web Dev Simplified",
-                    "description": "Founded by Kyle Cook, Web Dev Simplified teaches web development and many more languages on his YouTube channel for beginners. This channel is a very popular source of learning free programming languages for many beginners.",
+                    "description": "Founded by Kyle Cook, Web Dev Simplified teaches web development and many more languages on his YouTube channel for beginners. ",
                     "url": "https://www.youtube.com/c/WebDevSimplified",
                     "type": "Free"
 
@@ -877,8 +951,167 @@
                 {
                     "id": 12,
                     "name" : "Kevin Powell",
-                    "description": "Founded by Kevin Powell, Kevin Powell teaches web development and many more languages on his YouTube channel for beginners. This channel is a very popular source of learning free programming languages for many beginners.",
+                    "description": "Founded by Kevin Powell, Kevin Powell teaches web development and many more languages on his YouTube channel for beginners. ",
                     "url": "https://www.youtube.com/kepowob/videos",
+                    "type": "Free"
+
+                }
+            ]
+        },
+        {
+            "id": "udemy-courses",
+            "name" : "Udemy Courses",
+            "description": "Udemy is a great platform to learn new things, from this list you can find the best udemy courses that you can buy to learn new things and improve your skills. This list includes both free and paid courses.",
+
+            "ideas":[
+                {
+                    "id": 1,
+                    "name" : "HTML / CSS",
+                    "description": "This course has been created by Jonas Schmedtmann, learn to build responsive websites using HTML5 and CSS3. Even if you know nothing about coding, this course will take you from beginner to mastery.",
+                    "url": "https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/",
+                    "type": "Paid"
+                },
+                {
+                    "id": 2,
+                    "name" : "HTML / CSS",
+                    "description": "This course has been created by Brad Traversy, learn to build responsive websites using HTML5 and CSS3. Even if you know nothing about coding, this course will take you from beginner to mastery.",
+                    "url": "https://www.udemy.com/course/modern-html-css-from-the-beginning/",
+                    "type": "Paid"
+
+                },
+                {
+                    "id": 3,
+                    "name" : "HTML / CSS",
+                    "description": "This course has been created by Stone river learning, learn to build resonsive websites using HTML5 and CSS3 for free from this course.",
+                    "url": "https://www.udemy.com/course/html5-fundamentals-for-beginners/",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 4,
+                    "name" : "JavaScript",
+                    "description": "This course has been created by Jonas Schmedtmann, learn about JavaScript. Even if you know nothing about coding, this course will take you from beginner to mastery.",
+                    "url": "https://www.udemy.com/course/the-complete-javascript-course/",
+                    "type": "Paid"
+
+                },
+                {
+                    "id": 5,
+                    "name" : "JavaScript",
+                    "description": "This course has been created by Maximilian Schwarzmüller, learn about JavaScript. Even if you know nothing about coding, this course will take you from beginner to mastery.",
+                    "url": "https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/",
+                    "type": "Paid"
+
+                },
+                {
+                    "id": 6,
+                    "name" : "JavaScript",
+                    "description": "This course has been created by Lawrence Turton, learn about JavaScript for free from this course.",
+                    "url": "https://www.udemy.com/course/javascript-essentials/",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 7,
+                    "name" : "JavaScript",
+                    "description": "This course has been created by Bharath Thippireddy, learn about JavaScript for free from this course",
+                    "url": "https://www.udemy.com/course/javascriptfundamentals/",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 8,
+                    "name" : "Web Dev BootCamp",
+                    "description": "This course has been created by Angela Yu, learn to build responsive websites using HTML5, CSS3, JavaScript, Bootstrap 4, DOM Manipulation, jQuery, Node, NPM, Express.js, and MongoDB. Even if you know nothing about coding, this course will take you from beginner to mastery.",
+                    "url": "https://www.udemy.com/course/the-complete-web-development-bootcamp/",
+                    "type": "Paid"
+
+                },
+                {
+                    "id": 9,
+                    "name" : "Node Js",
+                    "description": "This course has been created by Maximilian Schwarzmüller, learn about Node JS, Even if you know nothing about coding, this course will take you from beginner to mastery.",
+                    "url": "https://www.udemy.com/course/nodejs-the-complete-guide/",
+                    "type": "Paid"
+
+                },
+                {
+                    "id": 10,
+                    "name" : "Node Js",
+                    "description": "This course has been created by Jonas Schmedtmann, learn about Node JS, Even if you know nothing about coding, this course will take you from beginner to mastery.",
+                    "url": "https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/",
+                    "type": "Paid"
+
+                },
+                {
+                    "id": 11,
+                    "name" : "Mongo DB",
+                    "description": "This course has been created by Academind, learn about Mongo DB, Even if you know nothing about coding, this course will take you from beginner to mastery.",
+                    "url": "https://www.udemy.com/course/mongodb-the-complete-developers-guide/",
+                    "type": "Paid"
+
+                },
+                {
+                    "id": 12,
+                    "name" : "MySQL",
+                    "description": "This course has been created by Colt Steele, learn about MySQL, Even if you know nothing about coding, this course will take you from beginner to mastery.",
+                    "url": "https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/",
+                    "type": "Paid"
+
+                },
+                {
+                    "id": 13,
+                    "name" : "React JS",
+                    "description": "This course has been created by Academind, learn about React JS, Even if you know nothing about coding, this course will take you from beginner to mastery.",
+                    "url": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/ ",
+                    "type": "Paid"
+
+                },
+                {
+                    "id": 14,
+                    "name" : "React JS",
+                    "description": "This course has been created by John Smilga, learn about React JS, Even if you know nothing about coding, this course will take you from beginner to mastery.",
+                    "url": "https://www.udemy.com/course/react-tutorial-and-projects-course/",
+                    "type": "Paid"
+
+                },
+                {
+                    "id": 15,
+                    "name" : "React JS",
+                    "description": "This course has been created by Ryan Dhungel, learn about React JS for free from this course.",
+                    "url": "https://www.udemy.com/course/react-tutorial/",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 16,
+                    "name" : "React JS",
+                    "description": "This course has been created by Sangam Mukherjee, learn about React JS for free from this course.",
+                    "url": "https://www.udemy.com/course/react-js-crash-course-2023-build-a-food-managing-app/",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 17,
+                    "name" : "MERN Stack",
+                    "description": "This course has been created by Maximilian Schwarzmüller, learn about MERN Stack, Even if you know nothing about coding, this course will take you from beginner to mastery.",
+                    "url": "https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/",
+                    "type": "Paid"
+
+                },
+                {
+                    "id": 18,
+                    "name" : "MEAN Stack",
+                    "description": "This course has been created by Maximilian Schwarzmüller, learn about MEAN Stack, Even if you know nothing about coding, this course will take you from beginner to mastery.",
+                    "url": "https://www.udemy.com/course/angular-2-and-nodejs-the-practical-guide/",
+                    "type": "Paid"
+
+                },
+                {
+                    "id": 19,
+                    "name" : "Node Js API" ,
+                    "description": "This course has been created by Ryan Dhungel, learn about Node Js API for free from this course.",
+                    "url": "https://www.udemy.com/course/node-js-api-tutorial/",
                     "type": "Free"
 
                 }

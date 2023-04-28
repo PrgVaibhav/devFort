@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: column;
   padding: 8px 10px;
-  min-height: var(--min-height);
+  // min-height: var(--min-height);
   margin-bottom: 1rem;
   text-transform: capitalize;
   .resources_top {
@@ -74,6 +74,8 @@
   }
 
   .resources_header {
+    max-width: 100%;
+    margin: 0 auto 1rem 0;
     h1 {
       font-size: 2rem;
       font-weight: 600;
@@ -101,15 +103,13 @@
   }
 
   .resources_cards {
-    margin-top: 1rem;
+    // margin-top: 1rem;
     .resources_card {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
-
       grid-gap: 1rem;
       margin-top: 1rem;
       animation: fadeInUp 0.5s ease-in-out;
-
       @keyframes fadeInUp {
         from {
           opacity: 0;

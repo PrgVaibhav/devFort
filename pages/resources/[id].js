@@ -16,6 +16,14 @@ const ResourcePage = ({ data, pageName }) => {
     setSearch(e.target.value.toLowerCase());
   };
 
+  const type = data.map((resource) => {
+    // mapping through the resources
+    return resource.ideas.map((idea) => {
+      // mapping through the ideas
+      return idea.type;
+    });
+  });
+
   return (
     <>
       <Head>
@@ -38,12 +46,22 @@ const ResourcePage = ({ data, pageName }) => {
             </div>
           );
         })}
-        <div className={styles.search}>
-          <input type="text" placeholder="Search" onChange={searchHandler} />
-          <BiSearchAlt className={styles.search_icon} />
-        </div>
+        {type && (
+          <div className={styles.search}>
+            <input
+              type="text"
+              placeholder="Paid, Free, etc"
+              onChange={searchHandler}
+            />
+            <BiSearchAlt className={styles.search_icon} />
+          </div>
+        )}
         <div className={styles.resources_cards}>
           {data.map((resource) => {
+            if (resource.ideas === null || resource.ideas === undefined)
+              return false;
+
+            if (resource.id === null || resource.id === undefined) return false;
             // mapping through the resources
             return (
               <div className={styles.resources_card} key={resource.id}>
@@ -57,6 +75,9 @@ const ResourcePage = ({ data, pageName }) => {
                       : resource.type.toLowerCase().includes(search); // if search is not empty, return the resources that match the search
                   })
                   .map((idea) => {
+                    if (idea.type === null || idea.type === undefined)
+                      return false;
+
                     return (
                       // mapping through the ideas
                       <div
@@ -98,6 +119,8 @@ export default ResourcePage;
 export async function getStaticPaths() {
   const { all_resources } = await import("../../data/resource.json");
   const allPaths = all_resources.map((path) => {
+    if (path.id === null || path.id === undefined) return false;
+
     return {
       params: {
         id: path.id.toString(),
