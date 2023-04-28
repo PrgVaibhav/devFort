@@ -2,54 +2,42 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: var(--min-height);
+    height: 100vh;
 }
 
-.bar {
+.loader_bar {
     width: 10px;
-    height: 20px;
-    margin-right: 4px;
-    background-color: #4B5563;
-    animation: loading 1.5s ease-in-out infinite;
+    height: 60px;
+    margin-right: 5px;
+    background-color: var(--hover-color);
+    animation: stretch 1.2s ease-in-out infinite;
 }
 
-.bar:nth-child(1) {
-    animation-delay: 0s;
+.loader_bar:last-child {
+    margin-right: 0;
 }
 
-.bar:nth-child(2) {
+.loader_bar:nth-child(1) {
     animation-delay: 0.1s;
 }
 
-.bar:nth-child(3) {
+.loader_bar:nth-child(2) {
     animation-delay: 0.2s;
 }
 
-.bar:nth-child(4) {
+.loader_bar:nth-child(3) {
     animation-delay: 0.3s;
 }
 
-.bar:nth-child(5) {
-    animation-delay: 0.4s;
-}
+@keyframes stretch {
 
-.bar:nth-child(6) {
-    animation-delay: 0.5s;
-}
-
-@keyframes loading {
-    0% {
-        transform: translateY(0px);
-        background-color: var(--hover-color);
-    }
-
-    50% {
-        transform: translateY(-20px);
-        background-color: var(--background-color);
-    }
-
+    0%,
+    40%,
     100% {
-        transform: translateY(0px);
-        background-color: var(--hover-color);
+        transform: scaleY(0.4);
+    }
+
+    20% {
+        transform: scaleY(1);
     }
 }

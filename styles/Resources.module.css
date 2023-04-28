@@ -64,7 +64,7 @@
 .resources_container .resources_cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
-  grid-gap: 1rem;
+  grid-gap: 2rem;
   margin-top: 1rem;
 }
 @media (max-width: 768px) {

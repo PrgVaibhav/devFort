@@ -5,6 +5,7 @@
   flex-direction: column;
   padding: 8px 10px;
   // min-height: var(--min-height);
+  gap: 1rem;
   margin-bottom: 1rem;
   text-transform: capitalize;
   .resources_top {
@@ -107,7 +108,7 @@
     .resources_card {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
-      grid-gap: 1rem;
+      grid-gap: 2rem;
       margin-top: 1rem;
       animation: fadeInUp 0.5s ease-in-out;
       @keyframes fadeInUp {

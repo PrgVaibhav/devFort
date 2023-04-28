@@ -41,6 +41,15 @@ const About = () => {
           world of web development, we invite you to join us.
           <blockquote>Let's create something amazing together.</blockquote>
         </p>
+
+        <a
+          href="https://twitter.com/_DevFort"
+          target="_blank"
+          aria-label="Join us on twitter"
+          className={styles.about_twitter}
+        >
+          Follow us on Twitter
+        </a>
       </div>
     </div>
   );
