@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "../styles/SectionThree.module.css";
+import styles from "../styles/SectionThree.module.scss";
 import alternate from "../public/alternate-2.svg";
 const SectionThree = () => {
   return (

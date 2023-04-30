@@ -1,6 +1,6 @@
 import Image from "next/image";
 import error from "../public/error.svg";
-import styles from "../styles/404.module.css";
+import styles from "../styles/404.module.scss";
 import Head from "next/head";
 
 const Error = () => {

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Home.module.scss";
 import homeImage from "../public/alternate3.svg";
 
 const HomeSection = () => {

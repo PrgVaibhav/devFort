@@ -1,4 +1,4 @@
-import styles from "../styles/Contribute.module.css";
+import styles from "../styles/Contribute.module.scss";
 
 const Contribute = () => {
   return (

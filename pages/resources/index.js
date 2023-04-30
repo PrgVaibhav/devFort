@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "/styles/Resources.module.css";
+import styles from "/styles/Resources.module.scss";
 import Link from "next/link";
 
 import { BsArrowRightShort } from "react-icons/bs";

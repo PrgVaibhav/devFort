@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { BsArrowLeftShort } from "react-icons/bs";
-import styles from "../../styles/Resource.module.css";
+import styles from "../../styles/Resource.module.scss";
 import { useState } from "react";
 
 import { BsArrowRightShort } from "react-icons/bs";

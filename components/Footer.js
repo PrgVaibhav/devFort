@@ -1,6 +1,6 @@
 import Image from "next/image";
 import logo from "../public/devfort.webp";
-import styles from "../styles/Footer.module.css";
+import styles from "../styles/Footer.module.scss";
 import Link from "next/link";
 const Footer = () => {
   return (

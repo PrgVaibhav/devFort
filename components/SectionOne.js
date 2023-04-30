@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "../styles/SectionOne.module.css";
+import styles from "../styles/SectionOne.module.scss";
 import Image from "next/image";
 import SectionImage from "../public/alternate-4.svg";
 const SectionOne = () => {

@@ -1,4 +1,4 @@
-import styles from "../styles/SectionTwo.module.css";
+import styles from "../styles/SectionTwo.module.scss";
 import Image from "next/image";
 import alternate from "../public/alternate-1.svg";
 const SectionTwo = () => {
