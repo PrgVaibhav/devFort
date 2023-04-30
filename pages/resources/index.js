@@ -5,6 +5,7 @@ import Link from "next/link";
 import { BsArrowRightShort } from "react-icons/bs";
 import { BiSearchAlt } from "react-icons/bi";
 import { useState } from "react";
+import Contribute from "@/components/Contribute";
 const Resources = ({ data }) => {
   const [search, setSearch] = useState("");
   const searchHandler = (e) => {
@@ -54,6 +55,7 @@ const Resources = ({ data }) => {
             })}
         </div>
       </div>
+      <Contribute />
     </>
   );
 };

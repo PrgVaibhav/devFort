@@ -1,0 +1,33 @@
+.contribute_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    padding: 20px 20px;
+    margin-top: 1rem;
+    border-left: 10px solid #6B3FA0;
+}
+
+.contribute_container p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000;
+    /* margin: 10px 0; */
+}
+
+.contribute_container p a {
+    color: #000;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.contribute_container p a:hover {
+    color: #6B3FA0;
+}
+
+@media screen and (max-width: 768px) {
+    .contribute_container p {
+        font-size: 1rem;
+    }
+}

@@ -2,11 +2,6 @@
   background-color: var(--section-bg-color);
   padding: 10px 15px;
 }
-@media screen and (max-width: 768px) {
-  .footer {
-    margin-top: 3rem;
-  }
-}
 .footer .footer_container {
   display: flex;
   justify-content: space-around;
@@ -64,7 +59,7 @@
 }
 @media screen and (max-width: 768px) {
   .footer .footer_container .footer_left .footer_left_details p {
-    font-size: 0.9rem;
+    font-size: var(--small-font-size);
   }
 }
 .footer .footer_container .footer_left .footer_left_details a {
@@ -119,8 +114,8 @@
   color: var(--hover-color);
 }
 .footer .divider {
-  max-width: 70%;
-  height: 2px;
+  max-width: 90%;
+  height: 1px;
   margin: auto;
   background-color: var(--hover-color);
 }

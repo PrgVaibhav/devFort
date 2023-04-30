@@ -9,6 +9,7 @@ import { BiSearchAlt } from "react-icons/bi";
 
 const ResourcePage = ({ data, pageName }) => {
   const [search, setSearch] = useState("");
+  const [isEmpty, setIsEmpty] = useState(false);
   const upperCaseName = pageName.charAt(0).toUpperCase() + pageName.slice(1); // converting the first letter of the page name to uppercase
 
   const searchHandler = (e) => {
@@ -23,6 +24,10 @@ const ResourcePage = ({ data, pageName }) => {
       return idea.type;
     });
   });
+
+  const uniqueType = [...new Set(type.flat())]; // getting the unique types
+
+  const options = [...uniqueType]; // adding the all option to the unique types
 
   return (
     <>
@@ -46,16 +51,23 @@ const ResourcePage = ({ data, pageName }) => {
             </div>
           );
         })}
-        {type && (
-          <div className={styles.search}>
-            <input
-              type="text"
-              placeholder="Paid, Free, etc"
-              onChange={searchHandler}
-            />
-            <BiSearchAlt className={styles.search_icon} />
-          </div>
-        )}
+        <div className={styles.search}>
+          {/* <input
+            type="text"
+            placeholder="Paid, Free, etc"
+            onChange={searchHandler}
+          />
+          <BiSearchAlt className={styles.search_icon} /> */}
+          <select onChange={searchHandler}>
+            {options.map((option) => {
+              return (
+                <option value={option} key={option}>
+                  {option}
+                </option>
+              );
+            })}
+          </select>
+        </div>
         <div className={styles.resources_cards}>
           {data.map((resource) => {
             if (resource.ideas === null || resource.ideas === undefined)
@@ -69,7 +81,6 @@ const ResourcePage = ({ data, pageName }) => {
                   .filter((resource) => {
                     if (resource.type === null || resource.type === undefined)
                       return false;
-
                     return search.toLowerCase() === ""
                       ? resource // if search is empty, return all resources
                       : resource.type.toLowerCase().includes(search); // if search is not empty, return the resources that match the search

@@ -41,6 +41,11 @@
             "description": " Chrome extensions can be very useful, from this list you can find the best chrome extensions that you can use to improve your productivity and make your life easier."
         },
         {
+            "id": "github-repos",
+            "name": "Github Repositrories",
+            "description": " Github is a great platform to find many useful things as a developer ,from this list you can find the best github repositories that you can use to learn new things and improve your skills."
+        },
+        {
             "id": "design-templates",
             "name": "Website Design Templates",
             "description": "Website Design and Templates are very useful when you know what you want to build but don't know how to design it. From this list you can find the best design templates that you can use to build your projects."
@@ -382,14 +387,14 @@
                     "name" : "Google Translator API",
                     "description": "Google Translator API is a RESTful API that allows you to translate text from one language to another. You can use this API to build applications that translate text on your website or mobile app.",
                     "url": "https://cloud.google.com/translate/docs/",
-                    "type": "Attribute Required / Paid"
+                    "type": "Freemium"
                 },
                 {
                     "id": 7,
                     "name" : "Open Weather API",
                     "description": "Open Weather API is a RESTful API that allows you to search for weather data. You can use this API to build applications that display weather data on your website or mobile app.",
                     "url": "https://openweathermap.org/api",
-                    "type": "Attribute Required / Paid"
+                    "type": "Freemium"
 
                 },
                 {
@@ -419,7 +424,7 @@
                     "name" : "Rapid API",
                     "description": "Rapid API is a website which provides a list of APIs that you can use to build your projects faster and easier than ever before. You can use this website to find APIs for your projects.",
                     "url": "https://rapidapi.com/",
-                    "type": "Attribute Required / Paid"
+                    "type": "Freemium"
                 },
                 {
                     "id": 12,
@@ -454,7 +459,7 @@
         {
             "id": "illustrations-link",
             "name" : "Illustrations",
-            "description": "Finding perfect illustrations for project is a bit difficult task but now We are going to provide a list of illustrations that you can use to build your projects faster and easier than ever before. You can also search for illustrations according to Free, or Attribute Required/Paid. ",
+            "description": "Finding perfect illustrations for project is a bit difficult task but now We are going to provide a list of illustrations that you can use to build your projects faster and easier than ever before. You can also search for illustrations according to Free, or Freemium/Paid. ",
 
             "ideas":[
                 {
@@ -462,14 +467,14 @@
                     "name" : "Zor Stock Illustrations",
                     "description": "Zor Stock Illustrations is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before.",
                     "url": "http://zorstock.com/",
-                    "type": "Attribute Required"
+                    "type": "Freemium"
                 },
                 {
                     "id": 2,
                     "name" : "Vecteezy",
                     "description": "Vecteezy is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before.",
                     "url": "http://vecteezy.com/browse",
-                    "type": "Attribute Required"
+                    "type": "Freemium"
 
                 },
                 {
@@ -491,7 +496,7 @@
                     "name" : "ShutterStock",
                     "description": "ShutterStock is a website which provides a list of illustrations that you can use to build your projects faster and easier than ever before.",
                     "url": "https://www.shutterstock.com/vectors#free-download",
-                    "type": "Attribute Required"
+                    "type": "Freemium"
                 },
                 {
                     "id": 6,
@@ -519,7 +524,7 @@
         {
             "id": "icons-link",
             "name" : "Icons",
-            "description": "Finding perfect Icons for project is a bit difficult task but now We are going to provide a list of Icons that you can use to build your projects faster and easier than ever before. You can also search for Icons according to Free, or Attribute Required/Paid.",
+            "description": "Finding perfect Icons for project is a bit difficult task but now We are going to provide a list of Icons that you can use to build your projects faster and easier than ever before. You can also search for Icons according to Free, or Freemium/Paid.",
 
             "ideas":[
                 {
@@ -527,14 +532,14 @@
                     "name" : "Dry Icons",
                     "description": "Dry Icons is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://dryicons.com/",
-                    "type": "Attribute Required"
+                    "type": "Freemium"
                 },
                 {
                     "id": 2,
                     "name" : "Flaticon",
                     "description": "Flaticon is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://www.flaticon.com/",
-                    "type": "Attribute Required"
+                    "type": "Freemium"
 
                 },
                 {
@@ -542,14 +547,14 @@
                     "name" : "Icons8",
                     "description": "Icons8 is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://icons8.com/",
-                    "type": "Attribute Required"
+                    "type": "Freemium"
                 },
                 {
                     "id": 4,
                     "name" : "FontAwesome",
                     "description": "FontAwesome is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://fontawesome.com/",
-                    "type": "Attribute Required"
+                    "type": "Freemium"
                 },
                 {
                     "id": 5,
@@ -563,14 +568,14 @@
                     "name" : "FreePik",
                     "description": "FreePik is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://www.freepik.com/",
-                    "type": "Attribute Required"
+                    "type": "Freemium"
                 },
                 {
                     "id": 7,
                     "name" : "IconScout",
                     "description": "IconScout is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://iconscout.com/",
-                    "type": "Attribute Required"
+                    "type": "Freemium"
                 },
                 {
                     "id": 8,
@@ -591,7 +596,7 @@
                     "name" : "LordIcon",
                     "description": "LordIcon is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://lordicon.com/",
-                    "type": "Attribute Required"
+                    "type": "Freemium"
                 },
                 {
                     "id": 11,
@@ -619,7 +624,7 @@
                     "name" : "Icon Finder",
                     "description": "Icon Finder is a website which provides a list of Icons that you can use to build your projects faster and easier than ever before.",
                     "url": "https://www.iconfinder.com/",
-                    "type": "Attribute Required"
+                    "type": "Freemium"
                 },
                 {
                     "id":15,
@@ -640,7 +645,7 @@
         {
             "id": "images-link",
             "name" : "Images",
-            "description": "Images are a great way to make your website look more attractive. Here are some websites that you can use to find images for your website. You can also search for images according Free or Attribute Required.",
+            "description": "Images are a great way to make your website look more attractive. Here are some websites that you can use to find images for your website. You can also search for images according Free or Freemium.",
 
             "ideas":[
                 {
@@ -655,35 +660,35 @@
                     "name" : "PixaBay",
                     "description": "PixaBay is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://pixabay.com/",
-                    "type": "Attribute Required"
+                    "type": "Freemium"
                 },
                 {
                     "id": 3,
                     "name" : "Pexels",
                     "description": "Pexels is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://www.pexels.com/",
-                    "type": "Attribute Required"
+                    "type": "Freemium"
                 },
                 {
                     "id": 4,
                     "name" : "UnSplash",
                     "description": "UnSplash is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://unsplash.com/",
-                    "type": "Attribute Required"
+                    "type": "Freemium"
                 },
                 {
                     "id": 5,
                     "name" : "Free Images",
                     "description": "Free Images is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://www.freeimages.com/",
-                    "type": "Attribute Required"
+                    "type": "Freemium"
                 },
                 {
                     "id": 6,
                     "name" : "Kaboom Pics",
                     "description": "Kaboom Pics is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://kaboompics.com/",
-                    "type": "Attribute Required"
+                    "type": "Freemium"
                 },
                 {
                     "id": 7,
@@ -739,28 +744,28 @@
                     "name" : "Get Refe",
                     "description": "Get Refe is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://getrefe.com/",
-                    "type": "Attribute Required"
+                    "type": "Freemium"
                 },
                 {
                     "id":15,
                     "name" : "New Old Stock",
                     "description": "New Old Stock is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://nos.twnsnd.co/",
-                    "type": "Attribute Required"
+                    "type": "Freemium"
                 },
                 {
                     "id":16,
                     "name" : "Flickr",
                     "description": "Flickr is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://www.flickr.com/",
-                    "type": "Attribute Required"
+                    "type": "Freemium"
                 },
                 {
                     "id":17,
                     "name" : "ReShot",
                     "description": "ReShot is a website which provides a list of Images that you can use to build your projects faster and easier than ever before.",
                     "url": "https://www.reshot.com/",
-                    "type": "Attribute Required"
+                    "type": "Freemium"
                 },
                 {
                     "id":18,
@@ -1159,7 +1164,7 @@
                     "name" : "Checkbot: SEO",
                     "description": "Checkbot is a Chrome extension that allows you to check your website for SEO, speed, security, and more. It also allows you to fix issues and improve your website. It compares websites based on 50+ best practices recommended by W3Z, Google and Mozilla, etc.",
                     "url": "https://chrome.google.com/webstore/detail/seo-web-speed-security-te/dagohlmlhagincbfilmkadjgmdnkjinl?hl=en",
-                    "type": "Attribute Required"
+                    "type": "Freemium"
 
                 },
                 {
@@ -1231,6 +1236,101 @@
                     "name" : "CSS Peeper",
                     "description": "CSS Peeper is a Chrome extension that allows you to inspect CSS of any element on a web page. It also allows you to create a style guide for any website automatically. It is one of the most popular Chrome extensions for web designers.",
                     "url": "https://chrome.google.com/webstore/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk?hl=en",
+                    "type": "Free"
+
+                }
+            ]
+        },
+        {
+            "id": "github-repos",
+            "name" : "Github Repositrories",
+            "description": "Github is a great platform to find many useful things as a developer ,from this list you can find the best github repositories that you can use to learn new things and improve your skills. ", 
+
+            "ideas":[
+                {
+                    "id": 1,
+                    "name" : "Awesome cheatsheets",
+                    "description": "Awesome cheatsheets is a collection of the best cheatsheets that you can find on the internet. It contains cheatsheets for many programming languages and frameworks. Go ahead and find the cheatsheet that you need.",
+                    "url": "https://github.com/LeCoupa/awesome-cheatsheets",
+                    "type": "Free"
+                },
+                {
+                    "id": 2,
+                    "name" : "web dev resources",
+                    "description": "This is a collection of the best web development resources that you can find on the internet. Created by Marko Denic, this repository contains resources for HTML, CSS, JavaScript, React, Vue, Angular, Node, Express, and more.",
+                    "url": "https://github.com/markodenic/web-development-resources",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 3,
+                    "name" : "Design Patterns",
+                    "description": "Created by Dov Amir it is A general, reusable solution to a commonly occurring problem within a given context in software design. It is a description or template for how to solve a problem that can be used in many different situations.",
+                    "url": "https://github.com/DovAmir/awesome-design-patterns",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 4,
+                    "name" : "CSS pro tips",
+                    "description": "This is a collection of tips to help take your CSS skills pro. It contains tips for CSS selectors, layout, animations, and more. It is one of the most popular Github repositories for web developers. ",
+                    "url": "https://github.com/AllThingsSmitty/css-protips",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 5,
+                    "name" : "free programming books",
+                    "description": "This is a collection of free programming books that are available on the internet. It contains books for many programming languages and frameworks. It is one of the most popular Github repositories for developers.",
+                    "url": "https://github.com/EbookFoundation/free-programming-books",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 6,
+                    "name" : "art of cmd",
+                    "description": " This is a collection of the best resources for the command line. It contains resources for Bash, Zsh, Fish, and more. It is one of the most popular Github repositories for developers.",
+                    "url": "https://github.com/jlevy/the-art-of-command-line",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 7,
+                    "name" : "free code camp",
+                    "description": "This is repository of the freeCodeCamp.org open source codebase and curriculum. Learn to code for free together with millions of people. ",
+                    "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 8,
+                    "name" : "front-end dev",
+                    "description": "This is a collection of resource for front end developers, a useful repository in many ways.",
+                    "url": "https://github.com/dypsilon/frontend-dev-bookmarks",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 9,
+                    "name" : "hackathon projects",
+                    "description": "Developers from different parts of the world have developed a lot of amazing projects during hackathon. This is a curated list of awesome hackathon project. ",
+                    "url": "https://github.com/Olanetsoft/awesome-hackathon-projects",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 10,
+                    "name" : "jamstack resources",
+                    "description": "This is Curated list of tools using the JAMStack: A modern web development architecture for creating fast, secure and dynamic websites.",
+                    "url": "https://github.com/Olanetsoft/awesome-jamstack-resources",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 11,
+                    "name" : "public api",
+                    "description": "This is a collective list of free APIs for use in software and web development. Use it to create cool applications.",
+                    "url": "https://github.com/public-apis/public-apis",
                     "type": "Free"
 
                 }

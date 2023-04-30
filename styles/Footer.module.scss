@@ -4,7 +4,7 @@
   padding: 10px 15px;
 
   @media screen and (max-width: 768px) {
-    margin-top: 3rem;
+    // margin-top: 3rem;
   }
 
   .footer_container {
@@ -56,7 +56,7 @@
           margin-bottom: 1rem;
 
           @media screen and (max-width: 768px) {
-            font-size: 0.9rem;
+            font-size: var(--small-font-size);
           }
         }
 
@@ -122,8 +122,8 @@
   }
 
   .divider {
-    max-width: 70%;
-    height: 2px;
+    max-width: 90%;
+    height: 1px;
     margin: auto;
     background-color: var(--hover-color);
 

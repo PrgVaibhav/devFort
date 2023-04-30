@@ -7,7 +7,24 @@
     margin: 0 auto;
     width: 100%;
     height: var(--min-height);
+
+    animation: fade 1s ease-in-out;
+
+
 }
+
+@keyframes fade {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+}
+
 
 .credit_description {
     display: flex;
@@ -76,6 +93,7 @@
     margin-bottom: 1rem;
     text-align: justify;
     line-height: 32px;
+
 }
 
 @media screen and (max-width: 768px) {
@@ -89,7 +107,17 @@
     }
 
     .credit_description p {
-        font-size: 1rem;
+        font-size: var(--small-font-size);
         line-height: 24px;
+    }
+
+    .credit_resources p {
+        font-size: var(--small-font-size);
+        line-height: 24px;
+    }
+
+    .credit_resources a {
+        font-size: var(--small-font-size);
+
     }
 }

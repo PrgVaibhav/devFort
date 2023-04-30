@@ -43,7 +43,7 @@
 }
 @media screen and (max-width: 768px) {
   .section_container .section_description p {
-    font-size: 1rem;
+    font-size: var(--small-font-size);
   }
 }
 .section_container .section_description .special_text {
@@ -70,6 +70,7 @@
     margin: 1rem 0;
     padding: 0.6rem 0.7rem;
     width: 100%;
+    text-align: center;
   }
 }
 .section_container .section_description .btn a:hover {

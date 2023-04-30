@@ -27,7 +27,7 @@
       color: var(--heading-color);
 
       @media screen and (max-width: 768px) {
-        font-size: 2.3rem;
+        font-size: 2.2rem;
       }
     }
   }
@@ -45,7 +45,7 @@
         margin-bottom: 0;
       }
       @media screen and (max-width: 768px) {
-        font-size: 1rem;
+        font-size: var(--small-font-size);
       }
 
       a {

@@ -20,6 +20,7 @@
 .header .navbar .nav_links {
   display: flex;
   gap: 1rem;
+  margin-right: 1rem;
 }
 .header .navbar .nav_links .nav_link {
   text-decoration: none;
