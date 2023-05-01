@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@vercel/analytics": "^1.0.0",
@@ -17,5 +18,8 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
     "sass": "^1.62.0"
+  },
+  "devDependencies": {
+    "next-sitemap": "^4.0.8"
   }
 }
