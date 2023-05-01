@@ -49,18 +49,15 @@
       }
 
       .special_header {
-        background-color: var(--hover-color);
-        color: var(--heading-color);
+        background-color: rgb(216, 214, 214);
+        color: var(--hover-color);
         max-width: max-content;
         margin: auto;
-        padding: 0.2rem 0.9rem;
+        padding: 0.2rem 0.5rem;
         border-radius: 5px;
-        font-weight: 800;
+        font-weight: 600;
         transition: all 0.3s ease-in-out;
-        &:hover {
-          transform: translate(4px, -4px);
-          box-shadow: rgba(255, 255, 255, 0.2) 0px 5px 15px;
-        }
+        box-shadow: var(--hover-color) 0px 5px 10px;
       }
     }
 
