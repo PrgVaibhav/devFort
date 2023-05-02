@@ -4,7 +4,7 @@ const Credit = () => {
   return (
     <>
       <Head>
-        <title>Credit | DevFort Community</title>
+        <title>Credit / DevFort Community</title>
         <meta
           name="description"
           content="Credit for the resources used in DevFort Community"
