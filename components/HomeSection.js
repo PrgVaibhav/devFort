@@ -27,6 +27,7 @@ const HomeSection = () => {
             alt="home page image showing community"
             aria-label="home page showing community"
             priority={true}
+            sizes="100vw 100vh (max-width: 768px) 100vw, 768px  100vh (max-width: 1024px) 768px, 1024px 100vh (max-width: 1280px) 1024px, 1280px  100vh (max-width: 1536px) 1280px, 1536px  100vh (max-width: 1920px) 1536px, 1920px  100vh (max-width: 2560px) 1920px, 2560px  100vh (max-width: 3840px) 2560px, 3840px  100vh (max-width: 5120px) 3840px, 5120px  100vh (max-width: 6400px) 5120px, 6400px  100vh (max-width: 7680px) 6400px, 7680px  100vh (max-width: 8960px) 7680px, 8960px  100vh (max-width: 10240px) 8960px, 10240px  100vh (max-width: 11520px) 10240px, 11520px  100vh (max-width: 12800px) 11520px, 12800px  100vh (max-width: 14080px) 12800px, 14080px  100vh (max-width: 15360px) 14080px, 15360px  100vh (max-width: 16640px) 15360px, 16640px  100vh (max-width: 17920px) 16640px, 17920px  100vh (max-width: 19200px) 17920px, 19200px  100vh (max-width: 20480px) 19200px, 20480px  100vh (max-width: 21760px) 20480px, 21760px  100vh (max-width: 23040px) 21760px, 23040px  100vh (max-width: 24320px) 23040px, 24320px  100vh (max-width: 25600px) 24320px, 25600px  100vh"
           />
         </div>
       </div>

@@ -1,5 +1,8 @@
 import Head from "next/head";
-import HomePage from "./home";
+import HomeSection from "@/components/HomeSection";
+import SectionTwo from "@/components/SectionTwo";
+import SectionOne from "@/components/SectionOne";
+import SectionThree from "@/components/SectionThree";
 export default function Home() {
   return (
     <>
@@ -15,7 +18,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <main>
-        <HomePage />
+        <>
+          <HomeSection />
+          <SectionOne />
+          <SectionTwo />
+          <SectionThree />
+        </>
       </main>
     </>
   );

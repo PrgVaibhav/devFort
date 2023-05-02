@@ -5,11 +5,9 @@ import styles from "../../styles/Resource.module.scss";
 import { useState } from "react";
 
 import { BsArrowRightShort } from "react-icons/bs";
-import { BiSearchAlt } from "react-icons/bi";
 
 const ResourcePage = ({ data, pageName }) => {
   const [search, setSearch] = useState("");
-  const [isEmpty, setIsEmpty] = useState(false);
   const upperCaseName = pageName.charAt(0).toUpperCase() + pageName.slice(1); // converting the first letter of the page name to uppercase
 
   const searchHandler = (e) => {
@@ -52,12 +50,6 @@ const ResourcePage = ({ data, pageName }) => {
           );
         })}
         <div className={styles.search}>
-          {/* <input
-            type="text"
-            placeholder="Paid, Free, etc"
-            onChange={searchHandler}
-          />
-          <BiSearchAlt className={styles.search_icon} /> */}
           <select onChange={searchHandler}>
             {options.map((option) => {
               return (

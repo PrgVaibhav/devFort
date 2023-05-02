@@ -38,7 +38,6 @@ const Resources = ({ data }) => {
                 : item.name.toLowerCase().includes(search);
             })
             .map((item) => {
-              // if (item.id === null || item.id === undefined) return false;
               return (
                 <div className={styles.resources_card} key={item.id}>
                   <div className={styles.resources_card_description}>

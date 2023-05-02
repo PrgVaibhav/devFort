@@ -2,9 +2,7 @@ import devFortLogo from "../public/devfort.webp";
 import styles from "../styles/navbar.module.scss";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/router";
 const Navbar = () => {
-  const router = useRouter();
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
