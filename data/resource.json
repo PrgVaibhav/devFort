@@ -51,6 +51,11 @@
             "description": "Website Design and Templates are very useful when you know what you want to build but don't know how to design it. From this list you can find the best design templates that you can use to build your projects."
         },
         {
+            "id": "websites",
+            "name": "Useful websites",
+            "description": "There are thousands of websites on the internet but not all of them are useful. From this list you can find the best websites that you can use to improve your productivity and make your life easier."
+        },
+        {
             "id": "stay-tuned",
             "name": "Stay Tuned",
             "description": " Stay Tuned for more updates. We will update this list regularly so that you can get the best content for your projects. Till then you can check out our other projects. Stay Safe and Happy Coding :)"
@@ -1385,8 +1390,103 @@
                     "id": 6,
                     "name" : "Dribbble",
                     "description": "Dribbble is a self-promotion and social networking platform for digital designers and creatives. It serves as a design portfolio platform, jobs and recruiting site and is one of the largest platforms for designers to share their work online.",
-                    "url": "ttps://dribbble.com/",
+                    "url": "https://dribbble.com/",
                     "type": "Paid"
+
+                }
+            ]
+        },
+        {
+            "id": "websites",
+            "name" : "Useful websites",
+            "description": "This is a list of useful websites for developers. You can find many useful resources from these websites.",
+
+            "ideas":[
+                {
+                    "id": 1,
+                    "name" : "Small Dev Tools",
+                    "description": "This Website provides FREE handy developer tools like encoder/decoder, HTML/CSS/Javascript formatters, minifies, fake or test data generators, and much more which help the developers in different tasks.",
+                    "url": "https://smalldev.tools/",
+                    "type": "Free"
+                },
+                {
+                    "id": 2,
+                    "name" : "Profile Picture Maker",
+                    "description": "This Website provides FREE profile pictures for your social media accounts. You can choose from a variety of themes and download them for free.",
+                    "url": "https://pfpmaker.com/",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 3,
+                    "name" : "Poet.so",
+                    "description": "Poet.so is a free tool to create beautiful images of your twitter screenshots. It is a free and open-source tool. You can use it to create beautiful images of your tweets and share them with your friends, followers, and co-workers.",
+                    "url": "https://poet.so/",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 4,
+                    "name" : "MetaTags",
+                    "description": "Meta Tags is a tool to debug and generate meta tag code for any website. With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!",
+                    "url": "https://metatags.io/",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 5,
+                    "name" : "Carbon",
+                    "description": "Carbon is the easiest way to create and share beautiful images of your source code. You can use it to create beautiful images of your source code and share them with your friends, followers, and co-workers.",
+                    "url": "https://carbon.now.sh/",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 6,
+                    "name" : "Color Hunt",
+                    "description": "Color Hunt is a free and open platform for color inspiration with thousands of trendy hand-picked color palettes. You can use it to find beautiful color palettes for your projects.",
+                    "url": "https://colorhunt.co/",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 7,
+                    "name" : "Responsively",
+                    "description": "Responsively helps you easily get started with development. It is a free and open-source tool. You can use it to test your website on different devices at the same time.",
+                    "url": "https://responsively.app/",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 8,
+                    "name" : "OverAPI",
+                    "description": "OverAPI.com is a site collecting all the cheatsheets,all! It's created to be an easy way to access the cheatsheets of the most used languages, frameworks, libraries and tools in one page.",
+                    "url": "https://overapi.com/",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 9,
+                    "name" : "Code Beautify",
+                    "description": "Code Beautify is a free and open-source tool. You can use it to beautify your code and make it more readable.",
+                    "url": "https://codebeautify.org/",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 10,
+                    "name" : "Smart Mockup",
+                    "description": "Smartmockups is an online tool that helps you create stunning marketing materials by turning your designs into beautiful photos. It is a free and open-source tool. You can use it to create beautiful images of your designs and share them with your friends, followers, and co-workers.",
+                    "url": "https://smartmockups.com/",
+                    "type": "Free"
+
+                },
+                {
+                    "id": 11,
+                    "name" : "CodePen.io",
+                    "description": "CodePen is a social development environment for front-end designers and developers. It’s the best place to build and deploy a website, show off your work, build test cases, and find inspiration.",
+                    "url": "https://codepen.io/",
+                    "type": "Free"
 
                 }
             ]

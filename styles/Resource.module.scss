@@ -114,7 +114,6 @@
         }
       }
     }
-
   }
 
   .resources_header {
@@ -149,9 +148,9 @@
   .resources_cards {
     .resources_card {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
       grid-gap: 2rem;
-      margin-top: 1rem;
+      margin: 1rem auto auto auto;
       animation: fadeInUp 0.5s ease-in-out;
       @keyframes fadeInUp {
         from {
