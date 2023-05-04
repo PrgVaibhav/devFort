@@ -12,6 +12,13 @@ const Seo = ({ title, description }) => {
             "Dev Fort is a community where you will get access to all the resources for building projects, like Project Ideas, API resources, Images, Icons, and many more things."
           }
         />
+        <meta name="author" content="Dev Fort" />
+        <meta name="keywords" content="Dev Fort, DevFort, DevFort.tech" />
+        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+
         <meta property="og:title" content={title} />
         <meta
           property="og:description"
