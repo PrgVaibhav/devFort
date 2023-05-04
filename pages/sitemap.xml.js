@@ -25,7 +25,7 @@ export default async function generateSitemap(req, res) {
   try {
     // Create the sitemap
     const sitemap = createSitemap({
-      hostname: "https://www.devfort.tech",
+      hostname: "https://www.devfort.tech/",
       urls,
     });
 
