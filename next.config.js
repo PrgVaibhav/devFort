@@ -4,6 +4,14 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  async rewrites() {
+    return [
+      {
+        source: "/sitemap.xml",
+        destination: "/sitemap.xml.js",
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
