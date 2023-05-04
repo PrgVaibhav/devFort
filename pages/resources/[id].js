@@ -1,10 +1,10 @@
-import Head from "next/head";
 import Link from "next/link";
 import { BsArrowLeftShort } from "react-icons/bs";
 import styles from "../../styles/Resource.module.scss";
 import { useState } from "react";
 
 import { BsArrowRightShort } from "react-icons/bs";
+import Seo from "@/components/Seo";
 
 const ResourcePage = ({ data, pageName }) => {
   const [search, setSearch] = useState("");
@@ -29,12 +29,10 @@ const ResourcePage = ({ data, pageName }) => {
 
   return (
     <>
-      <Head>
-        <title>{upperCaseName} | Dev Fort</title>
-        <meta name="description" content="Resources section by Dev Fort" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
-      </Head>
+      <Seo
+        title={`${upperCaseName} / Dev Fort`}
+        description={`${upperCaseName} section by Dev Fort`}
+      />
       <div className={styles.resources_container}>
         <div className={styles.resources_top}>
           <Link href="/resources" className={styles.go_back}>

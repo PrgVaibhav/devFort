@@ -1,15 +1,13 @@
-import Head from "next/head";
 import styles from "../styles/Credit.module.css";
+import Seo from "@/components/Seo";
 const Credit = () => {
   return (
     <>
-      <Head>
-        <title>Credit / DevFort Community</title>
-        <meta
-          name="description"
-          content="Credit for the resources used in DevFort Community"
-        />
-      </Head>
+      <Seo
+        title="Credit / DevFort Community"
+        description="
+        Credit for the resources used in DevFort Community"
+      />
       <div className={styles.credit_container}>
         <div className={styles.credit_description}>
           <h1>Credits</h1>

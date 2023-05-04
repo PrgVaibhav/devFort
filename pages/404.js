@@ -1,17 +1,12 @@
 import Image from "next/image";
 import error from "../public/error.svg";
 import styles from "../styles/404.module.scss";
-import Head from "next/head";
+import Seo from "@/components/Seo";
 
 const Error = () => {
   return (
     <>
-      <Head>
-        <title>404 / Dev Fort</title>
-        <meta name="description" content="404 page not found" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
-      </Head>
+      <Seo title="404 / Dev Fort" description="404 page not found" />
       <div className={styles.error_container}>
         <Image
           src={error}
