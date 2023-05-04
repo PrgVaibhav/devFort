@@ -13,7 +13,6 @@ export default function Document() {
         <meta name="keywords" content="Dev Fort, DevFort, DevFort.tech" />
         <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
 
         <meta property="og:type" content="website" />

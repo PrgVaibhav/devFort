@@ -77,7 +77,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="mailto:devFort.work@gmail.com"
+                  href="mailto:devfort.work@gmail.com"
                   target="_blank"
                   aria-label="Mail us"
                 >

@@ -7,13 +7,24 @@
   padding: 20px 20px;
   margin-top: 1rem;
   transition: all 350ms linear;
-  border-left: 10px solid #6b3fa0;
+  position: relative;
+  z-index: 1;
 
-  &:hover {
-    border-left: 30px solid #6b3fa0;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0%;
+    height: 0%;
+    border-left: 5px solid #6b3fa0;
+    transition: all 350ms linear;
   }
+
+  &:hover::before {
+    height: 100%;
+  }
+
   p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: #000;
 
@@ -25,6 +36,7 @@
       color: #000;
       font-weight: 600;
       transition: all 0.3s ease-in-out;
+      cursor: pointer;
       &:hover {
         color: #6b3fa0;
       }

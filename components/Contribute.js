@@ -7,7 +7,7 @@ const Contribute = () => {
         If you have any resources you would like to add to this list, reach us
         at{" "}
         <a
-          href="mailto:devFort.work@gmail.com"
+          href="mailto:devfort.work@gmail.com"
           target="_blank"
           aria-label="Mail us"
         >
