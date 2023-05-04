@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 const Seo = ({ title, description }) => {
   return (
     <>
