@@ -27,11 +27,22 @@ const Seo = ({ title, description }) => {
             "Dev Fort is a community where you will get access to all the resources for building projects, like Project Ideas, API resources, Images, Icons, and many more things."
           }
         />
+        <meta property="og:url" content="https://www.devfort.tech/" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.devfort.tech" />
-        <meta property="og:image" content="/devfort.webp" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
+        <meta property="og:image" content="https://devfort.tech/devfort.webp" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="devfort.tech" />
+        <meta property="twitter:url" content="https://www.devfort.tech/" />
+        <meta name="twitter:title" content="Dev Fort Community" />
+        <meta
+          name="twitter:description"
+          content="Dev Fort is a community where you will get access to all the resources for building projects, like Project Ideas, API resources, Images, Icons, and many more things."
+        />
+        <meta
+          name="twitter:image"
+          content="https://devfort.tech/devfort.webp"
+        />
       </Head>
     </>
   );
